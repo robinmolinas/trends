@@ -1,0 +1,43 @@
+---
+type: concept
+title: "Physical AI and Robotics"
+aliases: [physical AI, humanoid robots, embodied AI, autonomous vehicles, robotics, AgeTech]
+tags: [#technology, #ai, #economics, #speculative]
+source_count: 4
+last_updated: 2026-04-14
+---
+
+## Definition
+
+AI systems that operate in and interact with the physical world — including humanoid robots, autonomous vehicles, drones, warehouse automation, and AI-assisted medical devices. Physical AI extends the agentic AI paradigm beyond software and into embodied form: machines that can navigate physical environments, manipulate objects, and perform tasks that previously required human presence.
+
+In 2026, physical AI is at an inflection point: Gartner projects 2 million humanoid robots by 2035 (from near-zero today); autonomous vehicles are making their first commercial deployments in European cities; and AgeTech (technology to support aging in place) is emerging as one of the fastest-growing healthcare innovation sectors. The convergence of better sensors, larger training datasets, and improved hardware is making physical AI economically viable for the first time.
+
+## Why It Matters
+
+Physical AI addresses labor shortages and demographic aging simultaneously — two of the defining structural constraints of the 2020s–2030s. Nursing homes are closing faster than they're opening (US: only 7 new skilled nursing facilities in 2024 vs. 73 in 2020); autonomous vehicles may solve transportation network gaps left by declining driver populations; warehouse robots are already reducing fulfillment costs.
+
+The geopolitical dimension is significant: humanoid robotics and autonomous vehicle technology are areas of active US-China competition. Physical AI capabilities are a form of industrial and military leverage. BCG's six arenas of geopolitical competition include hardware supply chains (chips, sensors) that physical AI depends on.
+
+## Evidence
+
+- [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare
+- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)
+- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020
+- [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware
+
+## Tensions & Counterarguments
+
+- **Labor displacement**: Autonomous vehicles could replace millions of professional drivers globally. The technology that solves transport network capacity problems also eliminates the jobs that make those networks run. The net employment effect is contested.
+- **Regulatory uncertainty**: Physical AI (especially autonomous vehicles) requires complex regulatory approval in each market. The European autonomous vehicle deployments in 2026 are pending or conditional on regulatory approval. Timelines are fragile.
+- **Energy and infrastructure demand**: Physical AI systems (data centers, autonomous vehicle networks, robot charging infrastructure) have massive energy demands. The grid investment required is a binding constraint that may slow deployment.
+
+## Related Concepts
+
+- [[wiki/concepts/agentic-ai-enterprise]] — physical AI is the embodied extension of the agentic AI paradigm
+- [[wiki/concepts/coming-of-age]] — physical AI is partly a response to demographic aging and labor shortage
+- [[wiki/concepts/geopolitical-multipolarity]] — physical AI hardware (chips, sensors) is a geopolitical competition arena
+
+## Key Players
+
+- (Waymo, Tesla, Einride, emerging humanoid robotics startups — no wiki entity pages yet)

@@ -1,0 +1,83 @@
+# Operation Log
+
+Append-only record of all wiki operations. Newest entries at the top.
+
+Format: `## [YYYY-MM-DD] operation | description`
+
+---
+
+## [2026-04-14] ingest | New documents ingest — 7 new sources (45 total in wiki)
+
+- New sources identified: 12 candidate files; 5 confirmed duplicates of already-processed sources (Lippincott, BNP Paribas/AXA IM, JP Morgan, WTW, BCD); 7 unique new documents ingested
+- Duplicates skipped: `12 trends set to define 2026.pdf` (Lippincott), `2026 Outlook Full Report.pdf` (BNP Paribas/AXA IM), `2026 Year-Ahead Investment Outlook.pdf` (JP Morgan), `TW-2026.pdf` (WTW), `What's Trending 2026 - English.pdf` (BCD)
+- Source pages created (7):
+  - wiki/sources/2026-04-14-hbr-gartner-work-trends-2026.md — HBR/Gartner, 9 workforce AI trends; 1-in-50 ROI rate
+  - wiki/sources/2026-04-14-ai-2027-scenario.md — AI 2027 scenario forecast; AGI trajectory; US-China arms race
+  - wiki/sources/2026-04-14-imd-sustainability-trends-2026.md — IMD sustainability-as-operating-system; CBAM Jan 2026
+  - wiki/sources/2026-04-14-erm-annual-trends-2026.md — ERM 61-page sustainability/energy/EHS trends
+  - wiki/sources/2026-04-14-ecomondo-sustainability-2026.md — Ecomondo/Renewable Matter sustainability events
+  - wiki/sources/2026-04-14-nhm-wellness-beverage-2026.md — NHN functional beverage $92B market
+  - wiki/sources/2026-04-14-lovable-small-business-trends-2026.md — Lovable.dev SMB trends; 58% SMB AI adoption
+- Concepts created (1 new):
+  - wiki/concepts/sustainability-transition.md — 14th concept page; sustainability-as-competitive-strategy
+- Concepts updated (2 existing):
+  - wiki/concepts/agentic-ai-enterprise.md — added AI 2027 scenario and HBR/Gartner data; source_count 14→16
+  - wiki/concepts/finding-neo.md — added HBR/Gartner granular ROI failure data; source_count 7→8
+- Updated: wiki/overview.md — added 6b sustainability section; updated source count to 45; added new layers to "what new sources resolved"
+- Updated: wiki/index.md — all 7 new sources catalogued; sustainability-transition concept added; total count 45 sources, 14 concepts
+
+---
+
+## [2026-04-14] ingest | Bulk ingest — 37 additional trend sources (38 total in wiki)
+
+- Sources ingested: 36 unique source pages (3 files identified as duplicates/same-source and skipped)
+- Concepts created (8 new):
+  - wiki/concepts/agentic-ai-enterprise.md
+  - wiki/concepts/economic-bifurcation.md
+  - wiki/concepts/geopolitical-multipolarity.md
+  - wiki/concepts/creator-economy-commerce.md
+  - wiki/concepts/wellness-optimization.md
+  - wiki/concepts/searchless-discovery.md
+  - wiki/concepts/loneliness-epidemic.md
+  - wiki/concepts/physical-ai-robotics.md
+- Concepts updated (5 existing):
+  - wiki/concepts/coming-of-age.md — added 9 new source citations; added AgeTech/GLP-1/physical-AI links
+  - wiki/concepts/finding-neo.md — added 6 new source citations; added Deloitte/IBM/Salesforce/GWI/Gartner links
+  - wiki/concepts/good-vibrations.md — added 10 new source citations; added H&B/WGSN/Lippincott/BCG/LinkedIn/travel links
+  - wiki/concepts/human-journeys.md — added 7 new source citations; added Capgemini/New Consumer/DEPT/GWI/Dentsu links
+  - wiki/concepts/stability-premium.md — added 7 new source citations; added FMCG Gurus/Capgemini/Lippincott/Euromonitor/finance links
+- Entity added: wiki/entities/gen-alpha.md
+- Updated: wiki/overview.md — full synthesis rewritten across 38 sources; 7 big moves; 7 tensions; concept map
+- Updated: wiki/index.md — all 38 sources, 13 concepts, 3 entities catalogued
+- Source groups processed:
+  - Group 1 (Tech/AI): Gartner, Deloitte, IBM, Salesforce, DEPT, GWI, Dentsu, McKinsey State of AI
+  - Group 2 (Consumer/Health/Wellness): Euromonitor, WGSN, WTW, Definitive Healthcare, H&B, FMCG Gurus, New Consumer, Hidden E-Commerce
+  - Group 3 (Finance/Investment): JP Morgan, Goldman Sachs, State Street, EFG, BNP Paribas/AXA IM, PwC VC
+  - Group 4 (Culture/Brand/Travel): McKinsey Fashion, Adobe Creative, Pinterest Predicts, Lippincott, Amadeus, Minor Hotels, BCD MICE, BCG Gaming
+  - Group 5 (Retail/Business/Other): Capgemini, LinkedIn, BCG Geopolitical, MSCI Sustainability
+
+---
+
+## [2026-04-14] ingest | Accenture Life Trends 2026: Forward, Together
+
+- Summary page: [[wiki/sources/2026-04-14-accenture-life-trends-2026]]
+- Pages touched (9 total):
+  - Created: wiki/sources/2026-04-14-accenture-life-trends-2026.md
+  - Created: wiki/concepts/stability-premium.md
+  - Created: wiki/concepts/human-journeys.md
+  - Created: wiki/concepts/finding-neo.md
+  - Created: wiki/concepts/good-vibrations.md
+  - Created: wiki/concepts/coming-of-age.md
+  - Created: wiki/entities/accenture-song.md
+  - Created: wiki/entities/glp-1-drugs.md
+  - Updated: wiki/index.md
+  - Updated: wiki/overview.md (initial thesis written)
+
+---
+
+## [2026-04-14] setup | Wiki initialized
+
+- Schema created: CLAUDE.md
+- Structure created: raw/, wiki/sources/, wiki/concepts/, wiki/entities/, wiki/analyses/
+- Seed files created: wiki/index.md, wiki/log.md, wiki/overview.md
+- Pages touched: 3 new files
