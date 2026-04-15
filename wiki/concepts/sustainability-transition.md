@@ -23,12 +23,12 @@ The defining tension: sustainability is advancing rapidly as policy and as comme
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-erm-annual-trends-2026]] — 83% of companies increased sustainability spending; $1.4T physical climate costs in 2024; 95% see sustainability as commercial opportunity; China controls 60–90% of critical mineral supply chain; $3.3T global energy investment in 2025
-- [[wiki/sources/2026-04-14-imd-sustainability-trends-2026]] — Sustainability as operating system vs. marketing story; CBAM Jan 1 2026 enforcement; circularity as geopolitical supply chain defense; data center water crisis; AI as grid nervous system; 24/7 CFE as emerging standard
-- [[wiki/sources/2026-04-14-ecomondo-sustainability-2026]] — CBAM enforcement timeline; COP17 Biodiversity (Oct 2026, Armenia); COP31 Climate (Nov 2026, Turkey); High Seas Treaty (Jan 17 2026); coffee +40%, cocoa +400% in price from climate impacts; 5x increase in high-risk assets by 2050
-- [[wiki/sources/2026-04-14-msci-sustainability-climate-2026]] — Institutional investors demanding comparable climate data; private assets exposed to catastrophic hazards; central bank climate oversight diverging between US and rest of world; state ownership rising as sustainability risk factor
-- [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — ESG as contested political terrain in US; European sustainable investing continuing to advance; green premium converging with conventional returns
-- [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — Critical minerals as one of six arenas of geopolitical competition; China's clean energy exports accelerating decarbonization globally while creating strategic dependencies
+- [Survey] [[wiki/sources/2026-04-14-erm-annual-trends-2026]] — 83% of companies increased sustainability spending; $1.4T physical climate costs in 2024; 95% see sustainability as commercial opportunity; China controls 60–90% of critical mineral supply chain; $3.3T global energy investment in 2025
+- [Forecast] [[wiki/sources/2026-04-14-imd-sustainability-trends-2026]] — Sustainability as operating system vs. marketing story; CBAM Jan 1 2026 enforcement; circularity as geopolitical supply chain defense; data center water crisis; AI as grid nervous system; 24/7 CFE as emerging standard
+- [Forecast] [[wiki/sources/2026-04-14-ecomondo-sustainability-2026]] — CBAM enforcement timeline; COP17 Biodiversity (Oct 2026, Armenia); COP31 Climate (Nov 2026, Turkey); High Seas Treaty (Jan 17 2026); coffee +40%, cocoa +400% in price from climate impacts; 5x increase in high-risk assets by 2050
+- [Forecast] [[wiki/sources/2026-04-14-msci-sustainability-climate-2026]] — Institutional investors demanding comparable climate data; private assets exposed to catastrophic hazards; central bank climate oversight diverging between US and rest of world; state ownership rising as sustainability risk factor
+- [Forecast] [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — ESG as contested political terrain in US; European sustainable investing continuing to advance; green premium converging with conventional returns
+- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — Critical minerals as one of six arenas of geopolitical competition; China's clean energy exports accelerating decarbonization globally while creating strategic dependencies
 
 ## Tensions & Counterarguments
 
@@ -44,6 +44,7 @@ The defining tension: sustainability is advancing rapidly as policy and as comme
 - [[wiki/concepts/economic-bifurcation]] — Companies able to invest in climate adaptation early (adaptation revenue $1.2T in 2024) vs. those exposed to physical risk costs and tariff pressure without sustainability buffers
 - [[wiki/concepts/agentic-ai-enterprise]] — AI as sustainability enabler (grid optimization, disclosure automation, data management) and sustainability risk (energy and water consumption)
 - [[wiki/concepts/stability-premium]] — Physical climate risk as a new instability driver; CBAM as a new cost certainty that companies must plan around
+- [[wiki/concepts/sovereign-ai-compute]] — AI data centers are a direct sustainability pressure point: water crisis, energy demand, grid carbon intensity; the two trends are in structural tension
 
 ## Key Players
 

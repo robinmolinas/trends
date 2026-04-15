@@ -3,8 +3,8 @@ type: concept
 title: "Physical AI and Robotics"
 aliases: [physical AI, humanoid robots, embodied AI, autonomous vehicles, robotics, AgeTech]
 tags: [#technology, #ai, #economics, #speculative]
-source_count: 4
-last_updated: 2026-04-14
+source_count: 7
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -21,10 +21,13 @@ The geopolitical dimension is significant: humanoid robotics and autonomous vehi
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)
-- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020
-- [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware
+- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)
+- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020
+- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware
+- [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B intelligent agents by 2035; physical-digital AI convergence; robotic integration into manufacturing and eldercare as part of the intelligent world infrastructure
+- [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — physical AI as the embodied layer of Agentic Economies; robotics as cost-efficient labor replacement in manufacturing and logistics; Compute Shock creates energy/infrastructure constraints for physical AI deployment at scale
+- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — physical AI hardware supply chains (semiconductors, sensors, robotics components) as a defined US-China geopolitical competition arena; industrial policy up 6x since 2021 covers hardware supply chains
 
 ## Tensions & Counterarguments
 
@@ -35,8 +38,9 @@ The geopolitical dimension is significant: humanoid robotics and autonomous vehi
 ## Related Concepts
 
 - [[wiki/concepts/agentic-ai-enterprise]] — physical AI is the embodied extension of the agentic AI paradigm
-- [[wiki/concepts/coming-of-age]] — physical AI is partly a response to demographic aging and labor shortage
-- [[wiki/concepts/geopolitical-multipolarity]] — physical AI hardware (chips, sensors) is a geopolitical competition arena
+- [[wiki/concepts/coming-of-age]] — physical AI is partly a response to demographic aging and labor shortage; AgeTech as direct demand driver
+- [[wiki/concepts/geopolitical-multipolarity]] — physical AI hardware (chips, sensors, robotics supply chains) is a defined geopolitical competition arena
+- [[wiki/concepts/sustainability-transition]] — physical AI deployment at scale requires massive energy and grid infrastructure investment; industrial robots and AV networks add to Compute Shock demand
 
 ## Key Players
 

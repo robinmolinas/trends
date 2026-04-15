@@ -21,16 +21,16 @@ The demographic math is unavoidable: the traditional population pyramid has inve
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 60+ population will reach 2.1B by 2050; tripled since 1950; baby boomers to pass on $53 trillion by 2045
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 80% of executives say they need to pivot marketing to embrace 40+; 64% creating more differentiated products for this market
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — US obesity may have peaked in 2020 due to GLP-1 drugs; linked to reduced risk of 42 conditions; TRT prescriptions 7.3M→11M+ (2019–2024)
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 19% of ages 45–54 and 15% of 55+ track health via wearables (growing rapidly); 28% of 55+ feel physically stronger than 3–5 years ago
-- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — 72M Americans will be 65+ by 2030; only 7 new skilled nursing facilities in 2024 (vs. 73 in 2020); 63,000 fewer nursing home beds since 2020; AgeTech is fastest-growing healthcare innovation sector
-- [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — UK GLP-1 penetration doubled (2.3%→4.1%); 84% of Gen Z prioritize health over career; gut health market >$90B by 2030; community-based wellness models extending into eldercare
-- [[wiki/sources/2026-04-14-new-consumer-2026]] — 23% of US households have a GLP-1 user; 91% of GLP-1 users feel "like a different person"; one-third of Americans in "optimization mode"; 25% upload blood tests to ChatGPT
-- [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — Gross medical trend 10.3% in 2026 (14% Asia Pacific); cancer is fastest-growing condition and cost driver; 68% of insurers expect GLP-1 use to increase; 74% cite new medical technologies as #1 cost driver
-- [[wiki/sources/2026-04-14-physical-ai-robotics]] — see [[wiki/concepts/physical-ai-robotics]]: 72M Americans 65+ by 2030 with fewer care facilities = structural demand for AgeTech and humanoid robotics in eldercare; Gartner projects 2M humanoid robots by 2035
-- [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — Demographics listed as one of four decade-shaping investment themes; aging populations creating structural healthcare cost pressure globally
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 60+ population will reach 2.1B by 2050; tripled since 1950; baby boomers to pass on $53 trillion by 2045
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 80% of executives say they need to pivot marketing to embrace 40+; 64% creating more differentiated products for this market
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — US obesity may have peaked in 2020 due to GLP-1 drugs; linked to reduced risk of 42 conditions; TRT prescriptions 7.3M→11M+ (2019–2024)
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 19% of ages 45–54 and 15% of 55+ track health via wearables (growing rapidly); 28% of 55+ feel physically stronger than 3–5 years ago
+- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — 72M Americans will be 65+ by 2030; only 7 new skilled nursing facilities in 2024 (vs. 73 in 2020); 63,000 fewer nursing home beds since 2020; AgeTech is fastest-growing healthcare innovation sector
+- [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — UK GLP-1 penetration doubled (2.3%→4.1%); 84% of Gen Z prioritize health over career; gut health market >$90B by 2030; community-based wellness models extending into eldercare
+- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — 23% of US households have a GLP-1 user; 91% of GLP-1 users feel "like a different person"; one-third of Americans in "optimization mode"; 25% upload blood tests to ChatGPT
+- [Survey] [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — Gross medical trend 10.3% in 2026 (14% Asia Pacific); cancer is fastest-growing condition and cost driver; 68% of insurers expect GLP-1 use to increase; 74% cite new medical technologies as #1 cost driver
+- [Forecast] [[wiki/concepts/physical-ai-robotics]] — 72M Americans 65+ by 2030 with fewer care facilities = structural demand for AgeTech and humanoid robotics in eldercare; Gartner projects 2M humanoid robots by 2035
+- [Forecast] [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — Demographics listed as one of four decade-shaping investment themes; aging populations creating structural healthcare cost pressure globally
 
 ## Tensions & Counterarguments
 

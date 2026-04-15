@@ -105,29 +105,30 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-## Concepts (16 total)
+## Concepts (17 total)
 
 ### Demand-side (consumer / human experience)
 - [[wiki/concepts/stability-premium]] — Trust, certainty, proof-over-promise; 8 sources
+- [[wiki/concepts/proof-over-promise]] — Evidentiary legitimacy over aspirational claims; brand trust as measurable revenue driver; 8 sources *(new 2026-04-15)*
 - [[wiki/concepts/human-journeys]] — Bottom-up personal AI adoption; AI-mediated discovery; 8 sources
-- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 12 sources
+- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 11 sources
 - [[wiki/concepts/loneliness-epidemic]] — Connection deficit; community as wellness and business strategy; 8 sources
-- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 14 sources
+- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 10 sources
 - [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources
 - [[wiki/concepts/beauty-reinvention]] — Beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; GLP-1 body norm disruption; 9 sources
 
 ### Supply-side (technology / commercial infrastructure)
-- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 22 sources
-- [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 7 sources
-- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources
-- [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 5 sources
-- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 4 sources
+- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 20 sources
+- [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 8 sources
+- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources
+- [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 9 sources *(expanded 2026-04-15)*
+- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 7 sources *(expanded 2026-04-15)*
 
 ### Macro context
-- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 13 sources
+- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 10 sources
 - [[wiki/concepts/geopolitical-multipolarity]] — Industrial policy 6x; US/China AI race; rare earth concentration; 8 sources
 - [[wiki/concepts/sustainability-transition]] — Sustainability as competitive strategy; CBAM live Jan 2026; physical climate costs $1.4T in 2024; circularity as supply chain defense; 6 sources
-- [[wiki/concepts/sovereign-ai-compute]] — Compute as geographically constrained resource; sovereign AI infrastructure; energy-tethered data centers; hyperscaler model fracturing; 5 sources
+- [[wiki/concepts/sovereign-ai-compute]] — Compute as geographically constrained resource; sovereign AI infrastructure; energy-tethered data centers; hyperscaler model fracturing; 9 sources *(expanded 2026-04-15)*
 
 ---
 
@@ -145,4 +146,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-04-15 | Sources: 65 | Concepts: 16 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-04-15 | Sources: 65 | Concepts: 17 | Entities: 3 | Analyses: 0*

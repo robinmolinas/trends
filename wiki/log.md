@@ -6,6 +6,31 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-04-15] quality-audit | Structural improvement pass — tier tags, expanded concepts, new concept, cross-references
+
+- **Audit scope**: All 16 concept pages reviewed against LLM Wiki quality standards; 9 improvement actions executed
+- **Evidence tier system added**: All 16 concept Evidence sections tagged with [Survey] / [Forecast] / [Scenario] inline markers
+  - [Survey] = primary consumer/enterprise survey data (Accenture 25K, GWI, H&B, Euromonitor, WTW, FMCG Gurus, etc.)
+  - [Forecast] = research-backed market analyses (Gartner, McKinsey, BCG, Goldman, Deloitte, JP Morgan, etc.)
+  - [Scenario] = qualitative foresight and scenario planning (AI 2027, FTSG, Huawei IW 2035, frog Futurescape, TFL Omio 2035)
+- **Concepts expanded** (3):
+  - wiki/concepts/physical-ai-robotics.md — source_count 4→7; added Huawei IW 2035, FTSG Convergence, BCG Geopolitical; added sustainability-transition as related concept
+  - wiki/concepts/creator-economy-commerce.md — source_count 5→9; added WGSN, McKinsey Fashion, Hidden E-Commerce, Afterpay 2030; added stability-premium as related concept
+  - wiki/concepts/sovereign-ai-compute.md — source_count 5→9; added BCG Geopolitical, JPMorgan, ERM, IMD Sustainability; fixed broken .md extension in eu-foresight ref; removed irrelevant glp-1 entity link
+- **Cross-references wired** (5 new links added):
+  - economic-bifurcation → [[beauty-reinvention]] (bifurcation within beauty category)
+  - geopolitical-multipolarity → [[sovereign-ai-compute]] (compute sovereignty as technology layer)
+  - sustainability-transition → [[sovereign-ai-compute]] (AI data centers as direct sustainability pressure)
+  - loneliness-epidemic → [[agentic-ai-enterprise]] (AI companionship as contested response)
+  - creator-economy-commerce → [[stability-premium]] (human-made premium, already added in expansion)
+- **Beauty Reinvention tensions deepened**: 3 points → 5 points; added sciencewashing, AI content sameness paradox, GLP-1 sub-category exposure map, ultra-luxury advisor dependency, channel misalignment
+- **New concept created** (1):
+  - wiki/concepts/proof-over-promise.md — 17th concept; 8 sources; bridges stability-premium, beauty-reinvention, finding-neo, searchless-discovery, wellness-optimization
+- Updated: wiki/overview.md — proof-over-promise added to Big Move 1; source table updated 45→65; concept map updated 13→17; evidence quality framework section added
+- Updated: wiki/index.md — 17th concept catalogued; source counts updated; last updated line corrected
+
+---
+
 ## [2026-04-15] ingest | Beauty & luxury deep-dive — 4 new sources (65 total in wiki)
 
 - New sources identified: 9 untracked raw files; 5 confirmed as already-ingested (5fe57b90-en.pdf = OECD STI, SFR2025 = EU Foresight, Insights_Delivering = frog New Loyalty, plus 2 PDF/PPTX with no extractable trend content)

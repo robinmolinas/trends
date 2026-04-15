@@ -3,8 +3,8 @@ type: concept
 title: "Creator Economy Commerce"
 aliases: [creator commerce, TikTok Shop, social commerce, creator brands, live commerce, UGC commerce]
 tags: [#culture, #economics, #technology, #established]
-source_count: 5
-last_updated: 2026-04-14
+source_count: 9
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -21,11 +21,15 @@ The user-generated content (UGC) dimension is extending into gaming (Roblox, Min
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-new-consumer-2026]] — primary source; TikTok Shop $15B GMV; top 1% creators drove 53% of $7.7B video sales; 45% of Gen Z/Millennials consider themselves creators; TikTok Shop surpasses Sephora and Ulta in transaction volume
-- [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — collectible ephemera (Labubu, Starbucks bearista) as community-building hype objects; human-made as premium signal
-- [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — UGC as the new creator economy within gaming; Roblox and Minecraft as leading platforms; 44% of gaming parents' children playing by age 5
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — luxury brands deploying celebrity squads; influential voices deliver 5x more reach than brand-owned channels
-- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — social media not dying; dominant media channel in daily life
+- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — primary source; TikTok Shop $15B GMV; top 1% creators drove 53% of $7.7B video sales; 45% of Gen Z/Millennials consider themselves creators; TikTok Shop surpasses Sephora and Ulta in transaction volume
+- [Forecast] [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — collectible ephemera (Labubu, Starbucks bearista) as community-building hype objects; human-made as premium signal against AI-generated content flood
+- [Forecast] [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — UGC as the new creator economy within gaming; Roblox and Minecraft as leading platforms; 44% of gaming parents' children playing by age 5
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — luxury brands deploying celebrity squads; influential voices deliver 5x more reach than brand-owned channels
+- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — social media dominant daily media channel; creator content as primary discovery mechanism for younger demographics
+- [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — Gleamers consumer archetype: community-led identity built through creator-adjacent aesthetic curation; co-creation as expression of belonging rather than passive consumption
+- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — luxury fashion deploying celebrity/creator "squads" for cultural relevance (Burberry, Prada/Sabrina Carpenter); creator relationships outperforming traditional media buying in fashion
+- [Forecast] [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — TikTok Shop +120% YoY; creator-led live commerce emerging as structural retail channel; Amazon creator program and affiliate commerce accelerating
+- [Survey] [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — Ephemeral Culture: 73% of Gen Z feel pressure to constantly create new content; algorithmic sameness as the enemy of authentic self-expression; creator burnout as structural tension in the economy
 
 ## Tensions & Counterarguments
 
@@ -36,8 +40,9 @@ The user-generated content (UGC) dimension is extending into gaming (Roblox, Min
 ## Related Concepts
 
 - [[wiki/concepts/searchless-discovery]] — TikTok and social platforms are the primary discovery engine for Gen Z; creator content bypasses traditional search
-- [[wiki/concepts/good-vibrations]] — creators build niche communities around shared aesthetics and values
-- [[wiki/concepts/economic-bifurcation]] — top creator earnings are extraordinary while the long tail earns little; this is a bifurcated labor market too
+- [[wiki/concepts/good-vibrations]] — creators build niche communities around shared aesthetics and values; underground culture and creator economy are intertwined
+- [[wiki/concepts/economic-bifurcation]] — top creator earnings are extraordinary while the long tail earns little; this is a bifurcated labor market
+- [[wiki/concepts/stability-premium]] — the "human-made" premium (Lippincott) and creator authenticity value emerge directly from AI flooding channels with generic content; trust accrues to verifiably human sources
 
 ## Key Players
 

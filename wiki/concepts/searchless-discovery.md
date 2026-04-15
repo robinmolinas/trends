@@ -21,19 +21,19 @@ The commerce implications are significant: Capgemini reports 46% of shoppers mak
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks from ChatGPT; 46% purchase based on AI recommendations; GEO as searchless retail future
-- [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (Cornell); branding for two audiences (humans + bots); proprietary data as moat
-- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — GEO replacing SEO as primary discovery; digital delegation; friction paradox
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — GEO prediction; "dead internet" risk if ads don't appear in chatbots; SEO pulled reluctantly into GEO era
-- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AI changing healthcare SEO; 61% US adults using AI; 58% use gen AI for product/service recommendations
-- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools now #3 input for business decisions; AI insights generic due to poor underlying data
-- [[wiki/sources/2026-04-14-new-consumer-2026]] — AI retail traffic +760% YoY during holiday 2024; 25% upload blood tests to ChatGPT
-- [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI chatbot presence as "new SEO" for fashion brands; agentic commerce accelerating
-- [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI is consumers' #2 purchase rec source (18%) ahead of social, search, brand websites; SEO → GEO imperative; 50% of active users informed a purchase via gen AI; Perplexity/LLM platform partnerships as emerging brand strategy
-- [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: AI scrolling replaced by intent-first agent conversations; Agentforce and Rufus as agentic enterprise beginnings
-- [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — Tech-tility: AI as human right/infrastructure, not consumer novelty; physical-digital commerce fusion by 2030
-- [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — Intuitive Agents scenario: AI autonomously plans and manages travel journeys end-to-end
-- [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Luxury beauty brand (Chanel) explicitly framing "Post-Website Era" territory: GenAI experiences for immersion, discovery, purchase; website as obsolete infrastructure
+- [Survey] [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks from ChatGPT; 46% purchase based on AI recommendations; GEO as searchless retail future
+- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (Cornell); branding for two audiences (humans + bots); proprietary data as moat
+- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — GEO replacing SEO as primary discovery; digital delegation; friction paradox
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — GEO prediction; "dead internet" risk if ads don't appear in chatbots; SEO pulled reluctantly into GEO era
+- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AI changing healthcare SEO; 61% US adults using AI; 58% use gen AI for product/service recommendations
+- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools now #3 input for business decisions; AI insights generic due to poor underlying data
+- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — AI retail traffic +760% YoY during holiday 2024; 25% upload blood tests to ChatGPT
+- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI chatbot presence as "new SEO" for fashion brands; agentic commerce accelerating
+- [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI is consumers' #2 purchase rec source (18%) ahead of social, search, brand websites; SEO → GEO imperative; 50% of active users informed a purchase via gen AI; Perplexity/LLM platform partnerships as emerging brand strategy
+- [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: AI scrolling replaced by intent-first agent conversations; Agentforce and Rufus as agentic enterprise beginnings
+- [Survey] [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — Tech-tility: AI as human right/infrastructure, not consumer novelty; physical-digital commerce fusion by 2030
+- [Scenario] [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — Intuitive Agents scenario: AI autonomously plans and manages travel journeys end-to-end
+- [Forecast] [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Luxury beauty brand (Chanel) explicitly framing "Post-Website Era" territory: GenAI experiences for immersion, discovery, purchase; website as obsolete infrastructure
 
 ## Tensions & Counterarguments
 

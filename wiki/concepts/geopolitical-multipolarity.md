@@ -21,14 +21,14 @@ For investors, this creates divergence: European defense spending is an investab
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — primary source; 6 arenas of competition; industrial policy up 6x; US 59%/China 26% LLM share; China 80% rare earths; 60 ongoing conflicts
-- [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — US tariff rate at 1934 levels; France fiscal deterioration; global debt >$100T; US-China decoupling ongoing
-- [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — Middle East as AI infrastructure actor; trade deals in motion; Germany €500B fiscal package
-- [[wiki/sources/2026-04-14-efg-outlook-2026]] — geopolitics as top theme; multi-polar world, new alliances, state capitalism
-- [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — tariff pass-through inflation; immigration crackdown suppressing labor supply; OBBBA as fiscal shock
-- [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — European strategic autonomy as investment theme; geopolitics as decade-shaping force
-- [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — geopatriation (data and AI sovereignty driving infrastructure localization)
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — resilient globalization (David Solomon, Goldman Sachs CEO) as contrarian view; stablecoins as currency competition
+- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — primary source; 6 arenas of competition; industrial policy up 6x; US 59%/China 26% LLM share; China 80% rare earths; 60 ongoing conflicts
+- [Forecast] [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — US tariff rate at 1934 levels; France fiscal deterioration; global debt >$100T; US-China decoupling ongoing
+- [Forecast] [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — Middle East as AI infrastructure actor; trade deals in motion; Germany €500B fiscal package
+- [Forecast] [[wiki/sources/2026-04-14-efg-outlook-2026]] — geopolitics as top theme; multi-polar world, new alliances, state capitalism
+- [Forecast] [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — tariff pass-through inflation; immigration crackdown suppressing labor supply; OBBBA as fiscal shock
+- [Forecast] [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — European strategic autonomy as investment theme; geopolitics as decade-shaping force
+- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — geopatriation (data and AI sovereignty driving infrastructure localization)
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — resilient globalization (David Solomon, Goldman Sachs CEO) as contrarian view; stablecoins as currency competition
 
 ## Tensions & Counterarguments
 
@@ -41,6 +41,7 @@ For investors, this creates divergence: European defense spending is an investab
 - [[wiki/concepts/agentic-ai-enterprise]] — AI is a defined axis of geopolitical competition; geopatriation of AI infrastructure
 - [[wiki/concepts/economic-bifurcation]] — trade fragmentation creates winners and losers along geopolitical alignment lines
 - [[wiki/concepts/stability-premium]] — uncertainty premium in supply chain decisions; resilience as new cost center
+- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty is the technology layer of geopolitical fragmentation; nation-states treating AI infrastructure as strategic defense
 
 ## Key Players
 

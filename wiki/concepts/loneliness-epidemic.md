@@ -21,14 +21,14 @@ The counter-trend also matters: AI companionship is growing as a response to lon
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — 82% of UK adults have experienced loneliness; 10% of EU residents have no close friends (OECD); AI companionship as "band-aid at best, active contributor at worst"; US Chamber of Connection emerging
-- [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — community as wellness infrastructure; run clubs, group retreats as behavior change mechanisms; 68% of Gen Z say wellness is more "doable" with community support
-- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — humans as social animals; niche community thesis (communities of interest outperform broadcast)
-- [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — The Gleamers: chosen families, third spaces, community as intrinsic to happiness; 12B working days lost annually to depression and anxiety (WHO)
-- [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — travel as connection-seeking; 2026 as "year of connection"; "friendcations" growing
-- [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — meetings as strategic assets for human connection; MICE as resilient B2B because connection has irreducible value
-- [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — event tourism and pop culture pilgrimages as community-building; shared experience as primary travel motivation
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — (connection-related signal from Accenture's Life Trends framing)
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — 82% of UK adults have experienced loneliness; 10% of EU residents have no close friends (OECD); AI companionship as "band-aid at best, active contributor at worst"; US Chamber of Connection emerging
+- [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — community as wellness infrastructure; run clubs, group retreats as behavior change mechanisms; 68% of Gen Z say wellness is more "doable" with community support
+- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — humans as social animals; niche community thesis (communities of interest outperform broadcast)
+- [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — The Gleamers: chosen families, third spaces, community as intrinsic to happiness; 12B working days lost annually to depression and anxiety (WHO)
+- [Survey] [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — travel as connection-seeking; 2026 as "year of connection"; "friendcations" growing
+- [Survey] [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — meetings as strategic assets for human connection; MICE as resilient B2B because connection has irreducible value
+- [Forecast] [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — event tourism and pop culture pilgrimages as community-building; shared experience as primary travel motivation
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — connection deficit documented in Accenture Life Trends; 56% report negative emotions; belonging and community as antidotes to information overload and change anxiety
 
 ## Tensions & Counterarguments
 
@@ -41,6 +41,7 @@ The counter-trend also matters: AI companionship is growing as a response to lon
 - [[wiki/concepts/good-vibrations]] — niche communities, third spaces, physical social experiences as antidotes to digital isolation
 - [[wiki/concepts/wellness-optimization]] — social connection is a health intervention; loneliness as a clinical risk factor
 - [[wiki/concepts/coming-of-age]] — older adults face structural loneliness as life stage transitions dissolve social networks
+- [[wiki/concepts/agentic-ai-enterprise]] — AI companionship tools (chatbots, virtual companions) are emerging as a commercial response to loneliness; the tension between AI as band-aid vs. accelerant of isolation is unresolved
 
 ## Key Players
 

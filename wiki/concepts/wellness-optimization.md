@@ -19,15 +19,15 @@ The global wellness market is projected at $8.99 trillion by 2028 (WGSN). GLP-1 
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-new-consumer-2026]] — richest behavioral data: 23% US households with GLP-1 user; GLP-1 users spend MORE on food; 91% feel "like a different person"; one-third of Americans in "optimization mode"; 25% upload blood tests to ChatGPT
-- [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — global wellness $8.99T by 2028; UK GLP-1 penetration doubled (2.3%→4.1%); 77% experienced side effects; 84% Gen Z prioritize health over career; gut health market >$90B by 2030
-- [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — personalized nutrition accelerating; GLP-1 reshaping FMCG product development; satiety and side-effect management innovations
-- [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — GLP-1 adoption among weight-loss consumers: 6%→9% (2024→2025); 3 in 4 consumers track health with device/app; Rewired Wellness trend
-- [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — 68% of insurers expect GLP-1 use to increase; coverage concentrated in Americas; cancer as fastest-growing medical cost driver
-- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — aging in place (72M Americans 65+ by 2030); AgeTech; AI search disrupting healthcare marketing
-- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — biometrics in workplace; smart pills ($5B→$15B by 2033); data-driven fitness going mainstream (Hyrox, wearables)
-- [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — therapeutic hobbies; self-care prioritization; "Joy of Wellness" (anti-optimization backlash from WGSN Gleamers)
-- [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — travel as catalyst for healthier living (Minor Hotels); pet wellness as part of broader care economy
+- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — richest behavioral data: 23% US households with GLP-1 user; GLP-1 users spend MORE on food; 91% feel "like a different person"; one-third of Americans in "optimization mode"; 25% upload blood tests to ChatGPT
+- [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — global wellness $8.99T by 2028; UK GLP-1 penetration doubled (2.3%→4.1%); 77% experienced side effects; 84% Gen Z prioritize health over career; gut health market >$90B by 2030
+- [Survey] [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — personalized nutrition accelerating; GLP-1 reshaping FMCG product development; satiety and side-effect management innovations
+- [Survey] [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — GLP-1 adoption among weight-loss consumers: 6%→9% (2024→2025); 3 in 4 consumers track health with device/app; Rewired Wellness trend
+- [Survey] [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — 68% of insurers expect GLP-1 use to increase; coverage concentrated in Americas; cancer as fastest-growing medical cost driver
+- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — aging in place (72M Americans 65+ by 2030); AgeTech; AI search disrupting healthcare marketing
+- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — biometrics in workplace; smart pills ($5B→$15B by 2033); data-driven fitness going mainstream (Hyrox, wearables)
+- [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — therapeutic hobbies; self-care prioritization; "Joy of Wellness" (anti-optimization backlash from WGSN Gleamers)
+- [Forecast] [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — travel as catalyst for healthier living (Minor Hotels); pet wellness as part of broader care economy
 - [[wiki/entities/glp-1-drugs]] — the single most disruptive FMCG and wellness trend
 
 ## Tensions & Counterarguments

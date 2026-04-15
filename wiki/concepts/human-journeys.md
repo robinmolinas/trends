@@ -19,14 +19,14 @@ The conventional narrative frames AI adoption as an enterprise-led transformatio
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Bottom-up AI adoption accelerating; people incorporating AI into routines, decision-making, and personal moments without employer direction; personal use differs fundamentally from enterprise deployment
-- [[wiki/sources/2026-04-14-new-consumer-2026]] — 25% of Americans upload blood test results to ChatGPT; 61% of US adults use AI for health information; one-third of Americans in "optimization mode"; 58% use gen AI for product/service recommendations
-- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — 61% of US adults used AI for health queries in H1 2025; AI is disrupting healthcare marketing and SEO; patients arriving at clinical encounters having already consulted AI
-- [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks came from ChatGPT (August 2025); 46% of shoppers make purchases based on AI recommendations; 46% willing to order directly via AI tools
-- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; AI insights perceived as generic due to poor underlying data quality — creating an accuracy-trust gap
-- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — "Digital delegation": consumers handing decision-making to AI agents; the friction paradox — removing friction from discovery removes serendipity and exploration
-- [[wiki/sources/2026-04-14-dept-trends-2026]] — Brands must now optimize for two audiences simultaneously: humans and AI bots; proprietary first-party data as the primary moat against AI commodity discovery
-- [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — 3 in 4 consumers track health with a device or app; "Rewired Wellness" consumer segment defined by tech-mediated health optimization
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Bottom-up AI adoption accelerating; people incorporating AI into routines, decision-making, and personal moments without employer direction; personal use differs fundamentally from enterprise deployment
+- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — 25% of Americans upload blood test results to ChatGPT; 61% of US adults use AI for health information; one-third of Americans in "optimization mode"; 58% use gen AI for product/service recommendations
+- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — 61% of US adults used AI for health queries in H1 2025; AI is disrupting healthcare marketing and SEO; patients arriving at clinical encounters having already consulted AI
+- [Survey] [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks came from ChatGPT (August 2025); 46% of shoppers make purchases based on AI recommendations; 46% willing to order directly via AI tools
+- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; AI insights perceived as generic due to poor underlying data quality — creating an accuracy-trust gap
+- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — "Digital delegation": consumers handing decision-making to AI agents; the friction paradox — removing friction from discovery removes serendipity and exploration
+- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — Brands must now optimize for two audiences simultaneously: humans and AI bots; proprietary first-party data as the primary moat against AI commodity discovery
+- [Survey] [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — 3 in 4 consumers track health with a device or app; "Rewired Wellness" consumer segment defined by tech-mediated health optimization
 
 ## Tensions & Counterarguments
 

@@ -19,14 +19,14 @@ The media environment has collapsed news, entertainment, and daily life into a s
 
 ## Evidence
 
-- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 46% say desire for stability has grown stronger; 56% report negative emotions; 65% of executives set up permanent "war rooms"; only 30% believe journalists don't intentionally mislead (down from 41%); 50M Substack subscribers
-- [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — "Comfort Zone" trend: 58% of consumers experience daily stress; security and predictability driving purchasing decisions across categories; consumers retreating to comfort and familiarity
-- [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — AI backlash is building; "human-made" is becoming a premium quality signal as AI floods channels with generic content; self-aware consumers are gaming algorithms — they understand they're being targeted and distrust it; brands that acknowledge this earn credibility
-- [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — "Proof over promise" as top consumer demand across FMCG categories; brand trust as quantifiable revenue driver; consumers are skeptical of claims and demanding evidence
-- [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — Trust is now a profit driver: retailers that invest in transparency and reliability see measurable conversion uplift; 71% of consumers use small indulgences to cope with financial stress — micro-certainty as coping mechanism
-- [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — US tariff rate at 1934 levels; institutional investors seeking stability amid policy unpredictability; defensive positioning across asset classes as geopolitical uncertainty compounds
-- [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — "Forward with Focus": delayed policy impact creating strategic planning paralysis; institutions shortening planning horizons and increasing cash/defensive positions
-- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Information overload driving consumers toward trusted voices (newsletters, podcasts) over algorithmic feeds; curation as a trust signal in media fragmentation context
+- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 46% say desire for stability has grown stronger; 56% report negative emotions; 65% of executives set up permanent "war rooms"; only 30% believe journalists don't intentionally mislead (down from 41%); 50M Substack subscribers
+- [Survey] [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — "Comfort Zone" trend: 58% of consumers experience daily stress; security and predictability driving purchasing decisions across categories; consumers retreating to comfort and familiarity
+- [Forecast] [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — AI backlash is building; "human-made" is becoming a premium quality signal as AI floods channels with generic content; self-aware consumers are gaming algorithms — they understand they're being targeted and distrust it; brands that acknowledge this earn credibility
+- [Survey] [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — "Proof over promise" as top consumer demand across FMCG categories; brand trust as quantifiable revenue driver; consumers are skeptical of claims and demanding evidence
+- [Survey] [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — Trust is now a profit driver: retailers that invest in transparency and reliability see measurable conversion uplift; 71% of consumers use small indulgences to cope with financial stress — micro-certainty as coping mechanism
+- [Forecast] [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — US tariff rate at 1934 levels; institutional investors seeking stability amid policy unpredictability; defensive positioning across asset classes as geopolitical uncertainty compounds
+- [Forecast] [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — "Forward with Focus": delayed policy impact creating strategic planning paralysis; institutions shortening planning horizons and increasing cash/defensive positions
+- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Information overload driving consumers toward trusted voices (newsletters, podcasts) over algorithmic feeds; curation as a trust signal in media fragmentation context
 
 ## Tensions & Counterarguments
 

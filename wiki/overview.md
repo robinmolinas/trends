@@ -20,10 +20,10 @@ From these three forces, everything else flows.
 
 ## The Seven Big Moves of 2026
 
-### 1. Stability has become a luxury good
-The collapse of the news/entertainment/daily-life boundary has created a permanent emotional emergency. 46% of people say their desire for stability has grown stronger. 58% experience daily stress (Euromonitor). Institutions, brands, and workplaces that function as anchors are increasingly valuable. The commercial corollary is "proof over promise" (FMCG Gurus): skeptical, fatigued consumers are demanding evidence, not claims. And as AI floods channels with generated content, "human-made" is becoming a premium signal (Lippincott). Stability, authenticity, and trust are converging into a single competitive advantage.
+### 1. Stability has become a luxury good — and proof is its currency
+The collapse of the news/entertainment/daily-life boundary has created a permanent emotional emergency. 46% of people say their desire for stability has grown stronger. 58% experience daily stress (Euromonitor). Institutions, brands, and workplaces that function as anchors are increasingly valuable. The commercial corollary is **proof over promise** (FMCG Gurus): skeptical, fatigued consumers are demanding evidence, not claims. As AI floods every channel with polished, generic content, "human-made" is becoming a premium signal (Lippincott), and brand trust is now a quantifiable revenue driver — retailers investing in transparency see measurable conversion uplift (Capgemini). Stability, authenticity, and evidentiary legitimacy are converging into a single competitive advantage.
 
-→ *See: [[wiki/concepts/stability-premium]]*
+→ *See: [[wiki/concepts/stability-premium]], [[wiki/concepts/proof-over-promise]]*
 
 ### 2. AI is reshaping every layer of commerce — but trust hasn't caught up
 From the top down: enterprises are investing heavily in AI (85% of C-suites planned increases in 2025) but only 11% of AI implementations are in production (Deloitte). The maturity gap is real, the governance gap is wider, and the human anxiety gap is widest of all. From the bottom up: consumers are already running ahead. 61% of US adults used AI for health queries in H1 2025. 1 in 5 Walmart referral clicks came from ChatGPT in August 2025. AI retail traffic grew 760% YoY in holiday 2024. The shift from search to AI-mediated discovery (GEO replacing SEO) is one of the most consequential business model disruptions in the trend set — and most brands aren't ready.
@@ -112,41 +112,59 @@ The first session was based on Accenture Life Trends alone. The 37 additional so
 
 | Domain | Sources |
 |--------|---------|
-| Technology / AI | 11 |
-| Consumer trends | 6 |
+| Technology / AI | 16 |
+| Consumer / Commerce / Travel | 11 |
 | Finance / Investment | 6 |
 | Health / Wellness | 6 |
-| Culture / Brand / Travel | 8 |
-| Retail / Business | 4 |
-| Sustainability / Climate | 4 |
-| **Total** | **45** |
+| Beauty / Luxury | 8 |
+| Culture / Brand / Sport | 10 |
+| Sustainability / Climate / Policy | 6 |
+| Retail / Business | 2 |
+| **Total** | **65** |
 
 ---
 
 ## Concept Map
 
-13 concepts now in the wiki, organized by cluster:
+17 concepts now in the wiki, organized by cluster:
 
 **Demand-side (consumer/human experience):**
-- [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise
-- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption
-- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces
-- [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business
-- [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming
-- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion
+- [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise; 8 sources
+- [[wiki/concepts/proof-over-promise]] — evidentiary legitimacy over aspirational claims; the demand for demonstrable evidence; 8 sources
+- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 8 sources
+- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 11 sources
+- [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business strategy; 8 sources
+- [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming; 10 sources
+- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources
+- [[wiki/concepts/beauty-reinvention]] — beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; 9 sources
 
 **Supply-side (technology/commercial infrastructure):**
-- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; only 11% in production
-- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap
-- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce
-- [[wiki/concepts/creator-economy-commerce]] — creator as distribution channel; TikTok Shop
-- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech
+- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 20 sources
+- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 8 sources
+- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources
+- [[wiki/concepts/creator-economy-commerce]] — creator as primary distribution channel; TikTok Shop; 9 sources
+- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 7 sources
 
 **Macro context:**
-- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence
-- [[wiki/concepts/geopolitical-multipolarity]] — tariffs, industrial policy, US/China AI race
-- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs crossing financial threshold; sustainability-as-operating-system replacing sustainability-as-branding
+- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 10 sources
+- [[wiki/concepts/geopolitical-multipolarity]] — tariffs at 1934 levels, industrial policy 6x, US/China AI race; 8 sources
+- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty; energy-tethered data centers; hyperscaler fragmentation; 9 sources
+- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs $1.4T; sustainability-as-operating-system; 6 sources
 
 ---
 
-*Last updated: 2026-04-14 | Total sources informing this overview: 45*
+---
+
+## Evidence Quality Framework
+
+All concept Evidence sections now use a three-tier tag system to signal source type at a glance:
+
+- **[Survey]** — primary data with stated sample sizes (Accenture 25K, GWI, H&B, Euromonitor, New Consumer, FMCG Gurus, WTW, etc.)
+- **[Forecast]** — research-backed market analyses and outlook reports (Gartner, McKinsey, BCG, Goldman, Deloitte, JPMorgan, etc.)
+- **[Scenario]** — qualitative foresight and scenario planning (AI 2027, FTSG Convergence, Huawei IW 2035, frog Futurescape, TFL Omio 2035)
+
+When a single concept has evidence converging across all three tiers — survey data, market forecast, and scenario — the confidence in that trend is highest. When evidence is concentrated in [Scenario] only, treat it as directional, not predictive.
+
+---
+
+*Last updated: 2026-04-15 | Total sources: 65 | Concepts: 17 | Entities: 3*
