@@ -3,7 +3,7 @@ type: concept
 title: "Agentic AI Enterprise"
 aliases: [agentic AI, AI agents, multi-agent systems, autonomous AI, digital delegation]
 tags: [#technology, #ai, #economics, #established]
-source_count: 22
+source_count: 19
 last_updated: 2026-04-15
 ---
 
@@ -22,14 +22,13 @@ The gap between aspiration and reality is still large: Deloitte reports only 11%
 - [Survey] [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — multi-agent orchestration; 282% AI adoption growth YoY; trust-in-data as bottleneck; regulation as enabler
 - [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — AI-native dev platforms (2% → 40% enterprise apps by 2030); multiagent systems; physical AI (2M humanoids by 2035)
 - [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — only 11% of agentic AI in production; $10M+/month cloud AI bills; 64% increasing AI budgets
-- [Survey] [[wiki/sources/2026-04-14-ibm-5-trends-2026]] — 2x more employees embrace AI than resist; 93% must factor AI sovereignty into strategy
-- [Forecast] [[wiki/sources/2026-04-14-mcast-trends-2026]] — Invisible AI as the internet parallel; 34% embedded AI primary deployment; only 1% mature
-- [Forecast] [[wiki/sources/2026-04-14-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org; <30% translate to revenue; innovation governance fragmented
+- [Forecast] [[wiki/sources/2026-04-15-mcast-trends-2026]] — Invisible AI as the internet parallel; AI maturity depends on embedding capabilities into workflows rather than standalone tools
 - [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — digital delegation; AI agents as consumer intermediaries
 - [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (GEO); proprietary data as moat
 - [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI as business necessity; agentic commerce accelerating; AI chatbot presence as new SEO
 - [Forecast] [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — AI in e-commerce grew 270% since 2019; AI-in-e-commerce market $8.65B in 2025
 - [Forecast] [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — AI capex at 1.2–1.3% of US GDP; 44% of US firms paying for AI; 9% in production
+- [Forecast] [[wiki/sources/2026-04-14-pwc-venture-capital-2026]] — European VC recovery thesis is increasingly AI-led; capital allocation is concentrating around AI-capable portfolios and infrastructure bets
 - [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — AI as geopolitical competition arena; GenAI middle powers emerging
 - [Scenario] [[wiki/sources/2026-04-14-ai-2027-scenario]] — Most concrete near-term agentic AI trajectory: by early 2026 AI is accelerating AI R&D at 1.5x speed; late 2026 stock market +30% led by AI companies; junior software engineering in turmoil; global AI CapEx projected at $1T; alignment verification remains unsolved (you can write the Spec but can't check if it worked)
 - [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Organizational side of the AI deployment reality: 25% of job candidates will be fake by 2028; 43% of security leaders saw AI deepfake incidents; North Korean fraudulent employment at Western tech firms up 220% YoY; cognitive atrophy and AI psychosis emerging as new workplace risk categories
@@ -55,4 +54,4 @@ The gap between aspiration and reality is still large: Deloitte reports only 11%
 
 ## Key Players
 
-- [[wiki/entities/glp-1-drugs]] — AI being applied to drug discovery and precision medicine adjacent to this trend
+- (Primary actors are platform vendors, frontier-model providers, and enterprise CIO/CTO organizations; no dedicated entity pages yet)

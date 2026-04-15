@@ -122,3 +122,16 @@ Format: `## [YYYY-MM-DD] operation | description`
 - Structure created: raw/, wiki/sources/, wiki/concepts/, wiki/entities/, wiki/analyses/
 - Seed files created: wiki/index.md, wiki/log.md, wiki/overview.md
 - Pages touched: 3 new files
+
+## [2026-04-15] lint | Health Check
+- Issues found: 9
+- Pages updated: [wiki/log.md]
+- Notes: detected stale counters (65 vs 66 sources), broken wiki links (missing entity + missing source slugs), duplicate source summaries for identical raw files, and source pages missing required section headings.
+
+## [2026-04-15] maintenance | Lint repair pass (canonicalization + link integrity)
+- Canonicalized duplicate source summaries to Apr 15 versions: IBM, M.Cast, ITONICS
+- Recreated missing entity page: wiki/entities/gen-alpha
+- Broken links resolved: 0 remaining missing wiki/raw links
+- Source index reconciled with files: 63 linked / 63 existing
+- Pages touched: [wiki/index.md, wiki/overview.md, wiki/concepts/agentic-ai-enterprise.md, wiki/concepts/finding-neo.md, wiki/concepts/good-vibrations.md, wiki/concepts/searchless-discovery.md, wiki/concepts/physical-ai-robotics.md, wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026.md, wiki/entities/gen-alpha.md, wiki/log.md]
+- Pages removed (superseded duplicates): [wiki/sources/2026-04-14-ibm-5-trends-2026.md, wiki/sources/2026-04-14-mcast-trends-2026.md, wiki/sources/2026-04-14-itonics-corporate-innovation-2026.md]

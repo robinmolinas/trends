@@ -6,22 +6,20 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ## Overview
 
-- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (38 sources, 13 concepts, 2 entities)
+- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (63 sources, 17 concepts, 3 entities)
 
 ---
 
 ## Sources
 
-### Technology / AI (9 sources)
+### Technology / AI (7 sources)
 - [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Accenture Life Trends 2026: 5 macro trends; 25,284-person survey across 23 countries
 - [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner Top 10 Strategic Technology Trends 2026; agentic AI, physical AI, governance
 - [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Deloitte Tech Trends 2026; only 11% of AI in production; digital decoupling
-- [[wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026]] — IBM IBV AI trends; enterprise AI maturity; domain-specific models; governance
-- [[wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026]] — Salesforce State of Data & AI 2026; enterprise AI trust gap; data readiness as constraint
+- [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — Salesforce AI Agents 2026; multi-agent orchestration; data trust bottleneck; regulation as enabler
 - [[wiki/sources/2026-04-14-dept-trends-2026]] — DEPT Digital Trends 2026; GEO; two-audience branding (humans + bots); proprietary data moat
 - [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — GWI Connecting the Dots 2026; AI as #3 business decision input; generic AI insight risk
 - [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Dentsu Media Trends 2026; GEO replacing SEO; digital delegation; niche community thesis
-- [[wiki/sources/2026-04-14-mckinsey-state-of-ai-2026]] — McKinsey State of AI 2026; enterprise AI ROI; capability vs. deployment gap
 
 ### Consumer / Health / Wellness (6 sources)
 - [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — Euromonitor 4 consumer trends; Comfort Zone; GLP-1 6%→9%; 58% daily stress
@@ -79,7 +77,7 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 - [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — ITONICS Corporate Innovation 2026; 20–40 AI experiments with no combined impact; <30% translate to revenue; unified PMOs emerging
 - [[wiki/sources/2026-04-15-mcast-trends-2026]] — M.Cast 2026; Invisible AI as infrastructure; imperfection as brand asset; community as distribution
 
-### Consumer / Commerce / Travel (7 new sources — Apr 15)
+### Consumer / Commerce / Travel (4 new sources — Apr 15)
 - [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — TFL/Afterpay 2030; Tech-tility; Ephemeral Culture; algorithmic sameness vs. authentic self-expression; 73% Gen Z feel content pressure
 - [[wiki/sources/2026-04-15-capgemini-frog-new-loyalty]] — frog New Loyalty; 2024 worst US CX decade (Forrester); conversion optimization killed loyalty; "known and understood" as new standard
 - [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — TFL/Omio 2035; 5 future journey types; Intuitive Agents, Travel-tainment, Identity Itineraries
@@ -111,18 +109,18 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 - [[wiki/concepts/stability-premium]] — Trust, certainty, proof-over-promise; 8 sources
 - [[wiki/concepts/proof-over-promise]] — Evidentiary legitimacy over aspirational claims; brand trust as measurable revenue driver; 8 sources *(new 2026-04-15)*
 - [[wiki/concepts/human-journeys]] — Bottom-up personal AI adoption; AI-mediated discovery; 8 sources
-- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 11 sources
+- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 13 sources
 - [[wiki/concepts/loneliness-epidemic]] — Connection deficit; community as wellness and business strategy; 8 sources
 - [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 10 sources
 - [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources
 - [[wiki/concepts/beauty-reinvention]] — Beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; GLP-1 body norm disruption; 9 sources
 
 ### Supply-side (technology / commercial infrastructure)
-- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 20 sources
+- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 19 sources
 - [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 8 sources
-- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources
+- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources
 - [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 9 sources *(expanded 2026-04-15)*
-- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 7 sources *(expanded 2026-04-15)*
+- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 8 sources *(expanded 2026-04-15)*
 
 ### Macro context
 - [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 10 sources
@@ -146,4 +144,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-04-15 | Sources: 65 | Concepts: 17 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-04-15 | Sources: 63 | Concepts: 17 | Entities: 3 | Analyses: 0*

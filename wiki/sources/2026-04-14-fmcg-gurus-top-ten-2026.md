@@ -35,6 +35,11 @@ Three priority areas dominate: trust and transparency (proof over promise, visib
 - [[wiki/concepts/stability-premium]] — trust and transparency as brand currency; proof over promise
 - [[wiki/concepts/good-vibrations]] — mood and indulgence as mental health strategy; accessible escapism
 
+## Contradictions / Tensions
+
+- FMCG Gurus emphasizes evidence and transparency, but much of FMCG category marketing still relies on soft claims and ambiguous terminology. The strategic direction is clear; execution maturity remains uneven.
+- "Small indulgence" growth can coexist with long-term health optimization, but the product strategies often pull in opposite directions (comfort-driven formulations vs. strict health claims).
+
 ## Raw Source
 
 [[raw/FMCG_Gurus_Top_Ten_Trends_for_2026-Trend_Digest.pdf]]

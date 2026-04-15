@@ -28,6 +28,7 @@ The commerce implications are significant: Capgemini reports 46% of shoppers mak
 - [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AI changing healthcare SEO; 61% US adults using AI; 58% use gen AI for product/service recommendations
 - [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools now #3 input for business decisions; AI insights generic due to poor underlying data
 - [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — AI retail traffic +760% YoY during holiday 2024; 25% upload blood tests to ChatGPT
+- [Survey] [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — SMB behavior mirrors the same shift: TikTok Shop +120% YoY and rapid gen-AI adoption in customer workflows indicate discovery and conversion are moving away from classic keyword search
 - [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI chatbot presence as "new SEO" for fashion brands; agentic commerce accelerating
 - [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI is consumers' #2 purchase rec source (18%) ahead of social, search, brand websites; SEO → GEO imperative; 50% of active users informed a purchase via gen AI; Perplexity/LLM platform partnerships as emerging brand strategy
 - [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: AI scrolling replaced by intent-first agent conversations; Agentforce and Rufus as agentic enterprise beginnings

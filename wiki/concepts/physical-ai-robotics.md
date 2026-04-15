@@ -3,7 +3,7 @@ type: concept
 title: "Physical AI and Robotics"
 aliases: [physical AI, humanoid robots, embodied AI, autonomous vehicles, robotics, AgeTech]
 tags: [#technology, #ai, #economics, #speculative]
-source_count: 7
+source_count: 8
 last_updated: 2026-04-15
 ---
 
@@ -23,6 +23,7 @@ The geopolitical dimension is significant: humanoid robotics and autonomous vehi
 
 - [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare
 - [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)
+- [Scenario] [[wiki/sources/2026-04-15-tfl-g42-sport-ai]] — applied AI in sport illustrates embodied intelligence in practice: real-time tactical systems, injury prediction, and performance optimization pipelines moving from elite contexts toward broader deployment
 - [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020
 - [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware
 - [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B intelligent agents by 2035; physical-digital AI convergence; robotic integration into manufacturing and eldercare as part of the intelligent world infrastructure

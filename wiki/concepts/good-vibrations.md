@@ -3,8 +3,8 @@ type: concept
 title: "Good Vibrations"
 aliases: [digital flight, third spaces, social rewilding, play economy, physical culture renaissance, Joy of Wellness, Gleamers, event tourism]
 tags: [#culture, #health, #economics, #established]
-source_count: 12
-last_updated: 2026-04-14
+source_count: 13
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -22,6 +22,7 @@ Digital culture is experiencing a **relevance crisis**. Social media content is 
 ## Evidence
 
 - [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 77% say spontaneous fun is important; 73% prefer authentic (even imperfect) experiences; 77% expect brands to create wellbeing/joy products; 82% of executives say offline cultural shifts matter but can't detect them
+- [Forecast] [[wiki/sources/2026-04-14-adobe-creative-trends-2026]] — "Connectioneering," local flavor, and surreal play aesthetics confirm that joy, community, and cultural specificity are becoming dominant creative strategies
 - [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — Community as core wellness infrastructure: run clubs, group retreats driving behavior change; 68% of Gen Z say wellness is more "doable" with community support; "Joy of Wellness" named as anti-optimization countertrend
 - [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — The Gleamers consumer profile: community-focused, third space-reliant, happiness through chosen families; "minorstones" (small milestones) replacing grand ambition; urban-to-rural migration seeking connection
 - [Forecast] [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — Collectible ephemera (Labubu blind boxes, Starbucks bearista) as community-building hype objects; human-made as premium signal against AI flood; play and ritual as brand loyalty mechanisms
@@ -32,6 +33,7 @@ Digital culture is experiencing a **relevance crisis**. Social media content is 
 - [Survey] [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — MICE (meetings, incentives, conferences, events) identified as strategic asset class; human connection has "irreducible value" as rationale for in-person B2B events' resilience
 - [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Niche community thesis: communities of interest outperform broadcast; humans as social animals making community a structural media force
 - [Forecast] [[wiki/sources/2026-04-14-pinterest-predicts-2026]] — "Darecations" (+130% search growth): adventure travel replacing passive tourism; Gen Z leading physical experience-seeking behavior as cultural identity signal
+- [Forecast] [[wiki/sources/2026-04-15-bacardi-cocktail-trends-2025]] — Premium social rituals (cocktail culture, culinary pairings, bartender-as-curator) are repositioned as intentional, community-oriented experience rather than pure consumption
 
 ## Tensions & Counterarguments
 

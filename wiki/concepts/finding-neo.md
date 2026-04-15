@@ -4,7 +4,7 @@ title: "Finding Neo"
 aliases: [human-centered AI, enterprise AI gap, AI workplace anxiety, workslop, AI trust gap, enterprise AI maturity]
 tags: [#ai, #labor, #technology, #established]
 source_count: 8
-last_updated: 2026-04-14
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -23,8 +23,8 @@ Enterprise AI adoption is hitting a wall of human resistance that quantitative R
 
 - [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 85% of C-suite planned to increase AI investment in 2025; 29% doubt meaningful customer value; 42% say org is moving too fast without workforce prep; only 28% of employees believe leaders understand their AI concerns; 421M+ fear mentions online in one year
 - [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Only 11% of AI implementations are in production (the "trough of disillusionment"); governance and risk frameworks lagging adoption; AI agents as the next frontier with cultural readiness gap
-- [Survey] [[wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026]] — Enterprise AI adoption is widespread in intent but thin in execution; domain-specific models and RAG architectures emerging as production path; AI governance as board-level concern
-- [Survey] [[wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026]] — Enterprise AI trust gap is measurable: high investment intent but low confidence in data quality underlying AI systems; data readiness as the hidden constraint on AI value delivery
+- [Survey] [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — Enterprise adoption intent remains high but execution quality depends on governance, sovereignty strategy, and accountability to customers/employees
+- [Survey] [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — Enterprise AI trust gap is measurable: adoption growth is high but data trust remains the bottleneck, with most pilots failing to reach production value
 - [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — "Workslop" compounds: AI-generated content is flooding channels; 78% of well-structured content more likely to be cited by AI (Cornell), meaning the quality bar is rising even as average output quality falls
 - [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; but AI-generated insights are generic due to biased, outdated underlying data — the quality problem is systemic, not just at the user level
 - [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner's hype cycle data: post-peak disillusionment is visible in enterprise AI; human-AI collaboration models (not replacement) identified as the path to productive plateau

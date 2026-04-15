@@ -64,7 +64,7 @@ The "video game winter" is ending; BCG projects gaming revenue from $263B to $35
 
 ## The Central Tensions
 
-Across 38 sources, seven genuine tensions emerge — points where the data genuinely conflicts, not just complicates:
+Across 63 sources, seven genuine tensions emerge — points where the data genuinely conflicts, not just complicates:
 
 | Tension | Force A | Force B |
 |---------|---------|---------|
@@ -80,7 +80,7 @@ Across 38 sources, seven genuine tensions emerge — points where the data genui
 
 ## What the New Sources Resolved
 
-The first session was based on Accenture Life Trends alone. The 37 additional sources confirmed, extended, or complicated the original five-trend framework:
+The first session was based on Accenture Life Trends alone. The expanded corpus now includes 63 sources, which confirmed, extended, or complicated the original five-trend framework:
 
 **Confirmed and reinforced:**
 - Stability craving (Euromonitor Comfort Zone, FMCG Gurus proof-over-promise, Lippincott)
@@ -112,7 +112,7 @@ The first session was based on Accenture Life Trends alone. The 37 additional so
 
 | Domain | Sources |
 |--------|---------|
-| Technology / AI | 16 |
+| Technology / AI | 13 |
 | Consumer / Commerce / Travel | 11 |
 | Finance / Investment | 6 |
 | Health / Wellness | 6 |
@@ -120,7 +120,8 @@ The first session was based on Accenture Life Trends alone. The 37 additional so
 | Culture / Brand / Sport | 10 |
 | Sustainability / Climate / Policy | 6 |
 | Retail / Business | 2 |
-| **Total** | **65** |
+| Small Business | 1 |
+| **Total** | **63** |
 
 ---
 
@@ -132,18 +133,18 @@ The first session was based on Accenture Life Trends alone. The 37 additional so
 - [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise; 8 sources
 - [[wiki/concepts/proof-over-promise]] — evidentiary legitimacy over aspirational claims; the demand for demonstrable evidence; 8 sources
 - [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 8 sources
-- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 11 sources
+- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 13 sources
 - [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business strategy; 8 sources
 - [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming; 10 sources
 - [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources
 - [[wiki/concepts/beauty-reinvention]] — beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; 9 sources
 
 **Supply-side (technology/commercial infrastructure):**
-- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 20 sources
+- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 19 sources
 - [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 8 sources
-- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources
+- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources
 - [[wiki/concepts/creator-economy-commerce]] — creator as primary distribution channel; TikTok Shop; 9 sources
-- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 7 sources
+- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 8 sources
 
 **Macro context:**
 - [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 10 sources
@@ -167,4 +168,4 @@ When a single concept has evidence converging across all three tiers — survey 
 
 ---
 
-*Last updated: 2026-04-15 | Total sources: 65 | Concepts: 17 | Entities: 3*
+*Last updated: 2026-04-15 | Total sources: 63 | Concepts: 17 | Entities: 3*
