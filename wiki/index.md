@@ -70,29 +70,64 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 ### Small Business (1 source)
 - [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — Lovable.dev Small Business Trends 2026; 58% SMBs using gen AI; TikTok Shop +120% YoY; 81% SMBs suffered breach in past year
 
+### Technology / AI Foresight (7 new sources — Apr 15)
+- [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — FTSG Convergence Outlook 2026; 10 convergences; Compute Shock, Agentic Economies, Emotional Outsourcing; creative destruction framework
+- [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Accenture Consumer Pulse 2025 (18K consumers, 14 countries); gen AI as #2 purchase rec source; 75% open to agentic shopper; 54% see uncertainty as new normal
+- [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — IBM IBV 5 Trends for 2026; appetite for ambiguity; employees 2× embrace vs. resist AI; quantum advantage through coalitions
+- [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — frog/Capgemini Futurescape 2025; 25 trends over 25 years; Club Clarity, Effortless Normal, Zero UI, Biodesign
+- [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — Huawei IW 2035; 9B humans × 900B agents; compute 100,000×; 1.5T kWh data center energy by 2035; wind/solar 50% by 2035
+- [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — ITONICS Corporate Innovation 2026; 20–40 AI experiments with no combined impact; <30% translate to revenue; unified PMOs emerging
+- [[wiki/sources/2026-04-15-mcast-trends-2026]] — M.Cast 2026; Invisible AI as infrastructure; imperfection as brand asset; community as distribution
+
+### Consumer / Commerce / Travel (7 new sources — Apr 15)
+- [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — TFL/Afterpay 2030; Tech-tility; Ephemeral Culture; algorithmic sameness vs. authentic self-expression; 73% Gen Z feel content pressure
+- [[wiki/sources/2026-04-15-capgemini-frog-new-loyalty]] — frog New Loyalty; 2024 worst US CX decade (Forrester); conversion optimization killed loyalty; "known and understood" as new standard
+- [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — TFL/Omio 2035; 5 future journey types; Intuitive Agents, Travel-tainment, Identity Itineraries
+- [[wiki/sources/2026-04-15-intrepid-sustainable-travel]] — TFL/Intrepid Sustainable Travel; carbon passports; Chasing the Shade; People-positive Travel 2040
+
+### Policy / Institution (2 new sources — Apr 15)
+- [[wiki/sources/2026-04-15-eu-foresight-resilience-2.0]] — EU Foresight Report 2025; Resilience 2.0; proactive vs. reactive governance; EU 450M people, 15% global goods trade
+- [[wiki/sources/2026-04-15-oecd-sti-outlook-2025]] — OECD STI Outlook 2025 (251pp); AI in science; science decoupling; green transition as largest public STI investment
+
+### Beauty / Luxury (8 sources — Apr 15)
+- [[wiki/sources/2026-04-15-accenture-reinvention-of-beauty]] — Accenture Beauty Reinvention; H&W $1.7T→$3.1T by 2030; beauty $0.5T→$0.83T; science-led portfolio transformation
+- [[wiki/sources/2026-04-15-bcg-true-luxury-2024]] — BCG True Luxury 10th Ed. 2024; Beyond Money (<1% clients, 21% spend); luxury pyramid sharply stratifying
+- [[wiki/sources/2026-04-15-mckinsey-beauty-genai]] — McKinsey Beauty GenAI; $9–10B gen AI impact on beauty; four priority use cases; scaling from experiment to advantage
+- [[wiki/sources/2026-04-15-mckinsey-state-of-fashion-beauty-2023]] — McKinsey×BoF State of Fashion Beauty 2023; $427B→$580B by 2027; luxury beauty doubles; Gen Z redefines beauty
+- [[wiki/sources/2026-04-15-mckinsey-beauty-boom-2024]] — McKinsey Sep 2024 beauty boom update; $446B→$590B by 2028 at 6% CAGR; price-fuelled era ending; fragrance leads; luxury fastest tier; specialty retail as discovery hub
+- [[wiki/sources/2026-04-15-tfl-luxury-futures-2023]] — The Future Laboratory Luxury Futures 2023; "Luxury Recrafted" macrotrend; Gated Retail; Knowledge Clubs; top 3% = 30% of sales
+- [[wiki/sources/2026-04-15-accenture-map-the-future-beauty]] — Accenture Map the Future Beauty workshops; 8 future-proof beauty promises; demographic hard truths (2B GenZ + 2B 50+ by 2030); NCD data; 10 leadership capabilities
+- [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Accenture for Chanel Apr 2025; 3 territories: Post-Website Era (GenAI), Revamp Loyalty, Beauty-as-a-Service
+
+### Culture / Sport / Beverage (2 new sources — Apr 15)
+- [[wiki/sources/2026-04-15-tfl-g42-sport-ai]] — TFL/G42 Future of Sport & AI; talent democratization; in-game tactical AI; AI health monitoring in sport
+- [[wiki/sources/2026-04-15-bacardi-cocktail-trends-2025]] — Bacardi/TFL Cocktail Trends 2025; premiumization with purpose; curators of experience; spirits recovery from 2023–2024 decline
+
 ---
 
-## Concepts (13 total)
+## Concepts (16 total)
 
 ### Demand-side (consumer / human experience)
 - [[wiki/concepts/stability-premium]] — Trust, certainty, proof-over-promise; 8 sources
 - [[wiki/concepts/human-journeys]] — Bottom-up personal AI adoption; AI-mediated discovery; 8 sources
 - [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 12 sources
 - [[wiki/concepts/loneliness-epidemic]] — Connection deficit; community as wellness and business strategy; 8 sources
-- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 11 sources
+- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 14 sources
 - [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources
+- [[wiki/concepts/beauty-reinvention]] — Beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; GLP-1 body norm disruption; 9 sources
 
 ### Supply-side (technology / commercial infrastructure)
-- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; only 11% in production; governance gap; 14 sources
+- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 22 sources
 - [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 7 sources
-- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; agentic purchasing; 9 sources
+- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources
 - [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 5 sources
 - [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 4 sources
 
 ### Macro context
-- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 9 sources
+- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 13 sources
 - [[wiki/concepts/geopolitical-multipolarity]] — Industrial policy 6x; US/China AI race; rare earth concentration; 8 sources
 - [[wiki/concepts/sustainability-transition]] — Sustainability as competitive strategy; CBAM live Jan 2026; physical climate costs $1.4T in 2024; circularity as supply chain defense; 6 sources
+- [[wiki/concepts/sovereign-ai-compute]] — Compute as geographically constrained resource; sovereign AI infrastructure; energy-tethered data centers; hyperscaler model fracturing; 5 sources
 
 ---
 
@@ -110,4 +145,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-04-14 | Sources: 45 | Concepts: 14 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-04-15 | Sources: 65 | Concepts: 16 | Entities: 3 | Analyses: 0*

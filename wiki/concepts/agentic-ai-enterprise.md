@@ -3,8 +3,8 @@ type: concept
 title: "Agentic AI Enterprise"
 aliases: [agentic AI, AI agents, multi-agent systems, autonomous AI, digital delegation]
 tags: [#technology, #ai, #economics, #established]
-source_count: 16
-last_updated: 2026-04-14
+source_count: 22
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -33,6 +33,12 @@ The gap between aspiration and reality is still large: Deloitte reports only 11%
 - [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — AI as geopolitical competition arena; GenAI middle powers emerging
 - [[wiki/sources/2026-04-14-ai-2027-scenario]] — Most concrete near-term agentic AI trajectory: by early 2026 AI is accelerating AI R&D at 1.5x speed; late 2026 stock market +30% led by AI companies; junior software engineering in turmoil; global AI CapEx projected at $1T; alignment verification remains unsolved (you can write the Spec but can't check if it worked)
 - [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Organizational side of the AI deployment reality: 25% of job candidates will be fake by 2028; 43% of security leaders saw AI deepfake incidents; North Korean fraudulent employment at Western tech firms up 220% YoY; cognitive atrophy and AI psychosis emerging as new workplace risk categories
+- [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — Agentic Economies convergence: agent-to-agent commerce at machine speed; human transaction initiation replaced by machine-executed outcomes; "delegated authority" as the great competitive struggle of the coming decade; power accrues to whoever controls what agents can see and do
+- [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI as #2 consumer purchase rec source; 75% open to agentic personal shopper; 9% already rank gen AI as most trusted source; bot-to-bot commerce emerging; branding moving to LLM ecosystem strategy
+- [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — 2× workers embrace AI vs. resist; customers hold AI accountable; global AI resilience requires local safety nets
+- [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: agent-led conversational commerce; Zero UI (ambient AI disappearing into infrastructure)
+- [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B agents by 2035; agentic internet replacing mobile internet; agents as decision-making partners
+- [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org with no combined strategic impact; AI coordination as strategic asset; fewer than 30% translate to revenue
 
 ## Tensions & Counterarguments
 

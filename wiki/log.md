@@ -6,6 +6,22 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-04-15] ingest | Beauty & luxury deep-dive — 4 new sources (65 total in wiki)
+
+- New sources identified: 9 untracked raw files; 5 confirmed as already-ingested (5fe57b90-en.pdf = OECD STI, SFR2025 = EU Foresight, Insights_Delivering = frog New Loyalty, plus 2 PDF/PPTX with no extractable trend content)
+- 4 new sources ingested:
+  - wiki/sources/2026-04-15-mckinsey-beauty-boom-2024.md — McKinsey Sep 2024 update; $446B→$590B beauty by 2028; price-fuelled era ending; luxury fastest tier; specialty retail hub
+  - wiki/sources/2026-04-15-tfl-luxury-futures-2023.md — The Future Laboratory; "Luxury Recrafted"; Gated Retail; Knowledge Clubs; top 3% clients = 30% of sales
+  - wiki/sources/2026-04-15-accenture-map-the-future-beauty.md — Accenture workshop decks; 8 future-proof beauty promises; demographic hard truths (2B GenZ + 2B 50+); NCD data; 10 leadership capabilities
+  - wiki/sources/2026-04-15-accenture-lead-future-chanel-territories.md — Accenture for Chanel; 3 territories: Post-Website Era, Revamp Loyalty, Beauty-as-a-Service
+- Concepts updated (3):
+  - wiki/concepts/beauty-reinvention.md — source_count 5→9; added 4 new evidence citations
+  - wiki/concepts/economic-bifurcation.md — source_count 12→13; added McKinsey beauty price tier data
+  - wiki/concepts/searchless-discovery.md — source_count 13→14; added Chanel post-website territory citation
+- Updated: wiki/index.md — 4 new sources catalogued; source total 61→65
+
+---
+
 ## [2026-04-14] ingest | New documents ingest — 7 new sources (45 total in wiki)
 
 - New sources identified: 12 candidate files; 5 confirmed duplicates of already-processed sources (Lippincott, BNP Paribas/AXA IM, JP Morgan, WTW, BCD); 7 unique new documents ingested

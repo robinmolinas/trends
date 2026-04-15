@@ -3,8 +3,8 @@ type: concept
 title: "Economic Bifurcation"
 aliases: [K-shaped economy, two Americas, wealth polarization, income inequality, dual economy, premium vs. budget]
 tags: [#economics, #culture, #established]
-source_count: 12
-last_updated: 2026-04-14
+source_count: 13
+last_updated: 2026-04-15
 ---
 
 ## Definition
@@ -30,6 +30,7 @@ The political dimension is significant: 42% of US consumers cite rising prices a
 - [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — 70% use small indulgences to cope with financial stress
 - [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — rising ad costs squeezing mid-market sellers; winner-take-most platform dynamics
 - [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — global medical cost inflation 10.3%; public health system decline driving costs to private plans
+- [[wiki/sources/2026-04-15-mckinsey-beauty-boom-2024]] — Beauty price tier divergence: luxury 9% CAGR vs. mass 5%; 13% luxury growth vs. 10% mass in 2023; up to 20% of US/European consumers traded down to cheaper brands
 
 ## Tensions & Counterarguments
 

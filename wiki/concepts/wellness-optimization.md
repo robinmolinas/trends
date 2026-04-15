@@ -3,8 +3,8 @@ type: concept
 title: "Wellness Optimization"
 aliases: [longevity optimization, biohacking, precision health, personalized nutrition, healthspan, proactive wellness]
 tags: [#health, #economics, #technology, #established]
-source_count: 11
-last_updated: 2026-04-14
+source_count: 14
+last_updated: 2026-04-15
 ---
 
 ## Definition
