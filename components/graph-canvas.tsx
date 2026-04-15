@@ -46,6 +46,7 @@ export function GraphCanvas({
   onSelectNode
 }: GraphCanvasProps) {
   const graphRef = useRef<any>(null);
+  const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
 
   const connectedIds = useMemo(() => {
     const set = new Set<string>();
@@ -68,9 +69,10 @@ export function GraphCanvas({
   }, [edges, nodes]);
 
   useEffect(() => {
-    if (!graphRef.current) return;
-    graphRef.current.d3AlphaDecay(0.028);
-    graphRef.current.d3VelocityDecay(0.24);
+    const fg = graphRef.current;
+    if (!fg || typeof fg.d3AlphaDecay !== "function") return;
+    fg.d3AlphaDecay(0.028);
+    fg.d3VelocityDecay(0.24);
   }, [graphData]);
 
   useEffect(() => {
@@ -119,12 +121,13 @@ export function GraphCanvas({
         nodeCanvasObject={(nodeObj: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
           const node = nodeObj as GraphNodeVisual;
           const isSelected = node.id === selectedNodeId;
+          const isHovered = node.id === hoveredNodeId;
           const isConnected = connectedIds.has(node.id);
           const isHighlighted = highlightedNodeIds.has(node.id);
           const matchesSearch = !!search && node.searchText.includes(search);
 
           const baseRadius = Math.max(3.5, 4.5 + Math.sqrt(Math.max(node.degree, 1)) * 0.9);
-          const radius = isSelected ? baseRadius + 3.5 : baseRadius;
+          const radius = isSelected ? baseRadius + 3.5 : isHovered ? baseRadius + 1.5 : baseRadius;
           const x = node.x || 0;
           const y = node.y || 0;
 
@@ -145,37 +148,41 @@ export function GraphCanvas({
           ctx.arc(x, y, radius, 0, 2 * Math.PI, false);
           ctx.fillStyle = isSelected
             ? "oklch(0.50 0.16 30)"
-            : matchesSearch
-              ? "oklch(0.58 0.14 75)"
-              : isHighlighted
-                ? "oklch(0.55 0.14 30)"
-                : NODE_COLORS[node.type];
+            : isHovered
+              ? "oklch(0.55 0.12 50)"
+              : matchesSearch
+                ? "oklch(0.58 0.14 75)"
+                : isHighlighted
+                  ? "oklch(0.55 0.14 30)"
+                  : NODE_COLORS[node.type];
           ctx.fill();
 
-          // Connected stroke
-          if (isConnected || isHighlighted) {
-            ctx.lineWidth = isSelected ? 2.5 : 1.2;
+          // Connected / hovered stroke
+          if (isConnected || isHighlighted || isHovered) {
+            ctx.lineWidth = isSelected ? 2.5 : isHovered ? 1.8 : 1.2;
             ctx.strokeStyle = isSelected
               ? "oklch(0.95 0.02 75 / 0.95)"
               : "oklch(0.90 0.02 75 / 0.7)";
             ctx.stroke();
           }
 
-          // Labels
-          const showLabel = isSelected || isHighlighted || matchesSearch || globalScale >= 2.8;
+          // Labels — show on hover, selection, highlight, search match, or sufficient zoom
+          const showLabel = isSelected || isHovered || isHighlighted || matchesSearch || globalScale >= 2.8;
           if (showLabel) {
-            const fontSize = Math.max(10, (isSelected ? 15 : 11.5) / globalScale);
-            ctx.font = `${isSelected ? 600 : 400} ${fontSize}px "DM Sans", sans-serif`;
+            // Font size in screen pixels, converted to canvas units
+            const screenPx = isSelected ? 13 : isHovered ? 12 : 11;
+            const fontSize = screenPx / globalScale;
+            ctx.font = `${isSelected || isHovered ? 600 : 400} ${fontSize}px "DM Sans", sans-serif`;
             ctx.textAlign = "left";
             ctx.textBaseline = "middle";
 
-            const labelX = x + radius + 5;
+            const labelX = x + radius + 4 / globalScale;
             const text = node.title;
             const metrics = ctx.measureText(text);
 
             // Label background
-            const pad = 3 / globalScale;
-            ctx.fillStyle = "oklch(0.95 0.015 75 / 0.85)";
+            const pad = 2.5 / globalScale;
+            ctx.fillStyle = "oklch(0.95 0.015 75 / 0.88)";
             ctx.fillRect(
               labelX - pad,
               y - fontSize / 2 - pad,
@@ -194,6 +201,9 @@ export function GraphCanvas({
           ctx.beginPath();
           ctx.arc(node.x || 0, node.y || 0, radius, 0, 2 * Math.PI, false);
           ctx.fill();
+        }}
+        onNodeHover={(node: any) => {
+          setHoveredNodeId(node ? (node as GraphNodeVisual).id : null);
         }}
         onNodeClick={(node: any) => {
           onSelectNode((node as GraphNodeVisual).id);
