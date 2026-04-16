@@ -1,6 +1,10 @@
-import type { GraphNode, GraphPayload, NodeType, QueryResponse } from "./types";
+import type { GraphNode, GraphPayload, NodeType, QueryMode, QueryResponse } from "./types";
 
 type RankedNode = GraphNode & { score: number };
+
+type EvidenceItem = QueryResponse["evidence"][number];
+
+type CitationItem = NonNullable<QueryResponse["citations"]>[number];
 
 const STOP_WORDS = new Set([
   "a",
@@ -32,6 +36,21 @@ const STOP_WORDS = new Set([
   "you",
   "our"
 ]);
+
+export type GroundingSnippet = {
+  index: number;
+  id: string;
+  title: string;
+  type: NodeType;
+  path: string;
+  summary: string;
+  content: string;
+};
+
+export type GenerateGroundedAnswer = (params: {
+  query: string;
+  snippets: GroundingSnippet[];
+}) => Promise<string>;
 
 function tokenize(input: string): string[] {
   return input
@@ -81,7 +100,65 @@ function scoreNode(node: GraphNode, terms: string[], selectedNodeId?: string, ad
   return score;
 }
 
-function generateAnswer(query: string, ranked: RankedNode[], matchedTags: string[]) {
+export function rankRelevantNodes(
+  payload: GraphPayload,
+  query: string,
+  selectedNodeId?: string,
+  filters?: NodeType[]
+): RankedNode[] {
+  const terms = tokenize(query);
+  const activeTypes = filters?.length ? new Set(filters) : null;
+  const adjacency = buildAdjacency(payload);
+
+  return payload.nodes
+    .filter((node) => (activeTypes ? activeTypes.has(node.type) : true))
+    .map((node) => ({
+      ...node,
+      score: scoreNode(node, terms, selectedNodeId, adjacency)
+    }))
+    .filter((node) => node.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 8);
+}
+
+export function collectMatchedTags(ranked: RankedNode[]): string[] {
+  const tagFrequency = new Map<string, number>();
+  for (const node of ranked) {
+    for (const tag of node.tags) {
+      tagFrequency.set(tag, (tagFrequency.get(tag) || 0) + 1);
+    }
+  }
+
+  return [...tagFrequency.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([tag]) => tag)
+    .slice(0, 8);
+}
+
+function toEvidence(ranked: RankedNode[]): EvidenceItem[] {
+  return ranked.map((node) => ({
+    id: node.id,
+    title: node.title,
+    type: node.type,
+    path: node.path,
+    score: Number(node.score.toFixed(2)),
+    summary: node.summary
+  }));
+}
+
+export function toGroundingSnippets(ranked: RankedNode[]): GroundingSnippet[] {
+  return ranked.slice(0, 6).map((node, idx) => ({
+    index: idx + 1,
+    id: node.id,
+    title: node.title,
+    type: node.type,
+    path: node.path,
+    summary: node.summary,
+    content: node.content.slice(0, 1800)
+  }));
+}
+
+function generateDeterministicAnswer(ranked: RankedNode[], matchedTags: string[]) {
   const concepts = ranked.filter((node) => node.type === "concept").slice(0, 3);
   const sources = ranked.filter((node) => node.type === "source").slice(0, 4);
 
@@ -134,49 +211,109 @@ function generateInsights(ranked: RankedNode[]) {
   return insights.slice(0, 3);
 }
 
-export function answerQuery(payload: GraphPayload, query: string, selectedNodeId?: string, filters?: NodeType[]): QueryResponse {
-  const terms = tokenize(query);
-  const activeTypes = filters?.length ? new Set(filters) : null;
-  const adjacency = buildAdjacency(payload);
+function extractCitationIndexes(answer: string, maxIndex: number): number[] {
+  const indexes = new Set<number>();
+  const matches = answer.matchAll(/\[(\d+)\]/g);
 
-  const ranked = payload.nodes
-    .filter((node) => (activeTypes ? activeTypes.has(node.type) : true))
-    .map((node) => ({
-      ...node,
-      score: scoreNode(node, terms, selectedNodeId, adjacency)
-    }))
-    .filter((node) => node.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 8);
-
-  const tagFrequency = new Map<string, number>();
-  for (const node of ranked) {
-    for (const tag of node.tags) {
-      tagFrequency.set(tag, (tagFrequency.get(tag) || 0) + 1);
+  for (const match of matches) {
+    const parsed = Number.parseInt(match[1], 10);
+    if (Number.isFinite(parsed) && parsed >= 1 && parsed <= maxIndex) {
+      indexes.add(parsed);
     }
   }
 
-  const matchedTags = [...tagFrequency.entries()]
-    .sort((a, b) => b[1] - a[1])
-    .map(([tag]) => tag)
-    .slice(0, 8);
+  return [...indexes].sort((a, b) => a - b);
+}
 
-  const answer = ranked.length
-    ? generateAnswer(query, ranked, matchedTags)
-    : "No strong matches yet. Try a more specific query (for example: 'How will agentic AI reshape SMB operations in 2026?').";
+function mapCitations(answer: string, evidence: EvidenceItem[]): CitationItem[] {
+  const indexes = extractCitationIndexes(answer, evidence.length);
+  return indexes.map((index) => {
+    const ref = evidence[index - 1];
+    return {
+      marker: `[${index}]`,
+      index,
+      evidenceId: ref.id,
+      evidenceTitle: ref.title
+    };
+  });
+}
+
+function buildResponseBase(
+  query: string,
+  modeUsed: QueryMode,
+  answer: string,
+  ranked: RankedNode[],
+  matchedTags: string[]
+): QueryResponse {
+  const evidence = toEvidence(ranked);
+  const citations = mapCitations(answer, evidence);
 
   return {
     query,
+    modeUsed,
     answer,
     insights: generateInsights(ranked),
-    evidence: ranked.map((node) => ({
-      id: node.id,
-      title: node.title,
-      type: node.type,
-      path: node.path,
-      score: Number(node.score.toFixed(2)),
-      summary: node.summary
-    })),
+    evidence,
+    citations: citations.length ? citations : undefined,
     matchedTags
   };
+}
+
+export function answerQueryDeterministic(
+  payload: GraphPayload,
+  query: string,
+  selectedNodeId?: string,
+  filters?: NodeType[]
+): QueryResponse {
+  const ranked = rankRelevantNodes(payload, query, selectedNodeId, filters);
+  const matchedTags = collectMatchedTags(ranked);
+
+  const answer = ranked.length
+    ? generateDeterministicAnswer(ranked, matchedTags)
+    : "No strong matches yet. Try a more specific query (for example: 'How will agentic AI reshape SMB operations in 2026?').";
+
+  return buildResponseBase(query, "deterministic", answer, ranked, matchedTags);
+}
+
+export async function answerQuery(
+  payload: GraphPayload,
+  query: string,
+  selectedNodeId?: string,
+  filters?: NodeType[],
+  mode: QueryMode = "deterministic",
+  generateGroundedAnswer?: GenerateGroundedAnswer
+): Promise<QueryResponse> {
+  const ranked = rankRelevantNodes(payload, query, selectedNodeId, filters);
+  const matchedTags = collectMatchedTags(ranked);
+
+  if (!ranked.length) {
+    return buildResponseBase(
+      query,
+      mode === "llm" ? "llm" : "deterministic",
+      "No strong matches yet. Try a more specific query (for example: 'How will agentic AI reshape SMB operations in 2026?').",
+      ranked,
+      matchedTags
+    );
+  }
+
+  if (mode === "llm" && generateGroundedAnswer) {
+    try {
+      const llmAnswer = await generateGroundedAnswer({
+        query,
+        snippets: toGroundingSnippets(ranked)
+      });
+
+      const hasCitation = /\[\d+\]/.test(llmAnswer);
+      if (llmAnswer.trim().length > 0 && hasCitation) {
+        return buildResponseBase(query, "llm", llmAnswer.trim(), ranked, matchedTags);
+      }
+      console.warn("LLM fallback: generated answer without required inline citations.");
+    } catch (error) {
+      // Fall through to deterministic mode on LLM errors.
+      const message = error instanceof Error ? error.message : "unknown error";
+      console.warn(`LLM fallback: synthesis call failed (${message}).`);
+    }
+  }
+
+  return buildResponseBase(query, "deterministic", generateDeterministicAnswer(ranked, matchedTags), ranked, matchedTags);
 }

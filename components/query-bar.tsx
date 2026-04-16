@@ -1,7 +1,7 @@
 "use client";
 
-import { FormEvent, useEffect, useRef } from "react";
-import type { QueryResponse } from "@/lib/types";
+import { FormEvent, useEffect, useRef, type ReactNode } from "react";
+import type { QueryMode, QueryResponse } from "@/lib/types";
 
 type QueryState = {
   isLoading: boolean;
@@ -19,6 +19,8 @@ const QUICK_PROMPTS = [
 type QueryBarProps = {
   query: string;
   onQueryChange: (query: string) => void;
+  queryMode: QueryMode;
+  onQueryModeChange: (mode: QueryMode) => void;
   onSubmit: (query: string) => void;
   queryState: QueryState;
   isExpanded: boolean;
@@ -29,13 +31,14 @@ type QueryBarProps = {
 export function QueryBar({
   query,
   onQueryChange,
+  queryMode,
+  onQueryModeChange,
   onSubmit,
   queryState,
   isExpanded,
   onToggleExpand,
   onNavigateToNode
 }: QueryBarProps) {
-  const inputRef = useRef<HTMLInputElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   // Cmd+K global shortcut
@@ -102,6 +105,22 @@ export function QueryBar({
         </div>
 
         <form onSubmit={handleSubmit} className="query-form">
+          <div className="query-mode-toggle" role="group" aria-label="Answer mode">
+            <button
+              type="button"
+              className={`query-mode-btn ${queryMode === "deterministic" ? "active" : ""}`}
+              onClick={() => onQueryModeChange("deterministic")}
+            >
+              Deterministic
+            </button>
+            <button
+              type="button"
+              className={`query-mode-btn ${queryMode === "llm" ? "active" : ""}`}
+              onClick={() => onQueryModeChange("llm")}
+            >
+              LLM (grounded)
+            </button>
+          </div>
           <textarea
             ref={textareaRef}
             value={query}
@@ -140,7 +159,18 @@ export function QueryBar({
           <div className="query-results">
             <div className="query-answer">
               <h4>Answer</h4>
-              <p>{queryState.data.answer}</p>
+              <p>
+                {renderAnswerWithCitations(
+                  queryState.data.answer,
+                  queryState.data.citations || [],
+                  onNavigateToNode
+                )}
+              </p>
+              {queryState.data.modeUsed === "deterministic" && queryMode === "llm" && (
+                <p className="query-mode-note">
+                  LLM answer unavailable. Showing deterministic fallback.
+                </p>
+              )}
             </div>
 
             {queryState.data.insights.length > 0 && (
@@ -190,4 +220,56 @@ export function QueryBar({
       </div>
     </div>
   );
+}
+
+function renderAnswerWithCitations(
+  answer: string,
+  citations: NonNullable<QueryResponse["citations"]>,
+  onNavigateToNode: (nodeId: string) => void
+) {
+  if (!answer) return answer;
+
+  const citationMap = new Map<number, string>();
+  for (const citation of citations) {
+    citationMap.set(citation.index, citation.evidenceId);
+  }
+
+  const parts: ReactNode[] = [];
+  let lastIndex = 0;
+  const regex = /\[(\d+)\]/g;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(answer)) !== null) {
+    const start = match.index;
+    const end = regex.lastIndex;
+    const index = Number.parseInt(match[1], 10);
+
+    if (start > lastIndex) {
+      parts.push(answer.slice(lastIndex, start));
+    }
+
+    const evidenceId = citationMap.get(index);
+    if (evidenceId) {
+      parts.push(
+        <button
+          key={`${start}-${match[0]}`}
+          type="button"
+          className="query-citation"
+          onClick={() => onNavigateToNode(evidenceId)}
+        >
+          {match[0]}
+        </button>
+      );
+    } else {
+      parts.push(match[0]);
+    }
+
+    lastIndex = end;
+  }
+
+  if (lastIndex < answer.length) {
+    parts.push(answer.slice(lastIndex));
+  }
+
+  return parts;
 }

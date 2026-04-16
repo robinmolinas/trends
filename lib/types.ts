@@ -1,4 +1,5 @@
 export type NodeType = "source" | "concept" | "entity" | "analysis" | "overview" | "index";
+export type QueryMode = "deterministic" | "llm";
 
 export type GraphNode = {
   id: string;
@@ -40,6 +41,7 @@ export type QueryRequest = {
   query: string;
   selectedNodeId?: string;
   filters?: NodeType[];
+  mode?: QueryMode;
 };
 
 export type QueryInsight = {
@@ -49,6 +51,7 @@ export type QueryInsight = {
 
 export type QueryResponse = {
   query: string;
+  modeUsed: QueryMode;
   answer: string;
   insights: QueryInsight[];
   evidence: Array<{
@@ -58,6 +61,12 @@ export type QueryResponse = {
     path: string;
     score: number;
     summary: string;
+  }>;
+  citations?: Array<{
+    marker: string;
+    index: number;
+    evidenceId: string;
+    evidenceTitle: string;
   }>;
   matchedTags: string[];
 };

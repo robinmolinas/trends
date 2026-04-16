@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import type { GraphPayload, GraphNode, NodeType, QueryResponse } from "@/lib/types";
+import type { GraphPayload, GraphNode, NodeType, QueryMode, QueryResponse } from "@/lib/types";
 import { GraphCanvas } from "./graph-canvas";
 import { Toolbar } from "./toolbar";
 import { NodePanel } from "./node-panel";
@@ -28,6 +28,7 @@ export function TrendsAtlas() {
 
   // Query state
   const [query, setQuery] = useState("");
+  const [queryMode, setQueryMode] = useState<QueryMode>("deterministic");
   const [queryState, setQueryState] = useState<QueryState>({
     isLoading: false,
     data: null,
@@ -54,12 +55,35 @@ export function TrendsAtlas() {
   useEffect(() => {
     let isMounted = true;
 
+    async function fetchGraphPayload(): Promise<GraphPayload> {
+      const TIMEOUT_MS = 12000;
+
+      async function fetchWithTimeout(url: string): Promise<Response> {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), TIMEOUT_MS);
+        try {
+          return await fetch(url, { signal: controller.signal });
+        } finally {
+          clearTimeout(timeout);
+        }
+      }
+
+      try {
+        // Primary: static public asset
+        const response = await fetchWithTimeout(`/data/graph.json?v=${Date.now()}`);
+        if (!response.ok) throw new Error(`Failed to load graph (${response.status})`);
+        return (await response.json()) as GraphPayload;
+      } catch {
+        // Fallback: API endpoint (helps if static asset fetch hangs in specific environments)
+        const fallbackResponse = await fetchWithTimeout("/api/graph");
+        if (!fallbackResponse.ok) throw new Error(`Failed to load graph fallback (${fallbackResponse.status})`);
+        return (await fallbackResponse.json()) as GraphPayload;
+      }
+    }
+
     async function loadGraph() {
       try {
-        const response = await fetch("/data/graph.json", { cache: "no-store" });
-        if (!response.ok) throw new Error(`Failed to load graph (${response.status})`);
-
-        const data = (await response.json()) as GraphPayload;
+        const data = await fetchGraphPayload();
         if (!isMounted) return;
 
         setPayload(data);
@@ -69,7 +93,8 @@ export function TrendsAtlas() {
         setSelectedNodeId(defaultFocus || data.nodes[0]?.id);
       } catch (error) {
         if (!isMounted) return;
-        setLoadError(error instanceof Error ? error.message : "Unable to load graph data.");
+        const message = error instanceof Error ? error.message : "Unable to load graph data.";
+        setLoadError(message);
       } finally {
         if (isMounted) setLoading(false);
       }
@@ -155,7 +180,8 @@ export function TrendsAtlas() {
         body: JSON.stringify({
           query: trimmed,
           selectedNodeId,
-          filters: activeTypes
+          filters: activeTypes,
+          mode: queryMode
         })
       });
 
@@ -174,7 +200,7 @@ export function TrendsAtlas() {
         error: error instanceof Error ? error.message : "Query failed."
       });
     }
-  }, [activeTypes, selectedNodeId]);
+  }, [activeTypes, queryMode, selectedNodeId]);
 
   // Toggle query expansion
   const handleToggleQuery = useCallback(() => {
@@ -242,6 +268,8 @@ export function TrendsAtlas() {
       <QueryBar
         query={query}
         onQueryChange={setQuery}
+        queryMode={queryMode}
+        onQueryModeChange={setQueryMode}
         onSubmit={handleRunQuery}
         queryState={queryState}
         isExpanded={isQueryExpanded}

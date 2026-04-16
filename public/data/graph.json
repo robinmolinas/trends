@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-15T21:09:03.351Z",
+  "generatedAt": "2026-04-16T09:33:56.151Z",
   "meta": {
-    "totalNodes": 87,
-    "totalEdges": 608,
+    "totalNodes": 85,
+    "totalEdges": 618,
     "countsByType": {
       "concept": 17,
-      "entity": 2,
+      "entity": 3,
       "index": 1,
       "overview": 1,
-      "source": 66
+      "source": 63
     }
   },
   "nodes": [
@@ -25,19 +25,18 @@
       ],
       "path": "wiki/concepts/agentic-ai-enterprise.md",
       "summary": "Definition",
-      "content": "## Definition\n\nThe deployment of AI systems that can autonomously execute multi-step tasks, make decisions, and orchestrate other agents to complete work on behalf of humans and organizations. Agentic AI goes beyond chatbots and copilots — it acts with initiative, persistence, and the ability to use tools (APIs, databases, code execution) to accomplish goals. In the enterprise context, this means AI that doesn't just assist work but does work: completing workflows, managing processes, and interacting with external systems without continuous human supervision.\n\n## Why It Matters\n\nAfter two years of \"AI as assistant,\" 2026 marks the shift to \"AI as actor.\" The distinction is consequential: agentic AI changes cost structures (can replace headcount, not just augment it), changes liability structures (who is accountable when an autonomous system makes a mistake?), and changes the competitive dynamics of industries where AI deployment speed is a moat.\n\nThe gap between aspiration and reality is still large: Deloitte reports only 11% of agentic AI use cases are in production; ITONICS finds organizations running 20–40 AI experiments with no combined strategic impact. But the infrastructure is being built — Salesforce projects 282% AI adoption growth year-over-year; Gartner forecasts 2% → 40% of enterprise apps will be AI-native by 2030. The enterprise AI adoption curve is still early, but the direction is irreversible.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — multi-agent orchestration; 282% AI adoption growth YoY; trust-in-data as bottleneck; regulation as enabler\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — AI-native dev platforms (2% → 40% enterprise apps by 2030); multiagent systems; physical AI (2M humanoids by 2035)\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — only 11% of agentic AI in production; $10M+/month cloud AI bills; 64% increasing AI budgets\n- [Survey] [[wiki/sources/2026-04-14-ibm-5-trends-2026]] — 2x more employees embrace AI than resist; 93% must factor AI sovereignty into strategy\n- [Forecast] [[wiki/sources/2026-04-14-mcast-trends-2026]] — Invisible AI as the internet parallel; 34% embedded AI primary deployment; only 1% mature\n- [Forecast] [[wiki/sources/2026-04-14-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org; <30% translate to revenue; innovation governance fragmented\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — digital delegation; AI agents as consumer intermediaries\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (GEO); proprietary data as moat\n- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI as business necessity; agentic commerce accelerating; AI chatbot presence as new SEO\n- [Forecast] [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — AI in e-commerce grew 270% since 2019; AI-in-e-commerce market $8.65B in 2025\n- [Forecast] [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — AI capex at 1.2–1.3% of US GDP; 44% of US firms paying for AI; 9% in production\n- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — AI as geopolitical competition arena; GenAI middle powers emerging\n- [Scenario] [[wiki/sources/2026-04-14-ai-2027-scenario]] — Most concrete near-term agentic AI trajectory: by early 2026 AI is accelerating AI R&D at 1.5x speed; late 2026 stock market +30% led by AI companies; junior software engineering in turmoil; global AI CapEx projected at $1T; alignment verification remains unsolved (you can write the Spec but can't check if it worked)\n- [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Organizational side of the AI deployment reality: 25% of job candidates will be fake by 2028; 43% of security leaders saw AI deepfake incidents; North Korean fraudulent employment at Western tech firms up 220% YoY; cognitive atrophy and AI psychosis emerging as new workplace risk categories\n- [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — Agentic Economies convergence: agent-to-agent commerce at machine speed; human transaction initiation replaced by machine-executed outcomes; \"delegated authority\" as the great competitive struggle of the coming decade; power accrues to whoever controls what agents can see and do\n- [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI as #2 consumer purchase rec source; 75% open to agentic personal shopper; 9% already rank gen AI as most trusted source; bot-to-bot commerce emerging; branding moving to LLM ecosystem strategy\n- [Survey] [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — 2× workers embrace AI vs. resist; customers hold AI accountable; global AI resilience requires local safety nets\n- [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: agent-led conversational commerce; Zero UI (ambient AI disappearing into infrastructure)\n- [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B agents by 2035; agentic internet replacing mobile internet; agents as decision-making partners\n- [Forecast] [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org with no combined strategic impact; AI coordination as strategic asset; fewer than 30% translate to revenue\n\n## Tensions & Counterarguments\n\n- **Adoption vs. maturity**: Most organizations are running AI experiments (ITONICS: 20–40 per large org) but <30% translate to revenue. The investment is real; the value capture is not yet.\n- **Governance gap**: As AI takes autonomous action, accountability frameworks haven't caught up. IBM flags AI sovereignty as a C-suite concern; Salesforce frames regulation as an enabler — but the regulatory environment is still forming.\n- **AI insight quality**: GWI, Dentsu, and DEPT all flag that AI-generated insights draw on biased, old, unsegmented public data — producing generic outputs. Agentic AI trained on poor data produces poor autonomous decisions at scale.\n- **Job displacement**: M.Cast frames the \"human differentiator\" as the post-AI survival strategy. Entry-level roles (Lippincott data) are already being displaced. The net employment effect is contested.\n\n## Related Concepts\n\n- [[wiki/concepts/searchless-discovery]] — agentic AI is reshaping how consumers find and purchase products\n- [[wiki/concepts/human-journeys]] — digital delegation and intent-behavior gap in AI-mediated decisions\n- [[wiki/concepts/physical-ai-robotics]] — agentic AI extending into physical robots and embodied agents\n\n## Key Players\n\n- [[wiki/entities/glp-1-drugs]] — AI being applied to drug discovery and precision medicine adjacent to this trend\n",
+      "content": "## Definition\n\nThe deployment of AI systems that can autonomously execute multi-step tasks, make decisions, and orchestrate other agents to complete work on behalf of humans and organizations. Agentic AI goes beyond chatbots and copilots — it acts with initiative, persistence, and the ability to use tools (APIs, databases, code execution) to accomplish goals. In the enterprise context, this means AI that doesn't just assist work but does work: completing workflows, managing processes, and interacting with external systems without continuous human supervision.\n\n## Why It Matters\n\nAfter two years of \"AI as assistant,\" 2026 marks the shift to \"AI as actor.\" The distinction is consequential: agentic AI changes cost structures (can replace headcount, not just augment it), changes liability structures (who is accountable when an autonomous system makes a mistake?), and changes the competitive dynamics of industries where AI deployment speed is a moat.\n\nThe gap between aspiration and reality is still large: Deloitte reports only 11% of agentic AI use cases are in production; ITONICS finds organizations running 20–40 AI experiments with no combined strategic impact. But the infrastructure is being built — Salesforce projects 282% AI adoption growth year-over-year; Gartner forecasts 2% → 40% of enterprise apps will be AI-native by 2030. The enterprise AI adoption curve is still early, but the direction is irreversible.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — multi-agent orchestration; 282% AI adoption growth YoY; trust-in-data as bottleneck; regulation as enabler\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — AI-native dev platforms (2% → 40% enterprise apps by 2030); multiagent systems; physical AI (2M humanoids by 2035)\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — only 11% of agentic AI in production; $10M+/month cloud AI bills; 64% increasing AI budgets\n- [Forecast] [[wiki/sources/2026-04-15-mcast-trends-2026]] — Invisible AI as the internet parallel; AI maturity depends on embedding capabilities into workflows rather than standalone tools\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — digital delegation; AI agents as consumer intermediaries\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (GEO); proprietary data as moat\n- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI as business necessity; agentic commerce accelerating; AI chatbot presence as new SEO\n- [Forecast] [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — AI in e-commerce grew 270% since 2019; AI-in-e-commerce market $8.65B in 2025\n- [Forecast] [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — AI capex at 1.2–1.3% of US GDP; 44% of US firms paying for AI; 9% in production\n- [Forecast] [[wiki/sources/2026-04-14-pwc-venture-capital-2026]] — European VC recovery thesis is increasingly AI-led; capital allocation is concentrating around AI-capable portfolios and infrastructure bets\n- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — AI as geopolitical competition arena; GenAI middle powers emerging\n- [Scenario] [[wiki/sources/2026-04-14-ai-2027-scenario]] — Most concrete near-term agentic AI trajectory: by early 2026 AI is accelerating AI R&D at 1.5x speed; late 2026 stock market +30% led by AI companies; junior software engineering in turmoil; global AI CapEx projected at $1T; alignment verification remains unsolved (you can write the Spec but can't check if it worked)\n- [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Organizational side of the AI deployment reality: 25% of job candidates will be fake by 2028; 43% of security leaders saw AI deepfake incidents; North Korean fraudulent employment at Western tech firms up 220% YoY; cognitive atrophy and AI psychosis emerging as new workplace risk categories\n- [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — Agentic Economies convergence: agent-to-agent commerce at machine speed; human transaction initiation replaced by machine-executed outcomes; \"delegated authority\" as the great competitive struggle of the coming decade; power accrues to whoever controls what agents can see and do\n- [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI as #2 consumer purchase rec source; 75% open to agentic personal shopper; 9% already rank gen AI as most trusted source; bot-to-bot commerce emerging; branding moving to LLM ecosystem strategy\n- [Survey] [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — 2× workers embrace AI vs. resist; customers hold AI accountable; global AI resilience requires local safety nets\n- [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: agent-led conversational commerce; Zero UI (ambient AI disappearing into infrastructure)\n- [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B agents by 2035; agentic internet replacing mobile internet; agents as decision-making partners\n- [Forecast] [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org with no combined strategic impact; AI coordination as strategic asset; fewer than 30% translate to revenue\n\n## Tensions & Counterarguments\n\n- **Adoption vs. maturity**: Most organizations are running AI experiments (ITONICS: 20–40 per large org) but <30% translate to revenue. The investment is real; the value capture is not yet.\n- **Governance gap**: As AI takes autonomous action, accountability frameworks haven't caught up. IBM flags AI sovereignty as a C-suite concern; Salesforce frames regulation as an enabler — but the regulatory environment is still forming.\n- **AI insight quality**: GWI, Dentsu, and DEPT all flag that AI-generated insights draw on biased, old, unsegmented public data — producing generic outputs. Agentic AI trained on poor data produces poor autonomous decisions at scale.\n- **Job displacement**: M.Cast frames the \"human differentiator\" as the post-AI survival strategy. Entry-level roles (Lippincott data) are already being displaced. The net employment effect is contested.\n\n## Related Concepts\n\n- [[wiki/concepts/searchless-discovery]] — agentic AI is reshaping how consumers find and purchase products\n- [[wiki/concepts/human-journeys]] — digital delegation and intent-behavior gap in AI-mediated decisions\n- [[wiki/concepts/physical-ai-robotics]] — agentic AI extending into physical robots and embodied agents\n\n## Key Players\n\n- (Primary actors are platform vendors, frontier-model providers, and enterprise CIO/CTO organizations; no dedicated entity pages yet)\n",
       "links": [
         "wiki/sources/2026-04-14-salesforce-ai-agents-2026",
         "wiki/sources/2026-04-14-gartner-tech-trends-2026",
         "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
-        "wiki/sources/2026-04-14-ibm-5-trends-2026",
-        "wiki/sources/2026-04-14-mcast-trends-2026",
-        "wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
+        "wiki/sources/2026-04-15-mcast-trends-2026",
         "wiki/sources/2026-04-14-dentsu-media-trends-2026",
         "wiki/sources/2026-04-14-dept-trends-2026",
         "wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026",
         "wiki/sources/2026-04-14-hidden-ecommerce-trends-2026",
         "wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026",
+        "wiki/sources/2026-04-14-pwc-venture-capital-2026",
         "wiki/sources/2026-04-14-bcg-geopolitical-forces-2026",
         "wiki/sources/2026-04-14-ai-2027-scenario",
         "wiki/sources/2026-04-14-hbr-gartner-work-trends-2026",
@@ -49,8 +48,7 @@
         "wiki/sources/2026-04-15-itonics-corporate-innovation-2026",
         "wiki/concepts/searchless-discovery",
         "wiki/concepts/human-journeys",
-        "wiki/concepts/physical-ai-robotics",
-        "wiki/entities/glp-1-drugs"
+        "wiki/concepts/physical-ai-robotics"
       ],
       "sourceMeta": {
         "type": "concept",
@@ -68,12 +66,12 @@
           "#economics",
           "#established"
         ],
-        "source_count": "22",
+        "source_count": "19",
         "last_updated": "2026-04-15"
       },
-      "inboundCount": 52,
-      "outboundCount": 24,
-      "degree": 76,
+      "inboundCount": 49,
+      "outboundCount": 22,
+      "degree": 71,
       "searchText": "agentic ai enterprise definition #technology #ai #economics #established concept"
     },
     {
@@ -238,9 +236,9 @@
         "source_count": "9",
         "last_updated": "2026-04-15"
       },
-      "inboundCount": 12,
-      "outboundCount": 13,
-      "degree": 25,
+      "inboundCount": 13,
+      "outboundCount": 14,
+      "degree": 27,
       "searchText": "creator economy commerce definition #culture #economics #technology #established concept"
     },
     {
@@ -309,12 +307,12 @@
       ],
       "path": "wiki/concepts/finding-neo.md",
       "summary": "Definition",
-      "content": "## Definition\n\nA significant rift exists between how organizations are deploying AI (top-down, productivity/ROI-focused) and how employees and individuals are actually experiencing it (bottom-up, exploratory, anxious). The trend argues that the resolution lies in **human-centered AI design** — putting people's needs, dignity, and flourishing at the center of AI transformation, rather than treating humans as implementation obstacles in a technology-first rollout.\n\nThe \"Neo\" metaphor comes from *The Matrix*: an ordinary person who discovers extraordinary capability once they learn to work *with* the system, not just within it. The goal for organizations is to find and empower their Neos — the employees who will discover what no one else saw coming.\n\n## Why It Matters\n\nEnterprise AI adoption is hitting a wall of human resistance that quantitative ROI metrics can't fully explain or resolve. Employees are anxious about job security, unclear on what skills to develop, and experiencing low-quality AI output (\"workslop\") that damages trust in the tools. Meanwhile leaders are doubling down on investment without adequate feedback loops from the ground level. The disconnect is becoming measurable: 29% of leaders doubt their AI investments will create meaningful value for customers; 28% hold the same concern for employees.\n\n**The key insight**: AI needs a creative/design revolution as much as a technical one. Every prior mass-adoption technology (internet, mobile) succeeded because human-centered design made it fit naturally into human life. AI is in the same moment now. The organizations that get this will find their Neos; those that don't will face growing resistance and wasted investment.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 85% of C-suite planned to increase AI investment in 2025; 29% doubt meaningful customer value; 42% say org is moving too fast without workforce prep; only 28% of employees believe leaders understand their AI concerns; 421M+ fear mentions online in one year\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Only 11% of AI implementations are in production (the \"trough of disillusionment\"); governance and risk frameworks lagging adoption; AI agents as the next frontier with cultural readiness gap\n- [Survey] [[wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026]] — Enterprise AI adoption is widespread in intent but thin in execution; domain-specific models and RAG architectures emerging as production path; AI governance as board-level concern\n- [Survey] [[wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026]] — Enterprise AI trust gap is measurable: high investment intent but low confidence in data quality underlying AI systems; data readiness as the hidden constraint on AI value delivery\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — \"Workslop\" compounds: AI-generated content is flooding channels; 78% of well-structured content more likely to be cited by AI (Cornell), meaning the quality bar is rising even as average output quality falls\n- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; but AI-generated insights are generic due to biased, outdated underlying data — the quality problem is systemic, not just at the user level\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner's hype cycle data: post-peak disillusionment is visible in enterprise AI; human-AI collaboration models (not replacement) identified as the path to productive plateau\n- [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Most granular data set on the enterprise AI trust gap: only 1 in 50 AI investments delivers transformational value; only 1 in 5 delivers any measurable ROI; <1% of H1 2025 layoffs actually attributable to AI (most are anticipatory); employees spend ~2 hours dealing with each workslop incident; 91% of CIOs/IT leaders dedicate no time scanning for behavioral AI byproducts (cognitive atrophy risk); business units that redesign work processes with AI are 2x more likely to exceed revenue goals\n\n## Tensions & Counterarguments\n\n- **The productivity metrics trap**: KPIs optimized for measurable output (time saved, revenue) miss \"invisible productivity\" — the qualitative improvements in creativity, judgment, and clarity that AI actually delivers at the individual level. Measuring wrong creates a false negative.\n- **The media amplification problem**: Prominent voices (Anthropic CEO, Bill Gates, Fiverr) making provocative AI displacement claims in public forums are fueling anxiety faster than organizations can address it internally. External narrative is shaping the internal experience.\n- **Whose job is this?** Leaders are outsourcing the AI narrative to comms departments instead of owning it themselves. Accenture explicitly warns this is a failure mode.\n- **The children question**: Employee anxiety about AI isn't primarily about their own jobs — 56% are most worried about their *children's* futures. This is an emotional register that pure upskilling programs can't address.\n\n## Sub-themes\n\n**Workslop**: AI-generated content that looks complete but lacks substance. A new quality failure mode that's already measurable — 40% exposure in a single month. Will become a major trust issue.\n\n**The new speed/quality/cost equation**: AI breaks the old \"pick two\" trade-off. Speed becomes standard. The new question: \"How do we use speed to buy back quality?\" Automation should create space for deeper thinking, not replace it.\n\n**Agency AI sandboxes**: Companies creating protected spaces for employees to experiment with AI tools freely — \"carrot not stick\" — to build culture and find emergent innovation.\n\n**Human-First Positioning Framework**: Accenture's prescription — organizations should articulate a clear, credible stance on AI's role that centers on employee dignity, flourishing, and psychological safety.\n\n## Related Concepts\n\n- [[wiki/concepts/human-journeys]] — the personal/consumer counterpart; the same AI tools being used very differently by individuals at home vs. in enterprise\n- [[wiki/concepts/stability-premium]] — employee AI anxiety feeds directly into the broader stability craving; organizations that manage this well earn a stability dividend\n- [[wiki/concepts/agentic-ai-enterprise]] — the technological frontier of enterprise AI deployment; the gap between agentic AI ambition (multi-step autonomous action) and the human readiness reality this page documents\n- [[wiki/concepts/searchless-discovery]] — AI-mediated discovery is reshaping the customer journey outside the enterprise; brands facing the same human-vs-bot tension employees face inside it\n\n## Key Players\n\n- [[wiki/entities/accenture-song]] — source\n",
+      "content": "## Definition\n\nA significant rift exists between how organizations are deploying AI (top-down, productivity/ROI-focused) and how employees and individuals are actually experiencing it (bottom-up, exploratory, anxious). The trend argues that the resolution lies in **human-centered AI design** — putting people's needs, dignity, and flourishing at the center of AI transformation, rather than treating humans as implementation obstacles in a technology-first rollout.\n\nThe \"Neo\" metaphor comes from *The Matrix*: an ordinary person who discovers extraordinary capability once they learn to work *with* the system, not just within it. The goal for organizations is to find and empower their Neos — the employees who will discover what no one else saw coming.\n\n## Why It Matters\n\nEnterprise AI adoption is hitting a wall of human resistance that quantitative ROI metrics can't fully explain or resolve. Employees are anxious about job security, unclear on what skills to develop, and experiencing low-quality AI output (\"workslop\") that damages trust in the tools. Meanwhile leaders are doubling down on investment without adequate feedback loops from the ground level. The disconnect is becoming measurable: 29% of leaders doubt their AI investments will create meaningful value for customers; 28% hold the same concern for employees.\n\n**The key insight**: AI needs a creative/design revolution as much as a technical one. Every prior mass-adoption technology (internet, mobile) succeeded because human-centered design made it fit naturally into human life. AI is in the same moment now. The organizations that get this will find their Neos; those that don't will face growing resistance and wasted investment.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 85% of C-suite planned to increase AI investment in 2025; 29% doubt meaningful customer value; 42% say org is moving too fast without workforce prep; only 28% of employees believe leaders understand their AI concerns; 421M+ fear mentions online in one year\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Only 11% of AI implementations are in production (the \"trough of disillusionment\"); governance and risk frameworks lagging adoption; AI agents as the next frontier with cultural readiness gap\n- [Survey] [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — Enterprise adoption intent remains high but execution quality depends on governance, sovereignty strategy, and accountability to customers/employees\n- [Survey] [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — Enterprise AI trust gap is measurable: adoption growth is high but data trust remains the bottleneck, with most pilots failing to reach production value\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — \"Workslop\" compounds: AI-generated content is flooding channels; 78% of well-structured content more likely to be cited by AI (Cornell), meaning the quality bar is rising even as average output quality falls\n- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; but AI-generated insights are generic due to biased, outdated underlying data — the quality problem is systemic, not just at the user level\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner's hype cycle data: post-peak disillusionment is visible in enterprise AI; human-AI collaboration models (not replacement) identified as the path to productive plateau\n- [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Most granular data set on the enterprise AI trust gap: only 1 in 50 AI investments delivers transformational value; only 1 in 5 delivers any measurable ROI; <1% of H1 2025 layoffs actually attributable to AI (most are anticipatory); employees spend ~2 hours dealing with each workslop incident; 91% of CIOs/IT leaders dedicate no time scanning for behavioral AI byproducts (cognitive atrophy risk); business units that redesign work processes with AI are 2x more likely to exceed revenue goals\n\n## Tensions & Counterarguments\n\n- **The productivity metrics trap**: KPIs optimized for measurable output (time saved, revenue) miss \"invisible productivity\" — the qualitative improvements in creativity, judgment, and clarity that AI actually delivers at the individual level. Measuring wrong creates a false negative.\n- **The media amplification problem**: Prominent voices (Anthropic CEO, Bill Gates, Fiverr) making provocative AI displacement claims in public forums are fueling anxiety faster than organizations can address it internally. External narrative is shaping the internal experience.\n- **Whose job is this?** Leaders are outsourcing the AI narrative to comms departments instead of owning it themselves. Accenture explicitly warns this is a failure mode.\n- **The children question**: Employee anxiety about AI isn't primarily about their own jobs — 56% are most worried about their *children's* futures. This is an emotional register that pure upskilling programs can't address.\n\n## Sub-themes\n\n**Workslop**: AI-generated content that looks complete but lacks substance. A new quality failure mode that's already measurable — 40% exposure in a single month. Will become a major trust issue.\n\n**The new speed/quality/cost equation**: AI breaks the old \"pick two\" trade-off. Speed becomes standard. The new question: \"How do we use speed to buy back quality?\" Automation should create space for deeper thinking, not replace it.\n\n**Agency AI sandboxes**: Companies creating protected spaces for employees to experiment with AI tools freely — \"carrot not stick\" — to build culture and find emergent innovation.\n\n**Human-First Positioning Framework**: Accenture's prescription — organizations should articulate a clear, credible stance on AI's role that centers on employee dignity, flourishing, and psychological safety.\n\n## Related Concepts\n\n- [[wiki/concepts/human-journeys]] — the personal/consumer counterpart; the same AI tools being used very differently by individuals at home vs. in enterprise\n- [[wiki/concepts/stability-premium]] — employee AI anxiety feeds directly into the broader stability craving; organizations that manage this well earn a stability dividend\n- [[wiki/concepts/agentic-ai-enterprise]] — the technological frontier of enterprise AI deployment; the gap between agentic AI ambition (multi-step autonomous action) and the human readiness reality this page documents\n- [[wiki/concepts/searchless-discovery]] — AI-mediated discovery is reshaping the customer journey outside the enterprise; brands facing the same human-vs-bot tension employees face inside it\n\n## Key Players\n\n- [[wiki/entities/accenture-song]] — source\n",
       "links": [
         "wiki/sources/2026-04-14-accenture-life-trends-2026",
         "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
-        "wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026",
-        "wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026",
+        "wiki/sources/2026-04-15-ibm-ibv-5-trends-2026",
+        "wiki/sources/2026-04-14-salesforce-ai-agents-2026",
         "wiki/sources/2026-04-14-dept-trends-2026",
         "wiki/sources/2026-04-14-gwi-connecting-dots-2026",
         "wiki/sources/2026-04-14-gartner-tech-trends-2026",
@@ -343,10 +341,10 @@
           "#established"
         ],
         "source_count": "8",
-        "last_updated": "2026-04-14"
+        "last_updated": "2026-04-15"
       },
-      "inboundCount": 21,
-      "outboundCount": 11,
+      "inboundCount": 19,
+      "outboundCount": 13,
       "degree": 32,
       "searchText": "finding neo definition #ai #labor #technology #established concept"
     },
@@ -398,9 +396,9 @@
         "source_count": "8",
         "last_updated": "2026-04-14"
       },
-      "inboundCount": 27,
+      "inboundCount": 26,
       "outboundCount": 12,
-      "degree": 39,
+      "degree": 38,
       "searchText": "geopolitical multipolarity definition #geopolitics #economics #technology #established concept"
     },
     {
@@ -416,9 +414,10 @@
       ],
       "path": "wiki/concepts/good-vibrations.md",
       "summary": "Definition",
-      "content": "## Definition\n\nA broad cultural movement away from digital, algorithmic, polished culture and toward physical, niche, imperfect, and community-rooted experiences. People are reorganizing their lives around play, wellness, and authentic in-person connection — not as a rejection of technology entirely, but as a selective retreat from the parts of the digital world that feel hollow, surveilled, or commodified.\n\nThe trend builds on Johan Huizinga's concept of \"play\" (Homo Ludens, 1938): play is primary to the generation of culture. The argument is that authentic culture is being rebuilt through physical moments — and that this matters enormously for brands whose cultural relevance depends on knowing where \"cool\" is actually happening.\n\n## Why It Matters\n\nDigital culture is experiencing a **relevance crisis**. Social media content is increasingly samey and algorithmically optimized. Scale and virality are the enemies of authenticity. Meanwhile, a wave of niche physical scenes — underground concerts, pop-up supper clubs, reimagined third places, wellness rituals — is creating culture in ways that resist measurement, algorithmic distribution, and brand sponsorship. If you can find it by searching 10 brands doing it, it's not underground anymore.\n\n**The key insight**: Cool is happening offline, in Telegram groups and Discord servers and house parties and alleyways. The attention economy is losing to the connection economy. Brands that want cultural relevance need to be present in the physical world — as facilitators, not headline acts.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 77% say spontaneous fun is important; 73% prefer authentic (even imperfect) experiences; 77% expect brands to create wellbeing/joy products; 82% of executives say offline cultural shifts matter but can't detect them\n- [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — Community as core wellness infrastructure: run clubs, group retreats driving behavior change; 68% of Gen Z say wellness is more \"doable\" with community support; \"Joy of Wellness\" named as anti-optimization countertrend\n- [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — The Gleamers consumer profile: community-focused, third space-reliant, happiness through chosen families; \"minorstones\" (small milestones) replacing grand ambition; urban-to-rural migration seeking connection\n- [Forecast] [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — Collectible ephemera (Labubu blind boxes, Starbucks bearista) as community-building hype objects; human-made as premium signal against AI flood; play and ritual as brand loyalty mechanisms\n- [Forecast] [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — Gaming's \"video game winter\" ending; $263B→$353B revenue by 2030; 55% of gamers increased gaming time; play is a growth market, not a niche; UGC communities forming inside gaming platforms\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — Event tourism growing from $1.7T→$2.6T; smartphone ban movement spreading (UK, France, Australia, US states) as structural response to digital-physical imbalance; run clubs as social infrastructure for young adults\n- [Survey] [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — 94% expect same or more travel in 2026; 85% say culinary exploration is #1 gateway to connection; 2026 explicitly named \"year of connection\" by Minor Hotels research\n- [Forecast] [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — Event tourism and pop culture pilgrimages as primary travel motivation; shared experience economics: people paying premium to attend events vs. consume content passively\n- [Survey] [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — MICE (meetings, incentives, conferences, events) identified as strategic asset class; human connection has \"irreducible value\" as rationale for in-person B2B events' resilience\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Niche community thesis: communities of interest outperform broadcast; humans as social animals making community a structural media force\n- [Forecast] [[wiki/sources/2026-04-14-pinterest-predicts-2026]] — \"Darecations\" (+130% search growth): adventure travel replacing passive tourism; Gen Z leading physical experience-seeking behavior as cultural identity signal\n\n## Tensions & Counterarguments\n\n- **The measurement gap**: Executives know they need to detect offline cultural signals but their tools are built for digital data. This creates a structural blind spot — the trends they most want to find are the ones their research tools are worst at finding.\n- **Brand as hijacker**: The impulse to sponsor or amplify niche cultural moments destroys what makes them valuable. Brands that \"grab naming rights\" are hijackers. The only viable role is facilitator — and this is genuinely hard for most marketing organizations to accept.\n- **Scale kills cool**: The very act of scaling a niche experience strips it of authenticity. This creates a fundamental tension for brands that operate at scale.\n- **\"5 to 9\" culture**: Young people reclaiming their 5am–9am and 5pm–9pm hours for wellness, creativity, and side hustles — actively structuring their days around work *avoidance*. This is a direct challenge to the employer assumption that job identity is primary.\n\n## Sub-themes\n\n**Reimagined third places**: Gyms, coffee shops, laundromats, libraries, pubs, barbershops being repurposed as community hubs. \"Fourth Spaces\" where online communities organize offline experiences. The Casual Poet Library (Singapore), home coffee shops, UK pub-as-barber.\n\n**Not for scale**: Underground concerts (word-of-mouth only), unadvertised pop-ups, invitation-only supper clubs. Culture happening in spaces algorithms can't reach. ~20% of survey respondents have attended such events.\n\n**Wellness as operating system**: No longer an add-on. People restructuring days around workouts, meditation, recovery. Travel that prioritizes well-being is now the ultimate premium experience.\n\n**Qualitative intelligence gap**: Brands that invest in ethnographic research — actual humans in real contexts — will have an information advantage over those relying on synthetic/AI-generated insights.\n\n**Draft-positive authenticity**: 64% expect brands to embrace imperfection. IKEA's Play Report as example: blending surveys with home visits, letting children into design.\n\n## Related Concepts\n\n- [[wiki/concepts/stability-premium]] — Good Vibrations is partly the physical expression of the stability craving; community and play as anchors\n- [[wiki/concepts/finding-neo]] — The AI anxiety driving workers toward offline spaces and human connection as relief\n- [[wiki/concepts/human-journeys]] — Technology should enhance physical experiences rather than dominate them; the contrast with AI-everywhere\n- [[wiki/concepts/loneliness-epidemic]] — Third spaces, run clubs, and event tourism are the structural response to documented connection deficits; these trends are two faces of the same dynamic\n- [[wiki/concepts/wellness-optimization]] — \"Joy of Wellness\" is the anti-optimization wing of the wellness trend — rejecting quantified self-improvement in favor of collective, joyful health\n- [[wiki/concepts/creator-economy-commerce]] — Niche communities are both Good Vibrations spaces and creator economy distribution channels; the underground scene and the commercial layer are intertwined\n\n## Key Players\n\n- [[wiki/entities/accenture-song]] — source\n- [[wiki/entities/gen-alpha]] — the generation being formed by both extreme digital saturation and the physical-world backlash against it\n",
+      "content": "## Definition\n\nA broad cultural movement away from digital, algorithmic, polished culture and toward physical, niche, imperfect, and community-rooted experiences. People are reorganizing their lives around play, wellness, and authentic in-person connection — not as a rejection of technology entirely, but as a selective retreat from the parts of the digital world that feel hollow, surveilled, or commodified.\n\nThe trend builds on Johan Huizinga's concept of \"play\" (Homo Ludens, 1938): play is primary to the generation of culture. The argument is that authentic culture is being rebuilt through physical moments — and that this matters enormously for brands whose cultural relevance depends on knowing where \"cool\" is actually happening.\n\n## Why It Matters\n\nDigital culture is experiencing a **relevance crisis**. Social media content is increasingly samey and algorithmically optimized. Scale and virality are the enemies of authenticity. Meanwhile, a wave of niche physical scenes — underground concerts, pop-up supper clubs, reimagined third places, wellness rituals — is creating culture in ways that resist measurement, algorithmic distribution, and brand sponsorship. If you can find it by searching 10 brands doing it, it's not underground anymore.\n\n**The key insight**: Cool is happening offline, in Telegram groups and Discord servers and house parties and alleyways. The attention economy is losing to the connection economy. Brands that want cultural relevance need to be present in the physical world — as facilitators, not headline acts.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — 77% say spontaneous fun is important; 73% prefer authentic (even imperfect) experiences; 77% expect brands to create wellbeing/joy products; 82% of executives say offline cultural shifts matter but can't detect them\n- [Forecast] [[wiki/sources/2026-04-14-adobe-creative-trends-2026]] — \"Connectioneering,\" local flavor, and surreal play aesthetics confirm that joy, community, and cultural specificity are becoming dominant creative strategies\n- [Survey] [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — Community as core wellness infrastructure: run clubs, group retreats driving behavior change; 68% of Gen Z say wellness is more \"doable\" with community support; \"Joy of Wellness\" named as anti-optimization countertrend\n- [Survey] [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — The Gleamers consumer profile: community-focused, third space-reliant, happiness through chosen families; \"minorstones\" (small milestones) replacing grand ambition; urban-to-rural migration seeking connection\n- [Forecast] [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — Collectible ephemera (Labubu blind boxes, Starbucks bearista) as community-building hype objects; human-made as premium signal against AI flood; play and ritual as brand loyalty mechanisms\n- [Forecast] [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — Gaming's \"video game winter\" ending; $263B→$353B revenue by 2030; 55% of gamers increased gaming time; play is a growth market, not a niche; UGC communities forming inside gaming platforms\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — Event tourism growing from $1.7T→$2.6T; smartphone ban movement spreading (UK, France, Australia, US states) as structural response to digital-physical imbalance; run clubs as social infrastructure for young adults\n- [Survey] [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — 94% expect same or more travel in 2026; 85% say culinary exploration is #1 gateway to connection; 2026 explicitly named \"year of connection\" by Minor Hotels research\n- [Forecast] [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — Event tourism and pop culture pilgrimages as primary travel motivation; shared experience economics: people paying premium to attend events vs. consume content passively\n- [Survey] [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — MICE (meetings, incentives, conferences, events) identified as strategic asset class; human connection has \"irreducible value\" as rationale for in-person B2B events' resilience\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Niche community thesis: communities of interest outperform broadcast; humans as social animals making community a structural media force\n- [Forecast] [[wiki/sources/2026-04-14-pinterest-predicts-2026]] — \"Darecations\" (+130% search growth): adventure travel replacing passive tourism; Gen Z leading physical experience-seeking behavior as cultural identity signal\n- [Forecast] [[wiki/sources/2026-04-15-bacardi-cocktail-trends-2025]] — Premium social rituals (cocktail culture, culinary pairings, bartender-as-curator) are repositioned as intentional, community-oriented experience rather than pure consumption\n\n## Tensions & Counterarguments\n\n- **The measurement gap**: Executives know they need to detect offline cultural signals but their tools are built for digital data. This creates a structural blind spot — the trends they most want to find are the ones their research tools are worst at finding.\n- **Brand as hijacker**: The impulse to sponsor or amplify niche cultural moments destroys what makes them valuable. Brands that \"grab naming rights\" are hijackers. The only viable role is facilitator — and this is genuinely hard for most marketing organizations to accept.\n- **Scale kills cool**: The very act of scaling a niche experience strips it of authenticity. This creates a fundamental tension for brands that operate at scale.\n- **\"5 to 9\" culture**: Young people reclaiming their 5am–9am and 5pm–9pm hours for wellness, creativity, and side hustles — actively structuring their days around work *avoidance*. This is a direct challenge to the employer assumption that job identity is primary.\n\n## Sub-themes\n\n**Reimagined third places**: Gyms, coffee shops, laundromats, libraries, pubs, barbershops being repurposed as community hubs. \"Fourth Spaces\" where online communities organize offline experiences. The Casual Poet Library (Singapore), home coffee shops, UK pub-as-barber.\n\n**Not for scale**: Underground concerts (word-of-mouth only), unadvertised pop-ups, invitation-only supper clubs. Culture happening in spaces algorithms can't reach. ~20% of survey respondents have attended such events.\n\n**Wellness as operating system**: No longer an add-on. People restructuring days around workouts, meditation, recovery. Travel that prioritizes well-being is now the ultimate premium experience.\n\n**Qualitative intelligence gap**: Brands that invest in ethnographic research — actual humans in real contexts — will have an information advantage over those relying on synthetic/AI-generated insights.\n\n**Draft-positive authenticity**: 64% expect brands to embrace imperfection. IKEA's Play Report as example: blending surveys with home visits, letting children into design.\n\n## Related Concepts\n\n- [[wiki/concepts/stability-premium]] — Good Vibrations is partly the physical expression of the stability craving; community and play as anchors\n- [[wiki/concepts/finding-neo]] — The AI anxiety driving workers toward offline spaces and human connection as relief\n- [[wiki/concepts/human-journeys]] — Technology should enhance physical experiences rather than dominate them; the contrast with AI-everywhere\n- [[wiki/concepts/loneliness-epidemic]] — Third spaces, run clubs, and event tourism are the structural response to documented connection deficits; these trends are two faces of the same dynamic\n- [[wiki/concepts/wellness-optimization]] — \"Joy of Wellness\" is the anti-optimization wing of the wellness trend — rejecting quantified self-improvement in favor of collective, joyful health\n- [[wiki/concepts/creator-economy-commerce]] — Niche communities are both Good Vibrations spaces and creator economy distribution channels; the underground scene and the commercial layer are intertwined\n\n## Key Players\n\n- [[wiki/entities/accenture-song]] — source\n- [[wiki/entities/gen-alpha]] — the generation being formed by both extreme digital saturation and the physical-world backlash against it\n",
       "links": [
         "wiki/sources/2026-04-14-accenture-life-trends-2026",
+        "wiki/sources/2026-04-14-adobe-creative-trends-2026",
         "wiki/sources/2026-04-14-holland-barrett-wellness-2026",
         "wiki/sources/2026-04-14-wgsn-future-consumer-2026",
         "wiki/sources/2026-04-14-lippincott-brand-trends-2026",
@@ -429,6 +428,7 @@
         "wiki/sources/2026-04-14-bcd-mice-trends-2026",
         "wiki/sources/2026-04-14-dentsu-media-trends-2026",
         "wiki/sources/2026-04-14-pinterest-predicts-2026",
+        "wiki/sources/2026-04-15-bacardi-cocktail-trends-2025",
         "wiki/concepts/stability-premium",
         "wiki/concepts/finding-neo",
         "wiki/concepts/human-journeys",
@@ -457,12 +457,12 @@
           "#economics",
           "#established"
         ],
-        "source_count": "12",
-        "last_updated": "2026-04-14"
+        "source_count": "13",
+        "last_updated": "2026-04-15"
       },
       "inboundCount": 35,
-      "outboundCount": 18,
-      "degree": 53,
+      "outboundCount": 21,
+      "degree": 56,
       "searchText": "good vibrations definition #culture #health #economics #established concept"
     },
     {
@@ -569,9 +569,9 @@
         "source_count": "8",
         "last_updated": "2026-04-14"
       },
-      "inboundCount": 9,
-      "outboundCount": 12,
-      "degree": 21,
+      "inboundCount": 10,
+      "outboundCount": 13,
+      "degree": 23,
       "searchText": "loneliness epidemic definition #culture #health #economics #established concept"
     },
     {
@@ -587,10 +587,11 @@
       ],
       "path": "wiki/concepts/physical-ai-robotics.md",
       "summary": "Definition",
-      "content": "## Definition\n\nAI systems that operate in and interact with the physical world — including humanoid robots, autonomous vehicles, drones, warehouse automation, and AI-assisted medical devices. Physical AI extends the agentic AI paradigm beyond software and into embodied form: machines that can navigate physical environments, manipulate objects, and perform tasks that previously required human presence.\n\nIn 2026, physical AI is at an inflection point: Gartner projects 2 million humanoid robots by 2035 (from near-zero today); autonomous vehicles are making their first commercial deployments in European cities; and AgeTech (technology to support aging in place) is emerging as one of the fastest-growing healthcare innovation sectors. The convergence of better sensors, larger training datasets, and improved hardware is making physical AI economically viable for the first time.\n\n## Why It Matters\n\nPhysical AI addresses labor shortages and demographic aging simultaneously — two of the defining structural constraints of the 2020s–2030s. Nursing homes are closing faster than they're opening (US: only 7 new skilled nursing facilities in 2024 vs. 73 in 2020); autonomous vehicles may solve transportation network gaps left by declining driver populations; warehouse robots are already reducing fulfillment costs.\n\nThe geopolitical dimension is significant: humanoid robotics and autonomous vehicle technology are areas of active US-China competition. Physical AI capabilities are a form of industrial and military leverage. BCG's six arenas of geopolitical competition include hardware supply chains (chips, sensors) that physical AI depends on.\n\n## Evidence\n\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)\n- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware\n- [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B intelligent agents by 2035; physical-digital AI convergence; robotic integration into manufacturing and eldercare as part of the intelligent world infrastructure\n- [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — physical AI as the embodied layer of Agentic Economies; robotics as cost-efficient labor replacement in manufacturing and logistics; Compute Shock creates energy/infrastructure constraints for physical AI deployment at scale\n- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — physical AI hardware supply chains (semiconductors, sensors, robotics components) as a defined US-China geopolitical competition arena; industrial policy up 6x since 2021 covers hardware supply chains\n\n## Tensions & Counterarguments\n\n- **Labor displacement**: Autonomous vehicles could replace millions of professional drivers globally. The technology that solves transport network capacity problems also eliminates the jobs that make those networks run. The net employment effect is contested.\n- **Regulatory uncertainty**: Physical AI (especially autonomous vehicles) requires complex regulatory approval in each market. The European autonomous vehicle deployments in 2026 are pending or conditional on regulatory approval. Timelines are fragile.\n- **Energy and infrastructure demand**: Physical AI systems (data centers, autonomous vehicle networks, robot charging infrastructure) have massive energy demands. The grid investment required is a binding constraint that may slow deployment.\n\n## Related Concepts\n\n- [[wiki/concepts/agentic-ai-enterprise]] — physical AI is the embodied extension of the agentic AI paradigm\n- [[wiki/concepts/coming-of-age]] — physical AI is partly a response to demographic aging and labor shortage; AgeTech as direct demand driver\n- [[wiki/concepts/geopolitical-multipolarity]] — physical AI hardware (chips, sensors, robotics supply chains) is a defined geopolitical competition arena\n- [[wiki/concepts/sustainability-transition]] — physical AI deployment at scale requires massive energy and grid infrastructure investment; industrial robots and AV networks add to Compute Shock demand\n\n## Key Players\n\n- (Waymo, Tesla, Einride, emerging humanoid robotics startups — no wiki entity pages yet)\n",
+      "content": "## Definition\n\nAI systems that operate in and interact with the physical world — including humanoid robots, autonomous vehicles, drones, warehouse automation, and AI-assisted medical devices. Physical AI extends the agentic AI paradigm beyond software and into embodied form: machines that can navigate physical environments, manipulate objects, and perform tasks that previously required human presence.\n\nIn 2026, physical AI is at an inflection point: Gartner projects 2 million humanoid robots by 2035 (from near-zero today); autonomous vehicles are making their first commercial deployments in European cities; and AgeTech (technology to support aging in place) is emerging as one of the fastest-growing healthcare innovation sectors. The convergence of better sensors, larger training datasets, and improved hardware is making physical AI economically viable for the first time.\n\n## Why It Matters\n\nPhysical AI addresses labor shortages and demographic aging simultaneously — two of the defining structural constraints of the 2020s–2030s. Nursing homes are closing faster than they're opening (US: only 7 new skilled nursing facilities in 2024 vs. 73 in 2020); autonomous vehicles may solve transportation network gaps left by declining driver populations; warehouse robots are already reducing fulfillment costs.\n\nThe geopolitical dimension is significant: humanoid robotics and autonomous vehicle technology are areas of active US-China competition. Physical AI capabilities are a form of industrial and military leverage. BCG's six arenas of geopolitical competition include hardware supply chains (chips, sensors) that physical AI depends on.\n\n## Evidence\n\n- [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Physical AI as a top strategic technology trend; 2M humanoid robots projected by 2035; physical AI in manufacturing, logistics, and healthcare\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — autonomous vehicles hitting European roads in 2026: Waymo London, Uber/Wavy UK, VW Moia Hamburg; self-driving trucks in EU (Einride)\n- [Scenario] [[wiki/sources/2026-04-15-tfl-g42-sport-ai]] — applied AI in sport illustrates embodied intelligence in practice: real-time tactical systems, injury prediction, and performance optimization pipelines moving from elite contexts toward broader deployment\n- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AgeTech as fastest-growing healthcare innovation sector; 72M Americans 65+ by 2030; 63,000 fewer nursing home beds since 2020\n- [Forecast] [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — physical AI in Deloitte's tech trends; infrastructure cost dimension of AI hardware\n- [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B intelligent agents by 2035; physical-digital AI convergence; robotic integration into manufacturing and eldercare as part of the intelligent world infrastructure\n- [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — physical AI as the embodied layer of Agentic Economies; robotics as cost-efficient labor replacement in manufacturing and logistics; Compute Shock creates energy/infrastructure constraints for physical AI deployment at scale\n- [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — physical AI hardware supply chains (semiconductors, sensors, robotics components) as a defined US-China geopolitical competition arena; industrial policy up 6x since 2021 covers hardware supply chains\n\n## Tensions & Counterarguments\n\n- **Labor displacement**: Autonomous vehicles could replace millions of professional drivers globally. The technology that solves transport network capacity problems also eliminates the jobs that make those networks run. The net employment effect is contested.\n- **Regulatory uncertainty**: Physical AI (especially autonomous vehicles) requires complex regulatory approval in each market. The European autonomous vehicle deployments in 2026 are pending or conditional on regulatory approval. Timelines are fragile.\n- **Energy and infrastructure demand**: Physical AI systems (data centers, autonomous vehicle networks, robot charging infrastructure) have massive energy demands. The grid investment required is a binding constraint that may slow deployment.\n\n## Related Concepts\n\n- [[wiki/concepts/agentic-ai-enterprise]] — physical AI is the embodied extension of the agentic AI paradigm\n- [[wiki/concepts/coming-of-age]] — physical AI is partly a response to demographic aging and labor shortage; AgeTech as direct demand driver\n- [[wiki/concepts/geopolitical-multipolarity]] — physical AI hardware (chips, sensors, robotics supply chains) is a defined geopolitical competition arena\n- [[wiki/concepts/sustainability-transition]] — physical AI deployment at scale requires massive energy and grid infrastructure investment; industrial robots and AV networks add to Compute Shock demand\n\n## Key Players\n\n- (Waymo, Tesla, Einride, emerging humanoid robotics startups — no wiki entity pages yet)\n",
       "links": [
         "wiki/sources/2026-04-14-gartner-tech-trends-2026",
         "wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+        "wiki/sources/2026-04-15-tfl-g42-sport-ai",
         "wiki/sources/2026-04-14-definitive-healthcare-trends-2026",
         "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
         "wiki/sources/2026-04-15-huawei-intelligent-world-2035",
@@ -618,12 +619,12 @@
           "#economics",
           "#speculative"
         ],
-        "source_count": "7",
+        "source_count": "8",
         "last_updated": "2026-04-15"
       },
       "inboundCount": 12,
-      "outboundCount": 11,
-      "degree": 23,
+      "outboundCount": 12,
+      "degree": 24,
       "searchText": "physical ai and robotics definition #technology #ai #economics #speculative concept"
     },
     {
@@ -692,7 +693,7 @@
       ],
       "path": "wiki/concepts/searchless-discovery.md",
       "summary": "Definition",
-      "content": "## Definition\n\nThe replacement of keyword-based search (SEO) as the primary mechanism for product, content, and brand discovery with AI-mediated discovery — where large language models, chatbots, and agentic recommendation systems surface relevant options without requiring explicit search behavior. In searchless discovery, the consumer doesn't type a query; the AI anticipates intent and delivers answers, recommendations, or completed purchases proactively.\n\nGEO (Generative Engine Optimization) is the emerging practice of structuring content and data to be prioritized by AI systems — just as SEO structured content to be prioritized by search engine crawlers. The transition is underway: one in five of Walmart's referral clicks in August 2025 came from ChatGPT (+15% from July); AI retail traffic to US sites grew 760% YoY during the 2024 holiday period.\n\n## Why It Matters\n\nThe shift from SEO to GEO rewrites the fundamental logic of digital discoverability. A brand that doesn't appear in AI-generated responses is effectively invisible to an increasing share of consumers. The content structures that win in GEO are different from SEO: semantically clear, logically structured, ungated, with schema markup and clear metadata. DEPT found that content with strong semantic structure is 78% more likely to be cited by AI systems (Cornell study).\n\nThe commerce implications are significant: Capgemini reports 46% of shoppers make purchases based on AI recommendations; 46% are willing to order via AI tools directly. The \"searchless retail\" future is one where AI systems complete purchases on behalf of users — moving from discovery to transaction without consumer-initiated search.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks from ChatGPT; 46% purchase based on AI recommendations; GEO as searchless retail future\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (Cornell); branding for two audiences (humans + bots); proprietary data as moat\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — GEO replacing SEO as primary discovery; digital delegation; friction paradox\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — GEO prediction; \"dead internet\" risk if ads don't appear in chatbots; SEO pulled reluctantly into GEO era\n- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AI changing healthcare SEO; 61% US adults using AI; 58% use gen AI for product/service recommendations\n- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools now #3 input for business decisions; AI insights generic due to poor underlying data\n- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — AI retail traffic +760% YoY during holiday 2024; 25% upload blood tests to ChatGPT\n- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI chatbot presence as \"new SEO\" for fashion brands; agentic commerce accelerating\n- [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI is consumers' #2 purchase rec source (18%) ahead of social, search, brand websites; SEO → GEO imperative; 50% of active users informed a purchase via gen AI; Perplexity/LLM platform partnerships as emerging brand strategy\n- [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: AI scrolling replaced by intent-first agent conversations; Agentforce and Rufus as agentic enterprise beginnings\n- [Survey] [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — Tech-tility: AI as human right/infrastructure, not consumer novelty; physical-digital commerce fusion by 2030\n- [Scenario] [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — Intuitive Agents scenario: AI autonomously plans and manages travel journeys end-to-end\n- [Forecast] [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Luxury beauty brand (Chanel) explicitly framing \"Post-Website Era\" territory: GenAI experiences for immersion, discovery, purchase; website as obsolete infrastructure\n\n## Tensions & Counterarguments\n\n- **Discovery vs. monetization**: Ads are not yet commonly inserted in leading chatbots and it's unclear what they'll look like. Publishers and brands that built businesses on ad-funded search traffic face an existential model disruption without a clear replacement.\n- **AI hallucination risk**: If consumers rely on AI for product discovery but AI systems hallucinate product details, health claims, or availability, the trust damage could trigger backlash. This is especially acute in healthcare.\n- **AI insights quality**: GWI and Dentsu both flag that AI-generated marketing insights draw on biased, old, public-web data. The same problem affects AI product recommendations — generic and stereotyped outputs at scale.\n- **\"Dead internet\"**: The scenario where bots interact with bots — where AI-generated content is the only content AI reads — is flagged by multiple sources as a realistic near-term risk. This would hollow out genuine human-to-human information exchange online.\n\n## Related Concepts\n\n- [[wiki/concepts/agentic-ai-enterprise]] — searchless discovery is powered by agentic AI systems completing tasks for consumers\n- [[wiki/concepts/creator-economy-commerce]] — social platforms and creators operating as alternative discovery channels to search\n- [[wiki/concepts/human-journeys]] — intent-behavior gap in AI-mediated discovery\n\n## Key Players\n\n- (No specific entity pages yet — Google, Perplexity, ChatGPT/OpenAI are primary actors in this space)\n",
+      "content": "## Definition\n\nThe replacement of keyword-based search (SEO) as the primary mechanism for product, content, and brand discovery with AI-mediated discovery — where large language models, chatbots, and agentic recommendation systems surface relevant options without requiring explicit search behavior. In searchless discovery, the consumer doesn't type a query; the AI anticipates intent and delivers answers, recommendations, or completed purchases proactively.\n\nGEO (Generative Engine Optimization) is the emerging practice of structuring content and data to be prioritized by AI systems — just as SEO structured content to be prioritized by search engine crawlers. The transition is underway: one in five of Walmart's referral clicks in August 2025 came from ChatGPT (+15% from July); AI retail traffic to US sites grew 760% YoY during the 2024 holiday period.\n\n## Why It Matters\n\nThe shift from SEO to GEO rewrites the fundamental logic of digital discoverability. A brand that doesn't appear in AI-generated responses is effectively invisible to an increasing share of consumers. The content structures that win in GEO are different from SEO: semantically clear, logically structured, ungated, with schema markup and clear metadata. DEPT found that content with strong semantic structure is 78% more likely to be cited by AI systems (Cornell study).\n\nThe commerce implications are significant: Capgemini reports 46% of shoppers make purchases based on AI recommendations; 46% are willing to order via AI tools directly. The \"searchless retail\" future is one where AI systems complete purchases on behalf of users — moving from discovery to transaction without consumer-initiated search.\n\n## Evidence\n\n- [Survey] [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — 1 in 5 Walmart referral clicks from ChatGPT; 46% purchase based on AI recommendations; GEO as searchless retail future\n- [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — 78% more likely cited by AI with strong semantic structure (Cornell); branding for two audiences (humans + bots); proprietary data as moat\n- [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — GEO replacing SEO as primary discovery; digital delegation; friction paradox\n- [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — GEO prediction; \"dead internet\" risk if ads don't appear in chatbots; SEO pulled reluctantly into GEO era\n- [Forecast] [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — AI changing healthcare SEO; 61% US adults using AI; 58% use gen AI for product/service recommendations\n- [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools now #3 input for business decisions; AI insights generic due to poor underlying data\n- [Survey] [[wiki/sources/2026-04-14-new-consumer-2026]] — AI retail traffic +760% YoY during holiday 2024; 25% upload blood tests to ChatGPT\n- [Survey] [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — SMB behavior mirrors the same shift: TikTok Shop +120% YoY and rapid gen-AI adoption in customer workflows indicate discovery and conversion are moving away from classic keyword search\n- [Forecast] [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — AI chatbot presence as \"new SEO\" for fashion brands; agentic commerce accelerating\n- [Survey] [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Gen AI is consumers' #2 purchase rec source (18%) ahead of social, search, brand websites; SEO → GEO imperative; 50% of active users informed a purchase via gen AI; Perplexity/LLM platform partnerships as emerging brand strategy\n- [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: AI scrolling replaced by intent-first agent conversations; Agentforce and Rufus as agentic enterprise beginnings\n- [Survey] [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — Tech-tility: AI as human right/infrastructure, not consumer novelty; physical-digital commerce fusion by 2030\n- [Scenario] [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — Intuitive Agents scenario: AI autonomously plans and manages travel journeys end-to-end\n- [Forecast] [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Luxury beauty brand (Chanel) explicitly framing \"Post-Website Era\" territory: GenAI experiences for immersion, discovery, purchase; website as obsolete infrastructure\n\n## Tensions & Counterarguments\n\n- **Discovery vs. monetization**: Ads are not yet commonly inserted in leading chatbots and it's unclear what they'll look like. Publishers and brands that built businesses on ad-funded search traffic face an existential model disruption without a clear replacement.\n- **AI hallucination risk**: If consumers rely on AI for product discovery but AI systems hallucinate product details, health claims, or availability, the trust damage could trigger backlash. This is especially acute in healthcare.\n- **AI insights quality**: GWI and Dentsu both flag that AI-generated marketing insights draw on biased, old, public-web data. The same problem affects AI product recommendations — generic and stereotyped outputs at scale.\n- **\"Dead internet\"**: The scenario where bots interact with bots — where AI-generated content is the only content AI reads — is flagged by multiple sources as a realistic near-term risk. This would hollow out genuine human-to-human information exchange online.\n\n## Related Concepts\n\n- [[wiki/concepts/agentic-ai-enterprise]] — searchless discovery is powered by agentic AI systems completing tasks for consumers\n- [[wiki/concepts/creator-economy-commerce]] — social platforms and creators operating as alternative discovery channels to search\n- [[wiki/concepts/human-journeys]] — intent-behavior gap in AI-mediated discovery\n\n## Key Players\n\n- (No specific entity pages yet — Google, Perplexity, ChatGPT/OpenAI are primary actors in this space)\n",
       "links": [
         "wiki/sources/2026-04-14-capgemini-retail-trends-2026",
         "wiki/sources/2026-04-14-dept-trends-2026",
@@ -701,6 +702,7 @@
         "wiki/sources/2026-04-14-definitive-healthcare-trends-2026",
         "wiki/sources/2026-04-14-gwi-connecting-dots-2026",
         "wiki/sources/2026-04-14-new-consumer-2026",
+        "wiki/sources/2026-04-14-lovable-small-business-trends-2026",
         "wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026",
         "wiki/sources/2026-04-15-accenture-me-my-brand-ai",
         "wiki/sources/2026-04-15-capgemini-frog-futurescape-2025",
@@ -733,8 +735,8 @@
         "last_updated": "2026-04-15"
       },
       "inboundCount": 25,
-      "outboundCount": 16,
-      "degree": 41,
+      "outboundCount": 17,
+      "degree": 42,
       "searchText": "searchless discovery definition #technology #ai #culture #established concept"
     },
     {
@@ -839,9 +841,9 @@
         "source_count": "8",
         "last_updated": "2026-04-14"
       },
-      "inboundCount": 41,
+      "inboundCount": 40,
       "outboundCount": 14,
-      "degree": 55,
+      "degree": 54,
       "searchText": "stability premium definition #culture #economics #geopolitics #established concept"
     },
     {
@@ -990,6 +992,43 @@
       "searchText": "accenture song overview #technology #culture entity"
     },
     {
+      "id": "wiki/entities/gen-alpha",
+      "type": "entity",
+      "slug": "gen-alpha",
+      "title": "Generation Alpha",
+      "tags": [
+        "#culture",
+        "#technology",
+        "#emerging"
+      ],
+      "path": "wiki/entities/gen-alpha.md",
+      "summary": "Overview",
+      "content": "## Overview\n\nGeneration Alpha (roughly born from 2010 onward) is the first cohort raised entirely inside algorithmically mediated digital environments. In this wiki's 2026 frame, Gen Alpha matters less as a demographic label and more as a leading indicator of how identity formation, community participation, and media trust are being reshaped by AI-inflected platforms.\n\n## Role in Trends\n\n- [[wiki/concepts/creator-economy-commerce]] — early exposure to participatory media ecosystems (UGC, live commerce, creator communities) is normalizing creator-first consumption behavior\n- [[wiki/concepts/loneliness-epidemic]] — smartphone bans and youth digital-health debates increasingly target Gen Alpha as policymakers and schools react to social-connection risks\n- [[wiki/concepts/good-vibrations]] — physical-culture backlash (third spaces, offline community rituals) is partly being designed as a corrective response to Gen Alpha digital saturation\n\n## Key Facts\n\n- Parents report very early platform-native behavior among children in gaming/UGC ecosystems, reinforcing participatory media habits from primary-school ages: [[wiki/sources/2026-04-14-bcg-gaming-report-2026]]\n- Policy momentum around child smartphone restrictions is accelerating across multiple countries, with under-16 cohorts central to the argument: [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]]\n- Research narratives increasingly frame Gen Alpha as the first generation fully formed within algorithmically curated information environments: [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]]\n\n## Sources\n\n- [[wiki/sources/2026-04-14-bcg-gaming-report-2026]]\n- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]]\n- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]]\n",
+      "links": [
+        "wiki/concepts/creator-economy-commerce",
+        "wiki/concepts/loneliness-epidemic",
+        "wiki/concepts/good-vibrations",
+        "wiki/sources/2026-04-14-bcg-gaming-report-2026",
+        "wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+        "wiki/sources/2026-04-14-gwi-connecting-dots-2026"
+      ],
+      "sourceMeta": {
+        "type": "entity",
+        "entity_type": "movement",
+        "title": "Generation Alpha",
+        "tags": [
+          "#culture",
+          "#technology",
+          "#emerging"
+        ],
+        "last_updated": "2026-04-15"
+      },
+      "inboundCount": 7,
+      "outboundCount": 6,
+      "degree": 13,
+      "searchText": "generation alpha overview #culture #technology #emerging entity"
+    },
+    {
       "id": "wiki/entities/glp-1-drugs",
       "type": "entity",
       "slug": "glp-1-drugs",
@@ -1024,9 +1063,9 @@
         ],
         "last_updated": "2026-04-14"
       },
-      "inboundCount": 12,
+      "inboundCount": 11,
       "outboundCount": 2,
-      "degree": 14,
+      "degree": 13,
       "searchText": "glp-1 drugs (ozempic, wegovy, etc.) overview #health #economics #established entity"
     },
     {
@@ -1037,18 +1076,16 @@
       "tags": [],
       "path": "wiki/index.md",
       "summary": "Wiki Index",
-      "content": "# Wiki Index\n\nMaster catalog of all pages. Updated on every ingest, query (if filed), and lint pass.\n\n---\n\n## Overview\n\n- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (38 sources, 13 concepts, 2 entities)\n\n---\n\n## Sources\n\n### Technology / AI (9 sources)\n- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Accenture Life Trends 2026: 5 macro trends; 25,284-person survey across 23 countries\n- [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner Top 10 Strategic Technology Trends 2026; agentic AI, physical AI, governance\n- [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Deloitte Tech Trends 2026; only 11% of AI in production; digital decoupling\n- [[wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026]] — IBM IBV AI trends; enterprise AI maturity; domain-specific models; governance\n- [[wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026]] — Salesforce State of Data & AI 2026; enterprise AI trust gap; data readiness as constraint\n- [[wiki/sources/2026-04-14-dept-trends-2026]] — DEPT Digital Trends 2026; GEO; two-audience branding (humans + bots); proprietary data moat\n- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — GWI Connecting the Dots 2026; AI as #3 business decision input; generic AI insight risk\n- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Dentsu Media Trends 2026; GEO replacing SEO; digital delegation; niche community thesis\n- [[wiki/sources/2026-04-14-mckinsey-state-of-ai-2026]] — McKinsey State of AI 2026; enterprise AI ROI; capability vs. deployment gap\n\n### Consumer / Health / Wellness (6 sources)\n- [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — Euromonitor 4 consumer trends; Comfort Zone; GLP-1 6%→9%; 58% daily stress\n- [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — WGSN Future Consumer 2026; 4 profiles incl. Gleamers; minorstones; anti-optimization\n- [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — WTW Global Medical Trends 2026; gross trend 10.3%; cancer fastest-growing; GLP-1 insurer expectations\n- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — Definitive Healthcare 7 trends; AgeTech; 72M Americans 65+ by 2030; nursing home deficit\n- [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — H&B Wellness Trends 2026; Joy of Wellness; community wellness; GLP-1 UK doubling\n- [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — FMCG Gurus Top 10 2026; proof-over-promise; personalized nutrition; GLP-1 FMCG reshaping\n\n### Finance / Investment (6 sources)\n- [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — JP Morgan AM 2026; K-shaped economy; AI capex 1.2–1.3% of US GDP; Fed 2–3 cuts\n- [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — Goldman Sachs AM 2026; US tariffs at 1934 levels; global debt >$100T; top 10 = 40% S&P cap\n- [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — State Street 2026; delayed policy impact; Germany €500B; Middle East AI actor; Gold $4,000\n- [[wiki/sources/2026-04-14-efg-outlook-2026]] — EFG International 2026; Trump's 3 Ds; EU revival; EM upside; IPO/M&A recovery\n- [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — BNP Paribas AM + AXA IM merger; €1.6T AUM; 4 decade-shaping themes; IMF growth 3.2%\n- [[wiki/sources/2026-04-14-pwc-venture-capital-2026]] — PwC Luxembourg VC 2026; European VC AUM ~€250B; 3rd consecutive fundraising decline; AI catalyst\n\n### Culture / Brand / Travel (8 sources)\n- [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — BoF-McKinsey Fashion 2026; tariff turbulence; AI as \"new SEO\"; mid-market fastest-growing\n- [[wiki/sources/2026-04-14-adobe-creative-trends-2026]] — Adobe Creative Trends 2026; 4 visual trends; 5x–20x content demand growth; multi-sense engagement\n- [[wiki/sources/2026-04-14-pinterest-predicts-2026]] — Pinterest Predicts 2026; 21 micro-trends from search data; Afrohemian Decor; darecations\n- [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — Lippincott Brand Trends 2026; AI backlash; human-made premium; collectibles as community\n- [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — Amadeus/Globetrender 2026; Pawprint Economy ($500B by 2030); event tourism; shared experience\n- [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — Minor Hotels Travel Trends 2026; \"year of connection\"; culinary exploration #1 gateway; 47% sustainability influence\n- [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — BCD Meetings & Events 2026; MICE as strategic assets; AI personalization; irreducible connection value\n- [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — BCG Gaming 2026; $263B→$353B by 2030; video game winter ending; UGC as creator economy\n\n### Retail / Business / Other (6 sources)\n- [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — Capgemini/frog Retail 2026; ChatGPT driving 1 in 5 Walmart referrals; 46% AI-based purchases; private label premiumization\n- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — LinkedIn News Europe 10 Predictions 2026; loneliness epidemic; event tourism; smart pills; phone bans; stablecoin\n- [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — BCG Geopolitical Forces 2026; 6 arenas of competition; industrial policy 6x; US/China LLM race\n- [[wiki/sources/2026-04-14-msci-sustainability-climate-2026]] — MSCI Sustainability & Climate 2026; institutional climate data demand; private asset hazard exposure; state ownership rising\n- [[wiki/sources/2026-04-14-new-consumer-2026]] — The New Consumer 2026; 23% US GLP-1 households; 25% upload blood tests to ChatGPT; $6.86T e-commerce\n- [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — Insightios Hidden E-Commerce Trends 2026; $6.86T global; AI e-commerce $8.65B; Amazon CPC +20%\n\n### AI / Workforce (2 sources)\n- [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — HBR/Gartner \"9 Trends Shaping Work 2026\"; 1-in-50 AI investments transformational; anticipatory AI layoffs; workslop costs ~2hr/incident; 25% fake candidates by 2028\n- [[wiki/sources/2026-04-14-ai-2027-scenario]] — AI 2027 scenario forecast (Kokotajlo et al.); AGI modal prediction 2027; AI R&D multiplier 1.5x by early 2026; US-China AI arms race; alignment verification unsolved\n\n### Sustainability / Climate (4 sources)\n- [[wiki/sources/2026-04-14-erm-annual-trends-2026]] — ERM Annual Trends 2026; 83% companies increased sustainability spending; $1.4T physical climate costs in 2024; China 60-90% critical minerals; $3.3T global energy investment\n- [[wiki/sources/2026-04-14-imd-sustainability-trends-2026]] — IMD Sustainability Trends 2026; sustainability-as-operating-system thesis; CBAM Jan 2026 enforcement; circularity as geopolitical defense; data center water crisis\n- [[wiki/sources/2026-04-14-ecomondo-sustainability-2026]] — Ecomondo/Renewable Matter 2026; CBAM enforcement; COP17/COP31 calendar; High Seas Treaty; physical risk insurance +50% by 2030\n- [[wiki/sources/2026-04-14-nhm-wellness-beverage-2026]] — NHN/Advantage Solutions Wellness Beverage 2026; $92B functional beverage market; gut health +34.1%; functional soft drinks +108.8% in 2024\n\n### Small Business (1 source)\n- [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — Lovable.dev Small Business Trends 2026; 58% SMBs using gen AI; TikTok Shop +120% YoY; 81% SMBs suffered breach in past year\n\n### Technology / AI Foresight (7 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — FTSG Convergence Outlook 2026; 10 convergences; Compute Shock, Agentic Economies, Emotional Outsourcing; creative destruction framework\n- [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Accenture Consumer Pulse 2025 (18K consumers, 14 countries); gen AI as #2 purchase rec source; 75% open to agentic shopper; 54% see uncertainty as new normal\n- [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — IBM IBV 5 Trends for 2026; appetite for ambiguity; employees 2× embrace vs. resist AI; quantum advantage through coalitions\n- [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — frog/Capgemini Futurescape 2025; 25 trends over 25 years; Club Clarity, Effortless Normal, Zero UI, Biodesign\n- [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — Huawei IW 2035; 9B humans × 900B agents; compute 100,000×; 1.5T kWh data center energy by 2035; wind/solar 50% by 2035\n- [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — ITONICS Corporate Innovation 2026; 20–40 AI experiments with no combined impact; <30% translate to revenue; unified PMOs emerging\n- [[wiki/sources/2026-04-15-mcast-trends-2026]] — M.Cast 2026; Invisible AI as infrastructure; imperfection as brand asset; community as distribution\n\n### Consumer / Commerce / Travel (7 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — TFL/Afterpay 2030; Tech-tility; Ephemeral Culture; algorithmic sameness vs. authentic self-expression; 73% Gen Z feel content pressure\n- [[wiki/sources/2026-04-15-capgemini-frog-new-loyalty]] — frog New Loyalty; 2024 worst US CX decade (Forrester); conversion optimization killed loyalty; \"known and understood\" as new standard\n- [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — TFL/Omio 2035; 5 future journey types; Intuitive Agents, Travel-tainment, Identity Itineraries\n- [[wiki/sources/2026-04-15-intrepid-sustainable-travel]] — TFL/Intrepid Sustainable Travel; carbon passports; Chasing the Shade; People-positive Travel 2040\n\n### Policy / Institution (2 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-eu-foresight-resilience-2.0]] — EU Foresight Report 2025; Resilience 2.0; proactive vs. reactive governance; EU 450M people, 15% global goods trade\n- [[wiki/sources/2026-04-15-oecd-sti-outlook-2025]] — OECD STI Outlook 2025 (251pp); AI in science; science decoupling; green transition as largest public STI investment\n\n### Beauty / Luxury (8 sources — Apr 15)\n- [[wiki/sources/2026-04-15-accenture-reinvention-of-beauty]] — Accenture Beauty Reinvention; H&W $1.7T→$3.1T by 2030; beauty $0.5T→$0.83T; science-led portfolio transformation\n- [[wiki/sources/2026-04-15-bcg-true-luxury-2024]] — BCG True Luxury 10th Ed. 2024; Beyond Money (<1% clients, 21% spend); luxury pyramid sharply stratifying\n- [[wiki/sources/2026-04-15-mckinsey-beauty-genai]] — McKinsey Beauty GenAI; $9–10B gen AI impact on beauty; four priority use cases; scaling from experiment to advantage\n- [[wiki/sources/2026-04-15-mckinsey-state-of-fashion-beauty-2023]] — McKinsey×BoF State of Fashion Beauty 2023; $427B→$580B by 2027; luxury beauty doubles; Gen Z redefines beauty\n- [[wiki/sources/2026-04-15-mckinsey-beauty-boom-2024]] — McKinsey Sep 2024 beauty boom update; $446B→$590B by 2028 at 6% CAGR; price-fuelled era ending; fragrance leads; luxury fastest tier; specialty retail as discovery hub\n- [[wiki/sources/2026-04-15-tfl-luxury-futures-2023]] — The Future Laboratory Luxury Futures 2023; \"Luxury Recrafted\" macrotrend; Gated Retail; Knowledge Clubs; top 3% = 30% of sales\n- [[wiki/sources/2026-04-15-accenture-map-the-future-beauty]] — Accenture Map the Future Beauty workshops; 8 future-proof beauty promises; demographic hard truths (2B GenZ + 2B 50+ by 2030); NCD data; 10 leadership capabilities\n- [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Accenture for Chanel Apr 2025; 3 territories: Post-Website Era (GenAI), Revamp Loyalty, Beauty-as-a-Service\n\n### Culture / Sport / Beverage (2 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-tfl-g42-sport-ai]] — TFL/G42 Future of Sport & AI; talent democratization; in-game tactical AI; AI health monitoring in sport\n- [[wiki/sources/2026-04-15-bacardi-cocktail-trends-2025]] — Bacardi/TFL Cocktail Trends 2025; premiumization with purpose; curators of experience; spirits recovery from 2023–2024 decline\n\n---\n\n## Concepts (17 total)\n\n### Demand-side (consumer / human experience)\n- [[wiki/concepts/stability-premium]] — Trust, certainty, proof-over-promise; 8 sources\n- [[wiki/concepts/proof-over-promise]] — Evidentiary legitimacy over aspirational claims; brand trust as measurable revenue driver; 8 sources *(new 2026-04-15)*\n- [[wiki/concepts/human-journeys]] — Bottom-up personal AI adoption; AI-mediated discovery; 8 sources\n- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 11 sources\n- [[wiki/concepts/loneliness-epidemic]] — Connection deficit; community as wellness and business strategy; 8 sources\n- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 10 sources\n- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources\n- [[wiki/concepts/beauty-reinvention]] — Beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; GLP-1 body norm disruption; 9 sources\n\n### Supply-side (technology / commercial infrastructure)\n- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 20 sources\n- [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 8 sources\n- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources\n- [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 9 sources *(expanded 2026-04-15)*\n- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 7 sources *(expanded 2026-04-15)*\n\n### Macro context\n- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 10 sources\n- [[wiki/concepts/geopolitical-multipolarity]] — Industrial policy 6x; US/China AI race; rare earth concentration; 8 sources\n- [[wiki/concepts/sustainability-transition]] — Sustainability as competitive strategy; CBAM live Jan 2026; physical climate costs $1.4T in 2024; circularity as supply chain defense; 6 sources\n- [[wiki/concepts/sovereign-ai-compute]] — Compute as geographically constrained resource; sovereign AI infrastructure; energy-tethered data centers; hyperscaler model fracturing; 9 sources *(expanded 2026-04-15)*\n\n---\n\n## Entities\n\n- [[wiki/entities/accenture-song]] — Research arm behind Life Trends report; 25K+ consumers, 800 executives, 700M+ netnographic mentions\n- [[wiki/entities/glp-1-drugs]] — GLP-1 inhibitors (Ozempic/Wegovy): most consequential cross-sector consumer health trend of the decade\n- [[wiki/entities/gen-alpha]] — Generation being formed inside algorithmically mediated reality; smartphone ban target cohort\n\n---\n\n## Analyses\n\n*No analyses filed yet.*\n\n---\n\n*Last updated: 2026-04-15 | Sources: 65 | Concepts: 17 | Entities: 3 | Analyses: 0*\n",
+      "content": "# Wiki Index\n\nMaster catalog of all pages. Updated on every ingest, query (if filed), and lint pass.\n\n---\n\n## Overview\n\n- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (63 sources, 17 concepts, 3 entities)\n\n---\n\n## Sources\n\n### Technology / AI (7 sources)\n- [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Accenture Life Trends 2026: 5 macro trends; 25,284-person survey across 23 countries\n- [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner Top 10 Strategic Technology Trends 2026; agentic AI, physical AI, governance\n- [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Deloitte Tech Trends 2026; only 11% of AI in production; digital decoupling\n- [[wiki/sources/2026-04-14-salesforce-ai-agents-2026]] — Salesforce AI Agents 2026; multi-agent orchestration; data trust bottleneck; regulation as enabler\n- [[wiki/sources/2026-04-14-dept-trends-2026]] — DEPT Digital Trends 2026; GEO; two-audience branding (humans + bots); proprietary data moat\n- [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — GWI Connecting the Dots 2026; AI as #3 business decision input; generic AI insight risk\n- [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — Dentsu Media Trends 2026; GEO replacing SEO; digital delegation; niche community thesis\n\n### Consumer / Health / Wellness (6 sources)\n- [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — Euromonitor 4 consumer trends; Comfort Zone; GLP-1 6%→9%; 58% daily stress\n- [[wiki/sources/2026-04-14-wgsn-future-consumer-2026]] — WGSN Future Consumer 2026; 4 profiles incl. Gleamers; minorstones; anti-optimization\n- [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — WTW Global Medical Trends 2026; gross trend 10.3%; cancer fastest-growing; GLP-1 insurer expectations\n- [[wiki/sources/2026-04-14-definitive-healthcare-trends-2026]] — Definitive Healthcare 7 trends; AgeTech; 72M Americans 65+ by 2030; nursing home deficit\n- [[wiki/sources/2026-04-14-holland-barrett-wellness-2026]] — H&B Wellness Trends 2026; Joy of Wellness; community wellness; GLP-1 UK doubling\n- [[wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026]] — FMCG Gurus Top 10 2026; proof-over-promise; personalized nutrition; GLP-1 FMCG reshaping\n\n### Finance / Investment (6 sources)\n- [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — JP Morgan AM 2026; K-shaped economy; AI capex 1.2–1.3% of US GDP; Fed 2–3 cuts\n- [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — Goldman Sachs AM 2026; US tariffs at 1934 levels; global debt >$100T; top 10 = 40% S&P cap\n- [[wiki/sources/2026-04-14-state-street-market-outlook-2026]] — State Street 2026; delayed policy impact; Germany €500B; Middle East AI actor; Gold $4,000\n- [[wiki/sources/2026-04-14-efg-outlook-2026]] — EFG International 2026; Trump's 3 Ds; EU revival; EM upside; IPO/M&A recovery\n- [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — BNP Paribas AM + AXA IM merger; €1.6T AUM; 4 decade-shaping themes; IMF growth 3.2%\n- [[wiki/sources/2026-04-14-pwc-venture-capital-2026]] — PwC Luxembourg VC 2026; European VC AUM ~€250B; 3rd consecutive fundraising decline; AI catalyst\n\n### Culture / Brand / Travel (8 sources)\n- [[wiki/sources/2026-04-14-mckinsey-state-of-fashion-2026]] — BoF-McKinsey Fashion 2026; tariff turbulence; AI as \"new SEO\"; mid-market fastest-growing\n- [[wiki/sources/2026-04-14-adobe-creative-trends-2026]] — Adobe Creative Trends 2026; 4 visual trends; 5x–20x content demand growth; multi-sense engagement\n- [[wiki/sources/2026-04-14-pinterest-predicts-2026]] — Pinterest Predicts 2026; 21 micro-trends from search data; Afrohemian Decor; darecations\n- [[wiki/sources/2026-04-14-lippincott-brand-trends-2026]] — Lippincott Brand Trends 2026; AI backlash; human-made premium; collectibles as community\n- [[wiki/sources/2026-04-14-amadeus-travel-trends-2026]] — Amadeus/Globetrender 2026; Pawprint Economy ($500B by 2030); event tourism; shared experience\n- [[wiki/sources/2026-04-14-minor-hotels-travel-trends-2026]] — Minor Hotels Travel Trends 2026; \"year of connection\"; culinary exploration #1 gateway; 47% sustainability influence\n- [[wiki/sources/2026-04-14-bcd-mice-trends-2026]] — BCD Meetings & Events 2026; MICE as strategic assets; AI personalization; irreducible connection value\n- [[wiki/sources/2026-04-14-bcg-gaming-report-2026]] — BCG Gaming 2026; $263B→$353B by 2030; video game winter ending; UGC as creator economy\n\n### Retail / Business / Other (6 sources)\n- [[wiki/sources/2026-04-14-capgemini-retail-trends-2026]] — Capgemini/frog Retail 2026; ChatGPT driving 1 in 5 Walmart referrals; 46% AI-based purchases; private label premiumization\n- [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — LinkedIn News Europe 10 Predictions 2026; loneliness epidemic; event tourism; smart pills; phone bans; stablecoin\n- [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — BCG Geopolitical Forces 2026; 6 arenas of competition; industrial policy 6x; US/China LLM race\n- [[wiki/sources/2026-04-14-msci-sustainability-climate-2026]] — MSCI Sustainability & Climate 2026; institutional climate data demand; private asset hazard exposure; state ownership rising\n- [[wiki/sources/2026-04-14-new-consumer-2026]] — The New Consumer 2026; 23% US GLP-1 households; 25% upload blood tests to ChatGPT; $6.86T e-commerce\n- [[wiki/sources/2026-04-14-hidden-ecommerce-trends-2026]] — Insightios Hidden E-Commerce Trends 2026; $6.86T global; AI e-commerce $8.65B; Amazon CPC +20%\n\n### AI / Workforce (2 sources)\n- [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — HBR/Gartner \"9 Trends Shaping Work 2026\"; 1-in-50 AI investments transformational; anticipatory AI layoffs; workslop costs ~2hr/incident; 25% fake candidates by 2028\n- [[wiki/sources/2026-04-14-ai-2027-scenario]] — AI 2027 scenario forecast (Kokotajlo et al.); AGI modal prediction 2027; AI R&D multiplier 1.5x by early 2026; US-China AI arms race; alignment verification unsolved\n\n### Sustainability / Climate (4 sources)\n- [[wiki/sources/2026-04-14-erm-annual-trends-2026]] — ERM Annual Trends 2026; 83% companies increased sustainability spending; $1.4T physical climate costs in 2024; China 60-90% critical minerals; $3.3T global energy investment\n- [[wiki/sources/2026-04-14-imd-sustainability-trends-2026]] — IMD Sustainability Trends 2026; sustainability-as-operating-system thesis; CBAM Jan 2026 enforcement; circularity as geopolitical defense; data center water crisis\n- [[wiki/sources/2026-04-14-ecomondo-sustainability-2026]] — Ecomondo/Renewable Matter 2026; CBAM enforcement; COP17/COP31 calendar; High Seas Treaty; physical risk insurance +50% by 2030\n- [[wiki/sources/2026-04-14-nhm-wellness-beverage-2026]] — NHN/Advantage Solutions Wellness Beverage 2026; $92B functional beverage market; gut health +34.1%; functional soft drinks +108.8% in 2024\n\n### Small Business (1 source)\n- [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — Lovable.dev Small Business Trends 2026; 58% SMBs using gen AI; TikTok Shop +120% YoY; 81% SMBs suffered breach in past year\n\n### Technology / AI Foresight (7 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — FTSG Convergence Outlook 2026; 10 convergences; Compute Shock, Agentic Economies, Emotional Outsourcing; creative destruction framework\n- [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Accenture Consumer Pulse 2025 (18K consumers, 14 countries); gen AI as #2 purchase rec source; 75% open to agentic shopper; 54% see uncertainty as new normal\n- [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — IBM IBV 5 Trends for 2026; appetite for ambiguity; employees 2× embrace vs. resist AI; quantum advantage through coalitions\n- [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — frog/Capgemini Futurescape 2025; 25 trends over 25 years; Club Clarity, Effortless Normal, Zero UI, Biodesign\n- [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — Huawei IW 2035; 9B humans × 900B agents; compute 100,000×; 1.5T kWh data center energy by 2035; wind/solar 50% by 2035\n- [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — ITONICS Corporate Innovation 2026; 20–40 AI experiments with no combined impact; <30% translate to revenue; unified PMOs emerging\n- [[wiki/sources/2026-04-15-mcast-trends-2026]] — M.Cast 2026; Invisible AI as infrastructure; imperfection as brand asset; community as distribution\n\n### Consumer / Commerce / Travel (4 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-afterpay-2030-consumer-equation]] — TFL/Afterpay 2030; Tech-tility; Ephemeral Culture; algorithmic sameness vs. authentic self-expression; 73% Gen Z feel content pressure\n- [[wiki/sources/2026-04-15-capgemini-frog-new-loyalty]] — frog New Loyalty; 2024 worst US CX decade (Forrester); conversion optimization killed loyalty; \"known and understood\" as new standard\n- [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — TFL/Omio 2035; 5 future journey types; Intuitive Agents, Travel-tainment, Identity Itineraries\n- [[wiki/sources/2026-04-15-intrepid-sustainable-travel]] — TFL/Intrepid Sustainable Travel; carbon passports; Chasing the Shade; People-positive Travel 2040\n\n### Policy / Institution (2 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-eu-foresight-resilience-2.0]] — EU Foresight Report 2025; Resilience 2.0; proactive vs. reactive governance; EU 450M people, 15% global goods trade\n- [[wiki/sources/2026-04-15-oecd-sti-outlook-2025]] — OECD STI Outlook 2025 (251pp); AI in science; science decoupling; green transition as largest public STI investment\n\n### Beauty / Luxury (8 sources — Apr 15)\n- [[wiki/sources/2026-04-15-accenture-reinvention-of-beauty]] — Accenture Beauty Reinvention; H&W $1.7T→$3.1T by 2030; beauty $0.5T→$0.83T; science-led portfolio transformation\n- [[wiki/sources/2026-04-15-bcg-true-luxury-2024]] — BCG True Luxury 10th Ed. 2024; Beyond Money (<1% clients, 21% spend); luxury pyramid sharply stratifying\n- [[wiki/sources/2026-04-15-mckinsey-beauty-genai]] — McKinsey Beauty GenAI; $9–10B gen AI impact on beauty; four priority use cases; scaling from experiment to advantage\n- [[wiki/sources/2026-04-15-mckinsey-state-of-fashion-beauty-2023]] — McKinsey×BoF State of Fashion Beauty 2023; $427B→$580B by 2027; luxury beauty doubles; Gen Z redefines beauty\n- [[wiki/sources/2026-04-15-mckinsey-beauty-boom-2024]] — McKinsey Sep 2024 beauty boom update; $446B→$590B by 2028 at 6% CAGR; price-fuelled era ending; fragrance leads; luxury fastest tier; specialty retail as discovery hub\n- [[wiki/sources/2026-04-15-tfl-luxury-futures-2023]] — The Future Laboratory Luxury Futures 2023; \"Luxury Recrafted\" macrotrend; Gated Retail; Knowledge Clubs; top 3% = 30% of sales\n- [[wiki/sources/2026-04-15-accenture-map-the-future-beauty]] — Accenture Map the Future Beauty workshops; 8 future-proof beauty promises; demographic hard truths (2B GenZ + 2B 50+ by 2030); NCD data; 10 leadership capabilities\n- [[wiki/sources/2026-04-15-accenture-lead-future-chanel-territories]] — Accenture for Chanel Apr 2025; 3 territories: Post-Website Era (GenAI), Revamp Loyalty, Beauty-as-a-Service\n\n### Culture / Sport / Beverage (2 new sources — Apr 15)\n- [[wiki/sources/2026-04-15-tfl-g42-sport-ai]] — TFL/G42 Future of Sport & AI; talent democratization; in-game tactical AI; AI health monitoring in sport\n- [[wiki/sources/2026-04-15-bacardi-cocktail-trends-2025]] — Bacardi/TFL Cocktail Trends 2025; premiumization with purpose; curators of experience; spirits recovery from 2023–2024 decline\n\n---\n\n## Concepts (17 total)\n\n### Demand-side (consumer / human experience)\n- [[wiki/concepts/stability-premium]] — Trust, certainty, proof-over-promise; 8 sources\n- [[wiki/concepts/proof-over-promise]] — Evidentiary legitimacy over aspirational claims; brand trust as measurable revenue driver; 8 sources *(new 2026-04-15)*\n- [[wiki/concepts/human-journeys]] — Bottom-up personal AI adoption; AI-mediated discovery; 8 sources\n- [[wiki/concepts/good-vibrations]] — Physical culture, play, third spaces, Joy of Wellness; 13 sources\n- [[wiki/concepts/loneliness-epidemic]] — Connection deficit; community as wellness and business strategy; 8 sources\n- [[wiki/concepts/wellness-optimization]] — Proactive health, GLP-1, biohacking mainstreaming; 10 sources\n- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources\n- [[wiki/concepts/beauty-reinvention]] — Beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; GLP-1 body norm disruption; 9 sources\n\n### Supply-side (technology / commercial infrastructure)\n- [[wiki/concepts/agentic-ai-enterprise]] — Enterprise AI deployment; agentic economies; delegated authority; 19 sources\n- [[wiki/concepts/finding-neo]] — Human-centered AI; enterprise trust gap; workslop; 8 sources\n- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources\n- [[wiki/concepts/creator-economy-commerce]] — Creators as primary distribution channel; TikTok Shop; UGC commerce; 9 sources *(expanded 2026-04-15)*\n- [[wiki/concepts/physical-ai-robotics]] — Embodied AI, humanoid robots, autonomous vehicles, AgeTech; 8 sources *(expanded 2026-04-15)*\n\n### Macro context\n- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value bifurcation; tariff environment; 10 sources\n- [[wiki/concepts/geopolitical-multipolarity]] — Industrial policy 6x; US/China AI race; rare earth concentration; 8 sources\n- [[wiki/concepts/sustainability-transition]] — Sustainability as competitive strategy; CBAM live Jan 2026; physical climate costs $1.4T in 2024; circularity as supply chain defense; 6 sources\n- [[wiki/concepts/sovereign-ai-compute]] — Compute as geographically constrained resource; sovereign AI infrastructure; energy-tethered data centers; hyperscaler model fracturing; 9 sources *(expanded 2026-04-15)*\n\n---\n\n## Entities\n\n- [[wiki/entities/accenture-song]] — Research arm behind Life Trends report; 25K+ consumers, 800 executives, 700M+ netnographic mentions\n- [[wiki/entities/glp-1-drugs]] — GLP-1 inhibitors (Ozempic/Wegovy): most consequential cross-sector consumer health trend of the decade\n- [[wiki/entities/gen-alpha]] — Generation being formed inside algorithmically mediated reality; smartphone ban target cohort\n\n---\n\n## Analyses\n\n*No analyses filed yet.*\n\n---\n\n*Last updated: 2026-04-15 | Sources: 63 | Concepts: 17 | Entities: 3 | Analyses: 0*\n",
       "links": [
         "wiki/overview",
         "wiki/sources/2026-04-14-accenture-life-trends-2026",
         "wiki/sources/2026-04-14-gartner-tech-trends-2026",
         "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
-        "wiki/sources/2026-04-14-ibm-ibv-ai-trends-2026",
-        "wiki/sources/2026-04-14-salesforce-state-of-data-ai-2026",
+        "wiki/sources/2026-04-14-salesforce-ai-agents-2026",
         "wiki/sources/2026-04-14-dept-trends-2026",
         "wiki/sources/2026-04-14-gwi-connecting-dots-2026",
         "wiki/sources/2026-04-14-dentsu-media-trends-2026",
-        "wiki/sources/2026-04-14-mckinsey-state-of-ai-2026",
         "wiki/sources/2026-04-14-euromonitor-consumer-trends-2026",
         "wiki/sources/2026-04-14-wgsn-future-consumer-2026",
         "wiki/sources/2026-04-14-wtw-global-medical-trends-2026",
@@ -1128,8 +1165,8 @@
       ],
       "sourceMeta": {},
       "inboundCount": 0,
-      "outboundCount": 82,
-      "degree": 82,
+      "outboundCount": 84,
+      "degree": 84,
       "searchText": "index wiki index  index"
     },
     {
@@ -1140,7 +1177,7 @@
       "tags": [],
       "path": "wiki/overview.md",
       "summary": "Overview: The State of 2026 Trends",
-      "content": "# Overview: The State of 2026 Trends\n\n*Living synthesis. Updated as sources are ingested and understanding deepens.*\n\n---\n\n## Current Thesis\n\n**We are living through a simultaneous compression of three long-running structural forces** — each reaching an inflection point at the same moment — and the collision between them defines the human experience of 2026.\n\nThe three forces:\n\n1. **Technological acceleration** (AI, physical AI, GEO) — moving faster than human institutions can absorb\n2. **Demographic reckoning** (aging populations, loneliness epidemic, GLP-1 transformation) — rewriting who has energy, money, and social capital\n3. **Geopolitical and economic fragmentation** (tariffs at 1934 levels, K-shaped economy, multipolar competition) — making the macro environment feel ungovernable\n\nFrom these three forces, everything else flows.\n\n---\n\n## The Seven Big Moves of 2026\n\n### 1. Stability has become a luxury good — and proof is its currency\nThe collapse of the news/entertainment/daily-life boundary has created a permanent emotional emergency. 46% of people say their desire for stability has grown stronger. 58% experience daily stress (Euromonitor). Institutions, brands, and workplaces that function as anchors are increasingly valuable. The commercial corollary is **proof over promise** (FMCG Gurus): skeptical, fatigued consumers are demanding evidence, not claims. As AI floods every channel with polished, generic content, \"human-made\" is becoming a premium signal (Lippincott), and brand trust is now a quantifiable revenue driver — retailers investing in transparency see measurable conversion uplift (Capgemini). Stability, authenticity, and evidentiary legitimacy are converging into a single competitive advantage.\n\n→ *See: [[wiki/concepts/stability-premium]], [[wiki/concepts/proof-over-promise]]*\n\n### 2. AI is reshaping every layer of commerce — but trust hasn't caught up\nFrom the top down: enterprises are investing heavily in AI (85% of C-suites planned increases in 2025) but only 11% of AI implementations are in production (Deloitte). The maturity gap is real, the governance gap is wider, and the human anxiety gap is widest of all. From the bottom up: consumers are already running ahead. 61% of US adults used AI for health queries in H1 2025. 1 in 5 Walmart referral clicks came from ChatGPT in August 2025. AI retail traffic grew 760% YoY in holiday 2024. The shift from search to AI-mediated discovery (GEO replacing SEO) is one of the most consequential business model disruptions in the trend set — and most brands aren't ready.\n\n→ *See: [[wiki/concepts/agentic-ai-enterprise]], [[wiki/concepts/searchless-discovery]], [[wiki/concepts/finding-neo]], [[wiki/concepts/human-journeys]]*\n\n### 3. The loneliness epidemic is a structural business problem\n82% of UK adults have experienced loneliness (LinkedIn). 10% of EU residents have no close friends (OECD). Gen Z — the most digitally connected generation — reports the highest rates. This is not a mood; it is a condition with health consequences equivalent to smoking 15 cigarettes/day (Surgeon General). The commercial response is accelerating: third spaces, community wellness (run clubs, retreats), event tourism ($1.7T→$2.6T), and MICE as strategic assets. Travel as connection-seeking is now a named thesis (Minor Hotels' \"year of connection\"). The tension: AI companionship is growing as a response to loneliness but may be an active contributor to it. Both are growing simultaneously.\n\n→ *See: [[wiki/concepts/loneliness-epidemic]], [[wiki/concepts/good-vibrations]]*\n\n### 4. The K-shaped economy is accelerating fragmentation\nJP Morgan names it explicitly: a K-shaped economy in which upper-income consumers ascend while lower and middle incomes stagnate or decline. US tariff rates are at 1934 levels (Goldman Sachs). Global government debt has passed $100T. The top 10 US companies represent 40% of S&P 500 market cap. The political economy of 2026 is one of extraordinary concentration of gains. Yet premium brands, private label quality, and \"small indulgence\" consumption (71% of consumers using micro-treats to cope with financial stress — Capgemini) are all growing. Bifurcation doesn't mean contraction at the bottom — it means two entirely different consumer strategies running in parallel, at scale.\n\n→ *See: [[wiki/concepts/economic-bifurcation]], [[wiki/concepts/stability-premium]]*\n\n### 5. The 40+ demographic and the GLP-1 revolution\n72M Americans will be 65+ by 2030. Only 7 new skilled nursing facilities opened in 2024 (vs. 73 in 2020). Meanwhile 23% of US households already have a GLP-1 user; 91% feel \"like a different person.\" GLP-1 users spend 36.8 percentage points more on food and beverages post-medication; they trade up in fitness (+51%), energy drinks (+39%), and beauty (+35%). The global wellness market is projected at $8.99T by 2028. The intersection of demographic aging, pharmaceutical breakthrough, and a culture that is choosing health over career (84% of Gen Z) is creating one of the most consequential consumer behavior shifts of the decade. The \"optimization mode\" consumer (one-third of Americans) and the aging-in-place crisis are two sides of the same demographic story.\n\n→ *See: [[wiki/concepts/coming-of-age]], [[wiki/concepts/wellness-optimization]], [[wiki/concepts/physical-ai-robotics]]*\n\n### 6b. Sustainability has crossed the line from ambition to financial reality\nJanuary 1, 2026 is a hard date: the EU's Carbon Border Adjustment Mechanism moved from reporting to payment. Importers of steel, aluminium, cement, fertilisers, hydrogen, and electricity now face real carbon costs tied to EU ETS prices. This isn't future policy — it is a current P&L line. Physical climate costs hit $1.4 trillion in 2024 (ERM), nearly 10x the 2000 total. S&P Global 1200 companies face $1.2T in annual physical risk costs in the 2050s. And yet: 83% of companies globally increased sustainability spending in the past year (ERM). 95% view it as a commercial opportunity. The adaptation economy — products and services for a warming world — generated $1.2T in revenue from ~2,100 companies in 2024, nearly double 2016. The second era of sustainability (sustainability as operating system, not moral overlay) is beginning under difficult conditions. The IMD framing is precise: \"sustainability succeeds when it makes products work better, cost less to run, and solve bigger customer problems — not when it appeals to ethics.\"\n\n→ *See: [[wiki/concepts/sustainability-transition]]*\n\n### 6. Geopolitical multipolarity is restructuring supply chains, capital, and technology\nIndustrial policy interventions are up 6x since 2021. The US and China together host 59%/26% of the world's top LLMs — a technological duopoly in formation. China controls 80% of rare earth mining. 60 ongoing armed conflicts (highest since WWII). Germany has committed a €500B fiscal package. The Middle East is emerging as an AI infrastructure actor. This isn't just geopolitics — it is the operating environment for every technology investment, every supply chain decision, and every energy strategy. Resilient globalization (Goldman CEO's framing) vs. actual tariff/reshoring reality is the central unresolved tension in the investment outlook for 2026.\n\n→ *See: [[wiki/concepts/geopolitical-multipolarity]]*\n\n### 7. Physical culture is staging a comeback — and it's an investment thesis\nThe \"video game winter\" is ending; BCG projects gaming revenue from $263B to $353B by 2030. Event tourism is at $1.7T and projected to $2.6T. Darecations (adventure travel), pet travel, culinary pilgrimages, and \"friendcations\" are all growing fast. WGSN's Gleamers consumer profile — community-focused, third-space-reliant, happiness through chosen families — is one of the four consumer archetypes shaping the decade. Joy of Wellness (Holland & Barrett) documents the anti-optimization backlash: people choosing collective, playful health over quantified self-improvement. The physical culture renaissance is not a reaction against technology; it is a complement to it, and it represents a durable category of consumer expenditure that is underweighted in digital-only investment theses.\n\n→ *See: [[wiki/concepts/good-vibrations]], [[wiki/concepts/creator-economy-commerce]], [[wiki/concepts/loneliness-epidemic]]*\n\n---\n\n## The Central Tensions\n\nAcross 38 sources, seven genuine tensions emerge — points where the data genuinely conflicts, not just complicates:\n\n| Tension | Force A | Force B |\n|---------|---------|---------|\n| AI optimism vs. human trust lag | AI investment intent is universal | Only 1 in 5 AI investments yields any ROI (Gartner/HBR); workslop costs ~2hr/incident |\n| Optimization vs. anti-optimization | One-third of Americans in \"optimization mode\" | 67% say wellness culture puts too much pressure to be perfect |\n| Digital flight vs. platform economics | Physical culture renaissance; smartphone bans | Creator economy thriving on the same platforms people are \"fleeing\" |\n| GLP-1 democratization vs. access lag | 23% US household penetration; transformative health outcomes | Coverage concentrated in Americas; global health equity gap widening |\n| Economic bifurcation vs. resilient premium spending | K-shaped economy; lower/middle stagnant | Premium brands still winning; private label premiumizing; luxury resilient |\n| Geopolitical fragmentation vs. resilient globalization | US tariffs at 1934 levels; industrial policy 6x | Goldman CEO: globalization is resilient; trade corridors adapting |\n| AI companionship vs. the loneliness epidemic | AI companions growing; 58% using AI for recommendations | LinkedIn explicitly: AI companionship may be \"active contributor\" to loneliness |\n\n---\n\n## What the New Sources Resolved\n\nThe first session was based on Accenture Life Trends alone. The 37 additional sources confirmed, extended, or complicated the original five-trend framework:\n\n**Confirmed and reinforced:**\n- Stability craving (Euromonitor Comfort Zone, FMCG Gurus proof-over-promise, Lippincott)\n- AI adoption vs. trust gap (Deloitte 11% in production, IBM, Salesforce, GWI)\n- Physical culture comeback (BCG gaming, LinkedIn event tourism, Minor Hotels, Amadeus)\n- 40+ demographic power (Definitive Healthcare AgeTech crisis, WTW medical cost surge, H&B wellness)\n\n**Added entirely new layers:**\n- Economic bifurcation (JP Morgan K-shape, Goldman tariffs, Capgemini private label)\n- Geopolitical multipolarity (BCG 6 arenas, State Street, EFG, BNP Paribas/AXA)\n- Loneliness epidemic as structural business problem (LinkedIn, Holland & Barrett, WGSN, BCD MICE, Amadeus)\n- GEO/Searchless discovery (Capgemini, DEPT, Dentsu, New Consumer, Definitive Healthcare)\n- GLP-1 as cross-sector disruptor (New Consumer, H&B, WTW, Euromonitor, FMCG Gurus)\n- Creator economy as commerce infrastructure (New Consumer, LinkedIn, Lippincott, BCG gaming)\n- Physical AI / AgeTech (Gartner, Definitive Healthcare, LinkedIn)\n- Sustainability as financial reality (ERM, IMD, MSCI, Ecomondo) — CBAM live, $1.4T physical climate costs, adaptation economy $1.2T\n- Enterprise AI ROI crisis (HBR/Gartner) — 1-in-50 transformational value rate, anticipatory layoffs, 2hr/incident workslop cost, cognitive atrophy risk\n- AGI trajectory scenario (AI 2027) — the most concrete near-term forecast from practitioners with lab experience; US-China AI arms race dynamics\n\n**Open questions now partially answered:**\n- *Who validates the Accenture trends?* → Euromonitor, WGSN, Dentsu, Capgemini, H&B all confirm the stability/community/physical culture thesis independently\n- *How fast is GLP-1 democratization?* → Faster than expected in Americas (23% US households); slower globally (coverage concentrated, access inequitable)\n- *Is physical culture a US/EU story?* → Global: China (86% increasing health activities), Asia-Pacific gaming leadership, global event tourism growth confirm it is not regional\n- *What's the creator economy / digital flight relationship?* → Resolved: they coexist because creator economy operates in niche communities (Discord, Telegram, TikTok micro-tribes) that feel different from algorithmic broadcast media\n\n---\n\n## Source Count by Domain\n\n| Domain | Sources |\n|--------|---------|\n| Technology / AI | 16 |\n| Consumer / Commerce / Travel | 11 |\n| Finance / Investment | 6 |\n| Health / Wellness | 6 |\n| Beauty / Luxury | 8 |\n| Culture / Brand / Sport | 10 |\n| Sustainability / Climate / Policy | 6 |\n| Retail / Business | 2 |\n| **Total** | **65** |\n\n---\n\n## Concept Map\n\n17 concepts now in the wiki, organized by cluster:\n\n**Demand-side (consumer/human experience):**\n- [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise; 8 sources\n- [[wiki/concepts/proof-over-promise]] — evidentiary legitimacy over aspirational claims; the demand for demonstrable evidence; 8 sources\n- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 8 sources\n- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 11 sources\n- [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business strategy; 8 sources\n- [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming; 10 sources\n- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources\n- [[wiki/concepts/beauty-reinvention]] — beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; 9 sources\n\n**Supply-side (technology/commercial infrastructure):**\n- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 20 sources\n- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 8 sources\n- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 13 sources\n- [[wiki/concepts/creator-economy-commerce]] — creator as primary distribution channel; TikTok Shop; 9 sources\n- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 7 sources\n\n**Macro context:**\n- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 10 sources\n- [[wiki/concepts/geopolitical-multipolarity]] — tariffs at 1934 levels, industrial policy 6x, US/China AI race; 8 sources\n- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty; energy-tethered data centers; hyperscaler fragmentation; 9 sources\n- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs $1.4T; sustainability-as-operating-system; 6 sources\n\n---\n\n---\n\n## Evidence Quality Framework\n\nAll concept Evidence sections now use a three-tier tag system to signal source type at a glance:\n\n- **[Survey]** — primary data with stated sample sizes (Accenture 25K, GWI, H&B, Euromonitor, New Consumer, FMCG Gurus, WTW, etc.)\n- **[Forecast]** — research-backed market analyses and outlook reports (Gartner, McKinsey, BCG, Goldman, Deloitte, JPMorgan, etc.)\n- **[Scenario]** — qualitative foresight and scenario planning (AI 2027, FTSG Convergence, Huawei IW 2035, frog Futurescape, TFL Omio 2035)\n\nWhen a single concept has evidence converging across all three tiers — survey data, market forecast, and scenario — the confidence in that trend is highest. When evidence is concentrated in [Scenario] only, treat it as directional, not predictive.\n\n---\n\n*Last updated: 2026-04-15 | Total sources: 65 | Concepts: 17 | Entities: 3*\n",
+      "content": "# Overview: The State of 2026 Trends\n\n*Living synthesis. Updated as sources are ingested and understanding deepens.*\n\n---\n\n## Current Thesis\n\n**We are living through a simultaneous compression of three long-running structural forces** — each reaching an inflection point at the same moment — and the collision between them defines the human experience of 2026.\n\nThe three forces:\n\n1. **Technological acceleration** (AI, physical AI, GEO) — moving faster than human institutions can absorb\n2. **Demographic reckoning** (aging populations, loneliness epidemic, GLP-1 transformation) — rewriting who has energy, money, and social capital\n3. **Geopolitical and economic fragmentation** (tariffs at 1934 levels, K-shaped economy, multipolar competition) — making the macro environment feel ungovernable\n\nFrom these three forces, everything else flows.\n\n---\n\n## The Seven Big Moves of 2026\n\n### 1. Stability has become a luxury good — and proof is its currency\nThe collapse of the news/entertainment/daily-life boundary has created a permanent emotional emergency. 46% of people say their desire for stability has grown stronger. 58% experience daily stress (Euromonitor). Institutions, brands, and workplaces that function as anchors are increasingly valuable. The commercial corollary is **proof over promise** (FMCG Gurus): skeptical, fatigued consumers are demanding evidence, not claims. As AI floods every channel with polished, generic content, \"human-made\" is becoming a premium signal (Lippincott), and brand trust is now a quantifiable revenue driver — retailers investing in transparency see measurable conversion uplift (Capgemini). Stability, authenticity, and evidentiary legitimacy are converging into a single competitive advantage.\n\n→ *See: [[wiki/concepts/stability-premium]], [[wiki/concepts/proof-over-promise]]*\n\n### 2. AI is reshaping every layer of commerce — but trust hasn't caught up\nFrom the top down: enterprises are investing heavily in AI (85% of C-suites planned increases in 2025) but only 11% of AI implementations are in production (Deloitte). The maturity gap is real, the governance gap is wider, and the human anxiety gap is widest of all. From the bottom up: consumers are already running ahead. 61% of US adults used AI for health queries in H1 2025. 1 in 5 Walmart referral clicks came from ChatGPT in August 2025. AI retail traffic grew 760% YoY in holiday 2024. The shift from search to AI-mediated discovery (GEO replacing SEO) is one of the most consequential business model disruptions in the trend set — and most brands aren't ready.\n\n→ *See: [[wiki/concepts/agentic-ai-enterprise]], [[wiki/concepts/searchless-discovery]], [[wiki/concepts/finding-neo]], [[wiki/concepts/human-journeys]]*\n\n### 3. The loneliness epidemic is a structural business problem\n82% of UK adults have experienced loneliness (LinkedIn). 10% of EU residents have no close friends (OECD). Gen Z — the most digitally connected generation — reports the highest rates. This is not a mood; it is a condition with health consequences equivalent to smoking 15 cigarettes/day (Surgeon General). The commercial response is accelerating: third spaces, community wellness (run clubs, retreats), event tourism ($1.7T→$2.6T), and MICE as strategic assets. Travel as connection-seeking is now a named thesis (Minor Hotels' \"year of connection\"). The tension: AI companionship is growing as a response to loneliness but may be an active contributor to it. Both are growing simultaneously.\n\n→ *See: [[wiki/concepts/loneliness-epidemic]], [[wiki/concepts/good-vibrations]]*\n\n### 4. The K-shaped economy is accelerating fragmentation\nJP Morgan names it explicitly: a K-shaped economy in which upper-income consumers ascend while lower and middle incomes stagnate or decline. US tariff rates are at 1934 levels (Goldman Sachs). Global government debt has passed $100T. The top 10 US companies represent 40% of S&P 500 market cap. The political economy of 2026 is one of extraordinary concentration of gains. Yet premium brands, private label quality, and \"small indulgence\" consumption (71% of consumers using micro-treats to cope with financial stress — Capgemini) are all growing. Bifurcation doesn't mean contraction at the bottom — it means two entirely different consumer strategies running in parallel, at scale.\n\n→ *See: [[wiki/concepts/economic-bifurcation]], [[wiki/concepts/stability-premium]]*\n\n### 5. The 40+ demographic and the GLP-1 revolution\n72M Americans will be 65+ by 2030. Only 7 new skilled nursing facilities opened in 2024 (vs. 73 in 2020). Meanwhile 23% of US households already have a GLP-1 user; 91% feel \"like a different person.\" GLP-1 users spend 36.8 percentage points more on food and beverages post-medication; they trade up in fitness (+51%), energy drinks (+39%), and beauty (+35%). The global wellness market is projected at $8.99T by 2028. The intersection of demographic aging, pharmaceutical breakthrough, and a culture that is choosing health over career (84% of Gen Z) is creating one of the most consequential consumer behavior shifts of the decade. The \"optimization mode\" consumer (one-third of Americans) and the aging-in-place crisis are two sides of the same demographic story.\n\n→ *See: [[wiki/concepts/coming-of-age]], [[wiki/concepts/wellness-optimization]], [[wiki/concepts/physical-ai-robotics]]*\n\n### 6b. Sustainability has crossed the line from ambition to financial reality\nJanuary 1, 2026 is a hard date: the EU's Carbon Border Adjustment Mechanism moved from reporting to payment. Importers of steel, aluminium, cement, fertilisers, hydrogen, and electricity now face real carbon costs tied to EU ETS prices. This isn't future policy — it is a current P&L line. Physical climate costs hit $1.4 trillion in 2024 (ERM), nearly 10x the 2000 total. S&P Global 1200 companies face $1.2T in annual physical risk costs in the 2050s. And yet: 83% of companies globally increased sustainability spending in the past year (ERM). 95% view it as a commercial opportunity. The adaptation economy — products and services for a warming world — generated $1.2T in revenue from ~2,100 companies in 2024, nearly double 2016. The second era of sustainability (sustainability as operating system, not moral overlay) is beginning under difficult conditions. The IMD framing is precise: \"sustainability succeeds when it makes products work better, cost less to run, and solve bigger customer problems — not when it appeals to ethics.\"\n\n→ *See: [[wiki/concepts/sustainability-transition]]*\n\n### 6. Geopolitical multipolarity is restructuring supply chains, capital, and technology\nIndustrial policy interventions are up 6x since 2021. The US and China together host 59%/26% of the world's top LLMs — a technological duopoly in formation. China controls 80% of rare earth mining. 60 ongoing armed conflicts (highest since WWII). Germany has committed a €500B fiscal package. The Middle East is emerging as an AI infrastructure actor. This isn't just geopolitics — it is the operating environment for every technology investment, every supply chain decision, and every energy strategy. Resilient globalization (Goldman CEO's framing) vs. actual tariff/reshoring reality is the central unresolved tension in the investment outlook for 2026.\n\n→ *See: [[wiki/concepts/geopolitical-multipolarity]]*\n\n### 7. Physical culture is staging a comeback — and it's an investment thesis\nThe \"video game winter\" is ending; BCG projects gaming revenue from $263B to $353B by 2030. Event tourism is at $1.7T and projected to $2.6T. Darecations (adventure travel), pet travel, culinary pilgrimages, and \"friendcations\" are all growing fast. WGSN's Gleamers consumer profile — community-focused, third-space-reliant, happiness through chosen families — is one of the four consumer archetypes shaping the decade. Joy of Wellness (Holland & Barrett) documents the anti-optimization backlash: people choosing collective, playful health over quantified self-improvement. The physical culture renaissance is not a reaction against technology; it is a complement to it, and it represents a durable category of consumer expenditure that is underweighted in digital-only investment theses.\n\n→ *See: [[wiki/concepts/good-vibrations]], [[wiki/concepts/creator-economy-commerce]], [[wiki/concepts/loneliness-epidemic]]*\n\n---\n\n## The Central Tensions\n\nAcross 63 sources, seven genuine tensions emerge — points where the data genuinely conflicts, not just complicates:\n\n| Tension | Force A | Force B |\n|---------|---------|---------|\n| AI optimism vs. human trust lag | AI investment intent is universal | Only 1 in 5 AI investments yields any ROI (Gartner/HBR); workslop costs ~2hr/incident |\n| Optimization vs. anti-optimization | One-third of Americans in \"optimization mode\" | 67% say wellness culture puts too much pressure to be perfect |\n| Digital flight vs. platform economics | Physical culture renaissance; smartphone bans | Creator economy thriving on the same platforms people are \"fleeing\" |\n| GLP-1 democratization vs. access lag | 23% US household penetration; transformative health outcomes | Coverage concentrated in Americas; global health equity gap widening |\n| Economic bifurcation vs. resilient premium spending | K-shaped economy; lower/middle stagnant | Premium brands still winning; private label premiumizing; luxury resilient |\n| Geopolitical fragmentation vs. resilient globalization | US tariffs at 1934 levels; industrial policy 6x | Goldman CEO: globalization is resilient; trade corridors adapting |\n| AI companionship vs. the loneliness epidemic | AI companions growing; 58% using AI for recommendations | LinkedIn explicitly: AI companionship may be \"active contributor\" to loneliness |\n\n---\n\n## What the New Sources Resolved\n\nThe first session was based on Accenture Life Trends alone. The expanded corpus now includes 63 sources, which confirmed, extended, or complicated the original five-trend framework:\n\n**Confirmed and reinforced:**\n- Stability craving (Euromonitor Comfort Zone, FMCG Gurus proof-over-promise, Lippincott)\n- AI adoption vs. trust gap (Deloitte 11% in production, IBM, Salesforce, GWI)\n- Physical culture comeback (BCG gaming, LinkedIn event tourism, Minor Hotels, Amadeus)\n- 40+ demographic power (Definitive Healthcare AgeTech crisis, WTW medical cost surge, H&B wellness)\n\n**Added entirely new layers:**\n- Economic bifurcation (JP Morgan K-shape, Goldman tariffs, Capgemini private label)\n- Geopolitical multipolarity (BCG 6 arenas, State Street, EFG, BNP Paribas/AXA)\n- Loneliness epidemic as structural business problem (LinkedIn, Holland & Barrett, WGSN, BCD MICE, Amadeus)\n- GEO/Searchless discovery (Capgemini, DEPT, Dentsu, New Consumer, Definitive Healthcare)\n- GLP-1 as cross-sector disruptor (New Consumer, H&B, WTW, Euromonitor, FMCG Gurus)\n- Creator economy as commerce infrastructure (New Consumer, LinkedIn, Lippincott, BCG gaming)\n- Physical AI / AgeTech (Gartner, Definitive Healthcare, LinkedIn)\n- Sustainability as financial reality (ERM, IMD, MSCI, Ecomondo) — CBAM live, $1.4T physical climate costs, adaptation economy $1.2T\n- Enterprise AI ROI crisis (HBR/Gartner) — 1-in-50 transformational value rate, anticipatory layoffs, 2hr/incident workslop cost, cognitive atrophy risk\n- AGI trajectory scenario (AI 2027) — the most concrete near-term forecast from practitioners with lab experience; US-China AI arms race dynamics\n\n**Open questions now partially answered:**\n- *Who validates the Accenture trends?* → Euromonitor, WGSN, Dentsu, Capgemini, H&B all confirm the stability/community/physical culture thesis independently\n- *How fast is GLP-1 democratization?* → Faster than expected in Americas (23% US households); slower globally (coverage concentrated, access inequitable)\n- *Is physical culture a US/EU story?* → Global: China (86% increasing health activities), Asia-Pacific gaming leadership, global event tourism growth confirm it is not regional\n- *What's the creator economy / digital flight relationship?* → Resolved: they coexist because creator economy operates in niche communities (Discord, Telegram, TikTok micro-tribes) that feel different from algorithmic broadcast media\n\n---\n\n## Source Count by Domain\n\n| Domain | Sources |\n|--------|---------|\n| Technology / AI | 13 |\n| Consumer / Commerce / Travel | 11 |\n| Finance / Investment | 6 |\n| Health / Wellness | 6 |\n| Beauty / Luxury | 8 |\n| Culture / Brand / Sport | 10 |\n| Sustainability / Climate / Policy | 6 |\n| Retail / Business | 2 |\n| Small Business | 1 |\n| **Total** | **63** |\n\n---\n\n## Concept Map\n\n17 concepts now in the wiki, organized by cluster:\n\n**Demand-side (consumer/human experience):**\n- [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise; 8 sources\n- [[wiki/concepts/proof-over-promise]] — evidentiary legitimacy over aspirational claims; the demand for demonstrable evidence; 8 sources\n- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 8 sources\n- [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 13 sources\n- [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business strategy; 8 sources\n- [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming; 10 sources\n- [[wiki/concepts/coming-of-age]] — 40+ demographic, AgeTech, demographic inversion; 8 sources\n- [[wiki/concepts/beauty-reinvention]] — beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; 9 sources\n\n**Supply-side (technology/commercial infrastructure):**\n- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 19 sources\n- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 8 sources\n- [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources\n- [[wiki/concepts/creator-economy-commerce]] — creator as primary distribution channel; TikTok Shop; 9 sources\n- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 8 sources\n\n**Macro context:**\n- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 10 sources\n- [[wiki/concepts/geopolitical-multipolarity]] — tariffs at 1934 levels, industrial policy 6x, US/China AI race; 8 sources\n- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty; energy-tethered data centers; hyperscaler fragmentation; 9 sources\n- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs $1.4T; sustainability-as-operating-system; 6 sources\n\n---\n\n---\n\n## Evidence Quality Framework\n\nAll concept Evidence sections now use a three-tier tag system to signal source type at a glance:\n\n- **[Survey]** — primary data with stated sample sizes (Accenture 25K, GWI, H&B, Euromonitor, New Consumer, FMCG Gurus, WTW, etc.)\n- **[Forecast]** — research-backed market analyses and outlook reports (Gartner, McKinsey, BCG, Goldman, Deloitte, JPMorgan, etc.)\n- **[Scenario]** — qualitative foresight and scenario planning (AI 2027, FTSG Convergence, Huawei IW 2035, frog Futurescape, TFL Omio 2035)\n\nWhen a single concept has evidence converging across all three tiers — survey data, market forecast, and scenario — the confidence in that trend is highest. When evidence is concentrated in [Scenario] only, treat it as directional, not predictive.\n\n---\n\n*Last updated: 2026-04-15 | Total sources: 63 | Concepts: 17 | Entities: 3*\n",
       "links": [
         "wiki/concepts/stability-premium",
         "wiki/concepts/proof-over-promise",
@@ -1206,9 +1243,9 @@
           "#established"
         ]
       },
-      "inboundCount": 8,
-      "outboundCount": 5,
-      "degree": 13,
+      "inboundCount": 9,
+      "outboundCount": 6,
+      "degree": 15,
       "searchText": "10 predictions that will define 2026 summary #technology #ai #culture #health #economics #established source"
     },
     {
@@ -1329,43 +1366,6 @@
       "searchText": "2026 global medical trends — insurer perspective summary #health #economics #established source"
     },
     {
-      "id": "wiki/sources/2026-04-14-mcast-trends-2026",
-      "type": "source",
-      "slug": "2026-04-14-mcast-trends-2026",
-      "title": "2026 M.Cast™ Trends Report",
-      "tags": [
-        "#technology",
-        "#ai",
-        "#culture",
-        "#emerging"
-      ],
-      "path": "wiki/sources/2026-04-14-mcast-trends-2026.md",
-      "summary": "Summary",
-      "content": "## Summary\n\nMoore's M.Cast Trends Report applies a \"futurist's lens\" to business and culture, targeting decision-makers navigating uncertainty. The lead trend is \"Invisible AI\" — AI becoming so seamlessly integrated into operations that it essentially disappears, mirroring how the web became invisible infrastructure in the mid-2000s. The parallel is precise: businesses once had \"web departments\" and \"internet strategies\"; AI is following the identical trajectory from experimental project to embedded business intelligence.\n\nA second core thread is the human response: as AI becomes transparent infrastructure, the remaining differentiators are distinctly human — strategic communication, creative thinking, and authentic brand storytelling that embraces imperfection as proof of humanity. The organizations that win are those forging genuine community connections and cutting through information overload with intentional communication.\n\n## Key Claims\n\n- AI is following the internet's trajectory: from \"Now on the Web!\" novelty → invisible infrastructure\n- 34% of organizations now use embedded AI as their primary deployment method vs only 19% favoring standalone apps (McKinsey State of AI)\n- 78% of organizations use AI in at least one business function, but only 1% describe rollouts as \"mature\"\n- The invisible AI trend signals AI's evolution from disruptive technology to essential business capability\n- Human differentiators post-AI: strategic communication, authentic storytelling, genuine community connection\n- \"Imperfection as proof of humanity\" is becoming a brand strategy — embrace human flaws as signal of authenticity\n\n## Data Points\n\n- 34% use embedded AI as primary deployment (vs 19% standalone) — McKinsey State of AI\n- 78% use AI in at least one function; 1% describe rollouts as mature — McKinsey\n\n## Connections\n\n- [[wiki/concepts/agentic-ai-enterprise]] — invisible AI / infrastructure maturation thesis\n- [[wiki/concepts/stability-premium]] — authenticity and human connection as competitive differentiators post-AI\n- [[wiki/concepts/good-vibrations]] — imperfection as proof of humanity; physical/authentic culture resurgence\n\n## Raw Source\n\n[[raw/2026-M.Cast-Trends-Report_Final.pdf]]\n",
-      "links": [
-        "wiki/concepts/agentic-ai-enterprise",
-        "wiki/concepts/stability-premium",
-        "wiki/concepts/good-vibrations"
-      ],
-      "sourceMeta": {
-        "type": "source",
-        "title": "2026 M.Cast™ Trends Report",
-        "date_ingested": "2026-04-14",
-        "raw_file": "raw/2026-M.Cast-Trends-Report_Final.pdf",
-        "publisher": "Moore (M.Cast)",
-        "tags": [
-          "#technology",
-          "#ai",
-          "#culture",
-          "#emerging"
-        ]
-      },
-      "inboundCount": 1,
-      "outboundCount": 3,
-      "degree": 4,
-      "searchText": "2026 m.cast™ trends report summary #technology #ai #culture #emerging source"
-    },
-    {
       "id": "wiki/sources/2026-04-14-capgemini-retail-trends-2026",
       "type": "source",
       "slug": "2026-04-14-capgemini-retail-trends-2026",
@@ -1481,43 +1481,6 @@
       "outboundCount": 4,
       "degree": 9,
       "searchText": "2026 year-ahead investment outlook: ai lift and economic drift summary #economics #finance #ai #established source"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-ibm-5-trends-2026",
-      "type": "source",
-      "slug": "2026-04-14-ibm-5-trends-2026",
-      "title": "5 Trends for 2026: Capture Fleeting Opportunities with Confidence",
-      "tags": [
-        "#technology",
-        "#ai",
-        "#economics",
-        "#established"
-      ],
-      "path": "wiki/sources/2026-04-14-ibm-5-trends-2026.md",
-      "summary": "Summary",
-      "content": "## Summary\n\nIBM IBV's annual C-suite forecast (1,000+ executives + 8,500 consumers/employees, conducted with Phronesis and Suzy) identifies five trends shaped by the intersection of economic uncertainty, AI, and quantum computing. The report's meta-thesis: uncertainty itself is the strategic asset. Rather than seeking stability, forward-thinking leaders are finding \"fissures\" — cracks in existing markets where new openings emerge. The organizations best positioned for 2026 are those that have built appetite for ambiguity rather than waiting for clarity.\n\n84% of executives have a positive outlook on their own organization's 2026 performance even though only 34% are optimistic about the global economy — a revealing split between micro-confidence and macro-uncertainty. Employees mirror this: 81% are confident they'll keep pace with future technology, but nearly half are concerned their role will be obsolete by 2030.\n\nThe most surprising finding: employees want *more* AI, not less. Across all age groups, at least 2x more workers say they would embrace greater AI use by their employer than would resist it. The narrative of AI-resistant workforces is being challenged by IBM's data.\n\n## Key Claims\n\n- 74% of executives say economic/geopolitical volatility will create new business opportunities in 2026\n- 84% of executives have positive outlook on their own organization's performance (only 34% optimistic on global economy)\n- At least 2x more workers *embrace* greater AI use than *resist* it — across all age groups\n- 81% of employees confident they can keep up with future technology advances\n- 61% of employees expect their job to change significantly in 2026 due to technology\n- 47% concerned technology will make their role obsolete by 2030\n- 93% of executives say they must factor AI sovereignty into their 2026 strategy\n- Quantum-ready organizations are 3x more likely to belong to multiple ecosystems than the least ready\n\n## Data Points\n\n- Survey: 1,000+ C-suite executives (via Phronesis) + 8,500 global consumers and employees (via Suzy)\n- 96% of executives say the highest-stakes decisions they made in 2025 turned out to be the right ones\n- Only 1% of organizations describe their AI rollouts as \"mature\" (McKinsey State of AI cited)\n\n## Connections\n\n- [[wiki/concepts/agentic-ai-enterprise]] — agentic AI deployment and employee relationship; workers want more AI\n- [[wiki/concepts/finding-neo]] — enterprise AI trust gap; governance and AI sovereignty\n- [[wiki/concepts/geopolitical-multipolarity]] — AI sovereignty (93% must factor into strategy); quantum as geopolitical competition axis\n\n## Contradictions / Tensions\n\n- IBM's finding that employees *want more AI* directly contradicts Accenture's finding (finding-neo) that 421M+ online mentions express AI fear. Possible resolution: the IBM survey captures stated intent while Accenture's netnography captures ambient anxiety — these may not be the same signal.\n- 93% factoring AI sovereignty into strategy but most organizations still at early maturity — knowing the importance and acting on it are different\n\n## Raw Source\n\n[[raw/5-trends-for-2026.pdf]]\n",
-      "links": [
-        "wiki/concepts/agentic-ai-enterprise",
-        "wiki/concepts/finding-neo",
-        "wiki/concepts/geopolitical-multipolarity"
-      ],
-      "sourceMeta": {
-        "type": "source",
-        "title": "5 Trends for 2026: Capture Fleeting Opportunities with Confidence",
-        "date_ingested": "2026-04-14",
-        "raw_file": "raw/5-trends-for-2026.pdf",
-        "publisher": "IBM Institute for Business Value",
-        "tags": [
-          "#technology",
-          "#ai",
-          "#economics",
-          "#established"
-        ]
-      },
-      "inboundCount": 1,
-      "outboundCount": 3,
-      "degree": 4,
-      "searchText": "5 trends for 2026: capture fleeting opportunities with confidence summary #technology #ai #economics #established source"
     },
     {
       "id": "wiki/sources/2026-04-14-definitive-healthcare-trends-2026",
@@ -1713,9 +1676,9 @@
           "#established"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 4,
-      "degree": 5,
+      "degree": 6,
       "searchText": "adobe creative trends 2026 summary #culture #ai #technology #established source"
     },
     {
@@ -1867,9 +1830,9 @@
           "#emerging"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 4,
-      "degree": 5,
+      "degree": 6,
       "searchText": "bacardi cocktail trends report 2025 summary #culture #economics #health #emerging source"
     },
     {
@@ -1941,9 +1904,9 @@
           "#established"
         ]
       },
-      "inboundCount": 5,
-      "outboundCount": 3,
-      "degree": 8,
+      "inboundCount": 6,
+      "outboundCount": 4,
+      "degree": 10,
       "searchText": "connecting the dots 2026: 5 major marketing trends summary #technology #ai #culture #established source"
     },
     {
@@ -2084,7 +2047,7 @@
       ],
       "path": "wiki/sources/2026-04-14-fmcg-gurus-top-ten-2026.md",
       "summary": "Summary",
-      "content": "## Summary\n\nFMCG Gurus' annual consumer trend digest (food, beverage, and nutrition focus) frames 2026 as a world of \"navigating contrast\" — optimism with uncertainty, indulgence with intention, convenience with authenticity. The headline from FMCG Gurus' CEO: consumers are seeking brands that help them make sense of complexity through transparency, proof, and shared purpose. Value is no longer about price alone; it encompasses tangible benefits, ethical alignment, and emotional satisfaction.\n\nThree priority areas dominate: trust and transparency (proof over promise, visible sourcing); mood and indulgence (emotional wellbeing; comfort food and escapism as stress management tools); and convenience reimagined (simplicity + health + personalization, not just speed). GLP-1 innovations, personalized nutrition, and mood-oriented products are highlighted as the most consequential category reshaping forces.\n\n## Key Claims\n\n- Consumers are seeking \"proof over promise\" — science-backed claims, clear sourcing, visible impact\n- 7 in 10 consumers say small indulgences help them cope with financial stress (scrimp vs. splurge)\n- Mood-enhancing and comfort-driven products remain key as busy lifestyles demand accessible escapism\n- GLP-1 appetite management is reshaping FMCG product development across satiety, nutrition, and side-effect management\n- Personalized nutrition is accelerating — consumers demand products tailored to individual health goals\n- Convenience must be coupled with health, simplicity, and ease — \"premium convenience\" is the growth segment\n- Sustainability: claims must be backed by visible, verified impact — virtue signaling is increasingly rejected\n\n## Data Points\n\n- 70% of consumers use small indulgences to cope with financial stress\n- GLP-1 and related satiety innovations flagged as the single most disruptive FMCG trend for 2026\n\n## Connections\n\n- [[wiki/concepts/wellness-optimization]] — personalized nutrition, GLP-1 adjacency, proof-based health claims\n- [[wiki/entities/glp-1-drugs]] — appetite management innovations; supplement and nutrition adjacency\n- [[wiki/concepts/stability-premium]] — trust and transparency as brand currency; proof over promise\n- [[wiki/concepts/good-vibrations]] — mood and indulgence as mental health strategy; accessible escapism\n\n## Raw Source\n\n[[raw/FMCG_Gurus_Top_Ten_Trends_for_2026-Trend_Digest.pdf]]\n",
+      "content": "## Summary\n\nFMCG Gurus' annual consumer trend digest (food, beverage, and nutrition focus) frames 2026 as a world of \"navigating contrast\" — optimism with uncertainty, indulgence with intention, convenience with authenticity. The headline from FMCG Gurus' CEO: consumers are seeking brands that help them make sense of complexity through transparency, proof, and shared purpose. Value is no longer about price alone; it encompasses tangible benefits, ethical alignment, and emotional satisfaction.\n\nThree priority areas dominate: trust and transparency (proof over promise, visible sourcing); mood and indulgence (emotional wellbeing; comfort food and escapism as stress management tools); and convenience reimagined (simplicity + health + personalization, not just speed). GLP-1 innovations, personalized nutrition, and mood-oriented products are highlighted as the most consequential category reshaping forces.\n\n## Key Claims\n\n- Consumers are seeking \"proof over promise\" — science-backed claims, clear sourcing, visible impact\n- 7 in 10 consumers say small indulgences help them cope with financial stress (scrimp vs. splurge)\n- Mood-enhancing and comfort-driven products remain key as busy lifestyles demand accessible escapism\n- GLP-1 appetite management is reshaping FMCG product development across satiety, nutrition, and side-effect management\n- Personalized nutrition is accelerating — consumers demand products tailored to individual health goals\n- Convenience must be coupled with health, simplicity, and ease — \"premium convenience\" is the growth segment\n- Sustainability: claims must be backed by visible, verified impact — virtue signaling is increasingly rejected\n\n## Data Points\n\n- 70% of consumers use small indulgences to cope with financial stress\n- GLP-1 and related satiety innovations flagged as the single most disruptive FMCG trend for 2026\n\n## Connections\n\n- [[wiki/concepts/wellness-optimization]] — personalized nutrition, GLP-1 adjacency, proof-based health claims\n- [[wiki/entities/glp-1-drugs]] — appetite management innovations; supplement and nutrition adjacency\n- [[wiki/concepts/stability-premium]] — trust and transparency as brand currency; proof over promise\n- [[wiki/concepts/good-vibrations]] — mood and indulgence as mental health strategy; accessible escapism\n\n## Contradictions / Tensions\n\n- FMCG Gurus emphasizes evidence and transparency, but much of FMCG category marketing still relies on soft claims and ambiguous terminology. The strategic direction is clear; execution maturity remains uneven.\n- \"Small indulgence\" growth can coexist with long-term health optimization, but the product strategies often pull in opposite directions (comfort-driven formulations vs. strict health claims).\n\n## Raw Source\n\n[[raw/FMCG_Gurus_Top_Ten_Trends_for_2026-Trend_Digest.pdf]]\n",
       "links": [
         "wiki/concepts/wellness-optimization",
         "wiki/entities/glp-1-drugs",
@@ -2384,9 +2347,9 @@
           "#established"
         ]
       },
-      "inboundCount": 3,
+      "inboundCount": 4,
       "outboundCount": 4,
-      "degree": 7,
+      "degree": 8,
       "searchText": "ibm ibv: 5 trends for 2026 summary #ai #technology #economics #geopolitics #established source"
     },
     {
@@ -2577,9 +2540,9 @@
           "#emerging"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 4,
-      "degree": 5,
+      "degree": 6,
       "searchText": "m.cast 2026 trends report: applying a futurist's lens summary #ai #technology #culture #economics #emerging source"
     },
     {
@@ -3075,40 +3038,6 @@
       "searchText": "tech trends 2026: from experimentation to impact summary #technology #ai #established source"
     },
     {
-      "id": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
-      "type": "source",
-      "slug": "2026-04-14-itonics-corporate-innovation-2026",
-      "title": "The 2026 Top Trends in Corporate Innovation",
-      "tags": [
-        "#technology",
-        "#economics",
-        "#established"
-      ],
-      "path": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026.md",
-      "summary": "Summary",
-      "content": "## Summary\n\nITONICS (works with 500+ innovation leaders) draws on 1,000+ cross-industry conversations to identify six shifts separating innovation performers from storytellers in 2026. The core finding: innovation accountability is moving *closer to business units* while visibility, governance, and coordination are being *centralized*. The mandate has shifted from exploration to measurable value creation. Innovation must perform, not just promise.\n\nThe \"AI pilots lack value\" problem is acute: most large organizations now run 20–40 AI experiments but cannot articulate combined strategic impact or prevent duplication. CFOs are tightening portfolio discipline. Fewer than 30% of organizations successfully translate innovation into core business or scalable revenue. Dedicated innovation functions are being absorbed into R&D, IT, and strategy; unified innovation PMOs are emerging as the governance backbone.\n\n## Key Claims\n\n- Most large organizations run 20–40 AI experiments but struggle to show combined strategic impact\n- Fewer than 30% of organizations successfully translate innovation into core business/scalable revenue\n- Dedicated innovation functions being absorbed into R&D, IT, and strategy — decentralization of accountability, centralization of visibility\n- Innovation ROI is the new mandate: \"achieve more with less\" is the explicit CFO directive\n- AI is not a standalone innovation project — it must be embedded in business and product decisions\n\n## Data Points\n\n- 20–40 AI experiments running simultaneously in most large organizations\n- <30% successfully translate innovation into scalable revenue\n- 1,000+ innovation leader conversations across sectors/geographies\n\n## Connections\n\n- [[wiki/concepts/agentic-ai-enterprise]] — AI pilot proliferation without value; governance frameworks\n- [[wiki/concepts/finding-neo]] — enterprise AI deployment gap; human-centered design vs technology deployment\n\n## Raw Source\n\n[[raw/trend-report-26.pdf]]\n",
-      "links": [
-        "wiki/concepts/agentic-ai-enterprise",
-        "wiki/concepts/finding-neo"
-      ],
-      "sourceMeta": {
-        "type": "source",
-        "title": "The 2026 Top Trends in Corporate Innovation",
-        "date_ingested": "2026-04-14",
-        "raw_file": "raw/trend-report-26.pdf",
-        "publisher": "ITONICS",
-        "tags": [
-          "#technology",
-          "#economics",
-          "#established"
-        ]
-      },
-      "inboundCount": 1,
-      "outboundCount": 2,
-      "degree": 3,
-      "searchText": "the 2026 top trends in corporate innovation summary #technology #economics #established source"
-    },
-    {
       "id": "wiki/sources/2026-04-15-mckinsey-beauty-boom-2024",
       "type": "source",
       "slug": "2026-04-15-mckinsey-beauty-boom-2024",
@@ -3182,9 +3111,9 @@
           "#established"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 3,
       "outboundCount": 3,
-      "degree": 4,
+      "degree": 6,
       "searchText": "the future of ai agents: top predictions and trends to watch in 2026 summary #ai #technology #labor #established source"
     },
     {
@@ -3222,9 +3151,9 @@
           "#emerging"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 4,
-      "degree": 5,
+      "degree": 6,
       "searchText": "the future of sport and ai summary #technology #ai #health #culture #emerging source"
     },
     {
@@ -3499,9 +3428,9 @@
           "#established"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 3,
-      "degree": 4,
+      "degree": 5,
       "searchText": "top 10 small business trends shaping 2026 summary #technology #economics #established source"
     },
     {
@@ -3572,9 +3501,9 @@
           "#established"
         ]
       },
-      "inboundCount": 1,
+      "inboundCount": 2,
       "outboundCount": 3,
-      "degree": 4,
+      "degree": 5,
       "searchText": "venture capital fundraising series: helping you prepare for 2026 summary #economics #finance #technology #established source"
     },
     {
@@ -3612,9 +3541,9 @@
           "#established"
         ]
       },
-      "inboundCount": 3,
-      "outboundCount": 3,
-      "degree": 6,
+      "inboundCount": 4,
+      "outboundCount": 4,
+      "degree": 8,
       "searchText": "video gaming report 2026: how platforms are colliding and why this will spark the next era of growth summary #culture #technology #ai #economics #established source"
     },
     {
@@ -3751,23 +3680,9 @@
       "relation": "concept_to_source"
     },
     {
-      "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-14-ibm-5-trends-2026",
+      "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-15-mcast-trends-2026",
       "source": "wiki/concepts/agentic-ai-enterprise",
-      "target": "wiki/sources/2026-04-14-ibm-5-trends-2026",
-      "weight": 1,
-      "relation": "concept_to_source"
-    },
-    {
-      "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-14-mcast-trends-2026",
-      "source": "wiki/concepts/agentic-ai-enterprise",
-      "target": "wiki/sources/2026-04-14-mcast-trends-2026",
-      "weight": 1,
-      "relation": "concept_to_source"
-    },
-    {
-      "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
-      "source": "wiki/concepts/agentic-ai-enterprise",
-      "target": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
+      "target": "wiki/sources/2026-04-15-mcast-trends-2026",
       "weight": 1,
       "relation": "concept_to_source"
     },
@@ -3803,6 +3718,13 @@
       "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026",
       "source": "wiki/concepts/agentic-ai-enterprise",
       "target": "wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
+      "id": "wiki/concepts/agentic-ai-enterprise->wiki/sources/2026-04-14-pwc-venture-capital-2026",
+      "source": "wiki/concepts/agentic-ai-enterprise",
+      "target": "wiki/sources/2026-04-14-pwc-venture-capital-2026",
       "weight": 1,
       "relation": "concept_to_source"
     },
@@ -3889,13 +3811,6 @@
       "target": "wiki/concepts/physical-ai-robotics",
       "weight": 1,
       "relation": "concept_to_concept"
-    },
-    {
-      "id": "wiki/concepts/agentic-ai-enterprise->wiki/entities/glp-1-drugs",
-      "source": "wiki/concepts/agentic-ai-enterprise",
-      "target": "wiki/entities/glp-1-drugs",
-      "weight": 1,
-      "relation": "concept_to_entity"
     },
     {
       "id": "wiki/concepts/beauty-reinvention->wiki/sources/2026-04-15-accenture-reinvention-of-beauty",
@@ -4185,6 +4100,13 @@
       "relation": "concept_to_concept"
     },
     {
+      "id": "wiki/concepts/creator-economy-commerce->wiki/entities/gen-alpha",
+      "source": "wiki/concepts/creator-economy-commerce",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "concept_to_entity"
+    },
+    {
       "id": "wiki/concepts/economic-bifurcation->wiki/sources/2026-04-14-new-consumer-2026",
       "source": "wiki/concepts/economic-bifurcation",
       "target": "wiki/sources/2026-04-14-new-consumer-2026",
@@ -4293,6 +4215,20 @@
       "id": "wiki/concepts/finding-neo->wiki/sources/2026-04-14-deloitte-tech-trends-2026",
       "source": "wiki/concepts/finding-neo",
       "target": "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
+      "id": "wiki/concepts/finding-neo->wiki/sources/2026-04-15-ibm-ibv-5-trends-2026",
+      "source": "wiki/concepts/finding-neo",
+      "target": "wiki/sources/2026-04-15-ibm-ibv-5-trends-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
+      "id": "wiki/concepts/finding-neo->wiki/sources/2026-04-14-salesforce-ai-agents-2026",
+      "source": "wiki/concepts/finding-neo",
+      "target": "wiki/sources/2026-04-14-salesforce-ai-agents-2026",
       "weight": 1,
       "relation": "concept_to_source"
     },
@@ -4451,6 +4387,13 @@
       "relation": "concept_to_source"
     },
     {
+      "id": "wiki/concepts/good-vibrations->wiki/sources/2026-04-14-adobe-creative-trends-2026",
+      "source": "wiki/concepts/good-vibrations",
+      "target": "wiki/sources/2026-04-14-adobe-creative-trends-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
       "id": "wiki/concepts/good-vibrations->wiki/sources/2026-04-14-holland-barrett-wellness-2026",
       "source": "wiki/concepts/good-vibrations",
       "target": "wiki/sources/2026-04-14-holland-barrett-wellness-2026",
@@ -4521,6 +4464,13 @@
       "relation": "concept_to_source"
     },
     {
+      "id": "wiki/concepts/good-vibrations->wiki/sources/2026-04-15-bacardi-cocktail-trends-2025",
+      "source": "wiki/concepts/good-vibrations",
+      "target": "wiki/sources/2026-04-15-bacardi-cocktail-trends-2025",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
       "id": "wiki/concepts/good-vibrations->wiki/concepts/stability-premium",
       "source": "wiki/concepts/good-vibrations",
       "target": "wiki/concepts/stability-premium",
@@ -4566,6 +4516,13 @@
       "id": "wiki/concepts/good-vibrations->wiki/entities/accenture-song",
       "source": "wiki/concepts/good-vibrations",
       "target": "wiki/entities/accenture-song",
+      "weight": 1,
+      "relation": "concept_to_entity"
+    },
+    {
+      "id": "wiki/concepts/good-vibrations->wiki/entities/gen-alpha",
+      "source": "wiki/concepts/good-vibrations",
+      "target": "wiki/entities/gen-alpha",
       "weight": 1,
       "relation": "concept_to_entity"
     },
@@ -4759,6 +4716,13 @@
       "relation": "concept_to_concept"
     },
     {
+      "id": "wiki/concepts/loneliness-epidemic->wiki/entities/gen-alpha",
+      "source": "wiki/concepts/loneliness-epidemic",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "concept_to_entity"
+    },
+    {
       "id": "wiki/concepts/physical-ai-robotics->wiki/sources/2026-04-14-gartner-tech-trends-2026",
       "source": "wiki/concepts/physical-ai-robotics",
       "target": "wiki/sources/2026-04-14-gartner-tech-trends-2026",
@@ -4769,6 +4733,13 @@
       "id": "wiki/concepts/physical-ai-robotics->wiki/sources/2026-04-14-linkedin-10-predictions-2026",
       "source": "wiki/concepts/physical-ai-robotics",
       "target": "wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
+      "id": "wiki/concepts/physical-ai-robotics->wiki/sources/2026-04-15-tfl-g42-sport-ai",
+      "source": "wiki/concepts/physical-ai-robotics",
+      "target": "wiki/sources/2026-04-15-tfl-g42-sport-ai",
       "weight": 1,
       "relation": "concept_to_source"
     },
@@ -4979,6 +4950,13 @@
       "id": "wiki/concepts/searchless-discovery->wiki/sources/2026-04-14-new-consumer-2026",
       "source": "wiki/concepts/searchless-discovery",
       "target": "wiki/sources/2026-04-14-new-consumer-2026",
+      "weight": 1,
+      "relation": "concept_to_source"
+    },
+    {
+      "id": "wiki/concepts/searchless-discovery->wiki/sources/2026-04-14-lovable-small-business-trends-2026",
+      "source": "wiki/concepts/searchless-discovery",
+      "target": "wiki/sources/2026-04-14-lovable-small-business-trends-2026",
       "weight": 1,
       "relation": "concept_to_source"
     },
@@ -5438,6 +5416,48 @@
       "relation": "entity_to_source"
     },
     {
+      "id": "wiki/entities/gen-alpha->wiki/concepts/creator-economy-commerce",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/concepts/creator-economy-commerce",
+      "weight": 1,
+      "relation": "entity_to_concept"
+    },
+    {
+      "id": "wiki/entities/gen-alpha->wiki/concepts/loneliness-epidemic",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/concepts/loneliness-epidemic",
+      "weight": 1,
+      "relation": "entity_to_concept"
+    },
+    {
+      "id": "wiki/entities/gen-alpha->wiki/concepts/good-vibrations",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/concepts/good-vibrations",
+      "weight": 1,
+      "relation": "entity_to_concept"
+    },
+    {
+      "id": "wiki/entities/gen-alpha->wiki/sources/2026-04-14-bcg-gaming-report-2026",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/sources/2026-04-14-bcg-gaming-report-2026",
+      "weight": 1,
+      "relation": "entity_to_source"
+    },
+    {
+      "id": "wiki/entities/gen-alpha->wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+      "weight": 1,
+      "relation": "entity_to_source"
+    },
+    {
+      "id": "wiki/entities/gen-alpha->wiki/sources/2026-04-14-gwi-connecting-dots-2026",
+      "source": "wiki/entities/gen-alpha",
+      "target": "wiki/sources/2026-04-14-gwi-connecting-dots-2026",
+      "weight": 1,
+      "relation": "entity_to_source"
+    },
+    {
       "id": "wiki/entities/glp-1-drugs->wiki/concepts/coming-of-age",
       "source": "wiki/entities/glp-1-drugs",
       "target": "wiki/concepts/coming-of-age",
@@ -5476,6 +5496,13 @@
       "id": "wiki/index->wiki/sources/2026-04-14-deloitte-tech-trends-2026",
       "source": "wiki/index",
       "target": "wiki/sources/2026-04-14-deloitte-tech-trends-2026",
+      "weight": 1,
+      "relation": "index_to_source"
+    },
+    {
+      "id": "wiki/index->wiki/sources/2026-04-14-salesforce-ai-agents-2026",
+      "source": "wiki/index",
+      "target": "wiki/sources/2026-04-14-salesforce-ai-agents-2026",
       "weight": 1,
       "relation": "index_to_source"
     },
@@ -6026,6 +6053,13 @@
       "relation": "index_to_entity"
     },
     {
+      "id": "wiki/index->wiki/entities/gen-alpha",
+      "source": "wiki/index",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "index_to_entity"
+    },
+    {
       "id": "wiki/overview->wiki/concepts/stability-premium",
       "source": "wiki/overview",
       "target": "wiki/concepts/stability-premium",
@@ -6180,6 +6214,13 @@
       "relation": "source_to_concept"
     },
     {
+      "id": "wiki/sources/2026-04-14-linkedin-10-predictions-2026->wiki/entities/gen-alpha",
+      "source": "wiki/sources/2026-04-14-linkedin-10-predictions-2026",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "source_to_entity"
+    },
+    {
       "id": "wiki/sources/2026-04-14-lippincott-brand-trends-2026->wiki/concepts/good-vibrations",
       "source": "wiki/sources/2026-04-14-lippincott-brand-trends-2026",
       "target": "wiki/concepts/good-vibrations",
@@ -6253,27 +6294,6 @@
       "id": "wiki/sources/2026-04-14-wtw-global-medical-trends-2026->wiki/concepts/economic-bifurcation",
       "source": "wiki/sources/2026-04-14-wtw-global-medical-trends-2026",
       "target": "wiki/concepts/economic-bifurcation",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-mcast-trends-2026->wiki/concepts/agentic-ai-enterprise",
-      "source": "wiki/sources/2026-04-14-mcast-trends-2026",
-      "target": "wiki/concepts/agentic-ai-enterprise",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-mcast-trends-2026->wiki/concepts/stability-premium",
-      "source": "wiki/sources/2026-04-14-mcast-trends-2026",
-      "target": "wiki/concepts/stability-premium",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-mcast-trends-2026->wiki/concepts/good-vibrations",
-      "source": "wiki/sources/2026-04-14-mcast-trends-2026",
-      "target": "wiki/concepts/good-vibrations",
       "weight": 1,
       "relation": "source_to_concept"
     },
@@ -6365,27 +6385,6 @@
       "id": "wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026->wiki/concepts/stability-premium",
       "source": "wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026",
       "target": "wiki/concepts/stability-premium",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-ibm-5-trends-2026->wiki/concepts/agentic-ai-enterprise",
-      "source": "wiki/sources/2026-04-14-ibm-5-trends-2026",
-      "target": "wiki/concepts/agentic-ai-enterprise",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-ibm-5-trends-2026->wiki/concepts/finding-neo",
-      "source": "wiki/sources/2026-04-14-ibm-5-trends-2026",
-      "target": "wiki/concepts/finding-neo",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-ibm-5-trends-2026->wiki/concepts/geopolitical-multipolarity",
-      "source": "wiki/sources/2026-04-14-ibm-5-trends-2026",
-      "target": "wiki/concepts/geopolitical-multipolarity",
       "weight": 1,
       "relation": "source_to_concept"
     },
@@ -6710,6 +6709,13 @@
       "target": "wiki/concepts/human-journeys",
       "weight": 1,
       "relation": "source_to_concept"
+    },
+    {
+      "id": "wiki/sources/2026-04-14-gwi-connecting-dots-2026->wiki/entities/gen-alpha",
+      "source": "wiki/sources/2026-04-14-gwi-connecting-dots-2026",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "source_to_entity"
     },
     {
       "id": "wiki/sources/2026-04-15-ftsg-convergence-outlook-2026->wiki/concepts/agentic-ai-enterprise",
@@ -7538,20 +7544,6 @@
       "relation": "source_to_concept"
     },
     {
-      "id": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026->wiki/concepts/agentic-ai-enterprise",
-      "source": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
-      "target": "wiki/concepts/agentic-ai-enterprise",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
-      "id": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026->wiki/concepts/finding-neo",
-      "source": "wiki/sources/2026-04-14-itonics-corporate-innovation-2026",
-      "target": "wiki/concepts/finding-neo",
-      "weight": 1,
-      "relation": "source_to_concept"
-    },
-    {
       "id": "wiki/sources/2026-04-15-mckinsey-beauty-boom-2024->wiki/concepts/beauty-reinvention",
       "source": "wiki/sources/2026-04-15-mckinsey-beauty-boom-2024",
       "target": "wiki/concepts/beauty-reinvention",
@@ -7921,6 +7913,13 @@
       "target": "wiki/concepts/good-vibrations",
       "weight": 1,
       "relation": "source_to_concept"
+    },
+    {
+      "id": "wiki/sources/2026-04-14-bcg-gaming-report-2026->wiki/entities/gen-alpha",
+      "source": "wiki/sources/2026-04-14-bcg-gaming-report-2026",
+      "target": "wiki/entities/gen-alpha",
+      "weight": 1,
+      "relation": "source_to_entity"
     },
     {
       "id": "wiki/sources/2026-04-14-nhm-wellness-beverage-2026->wiki/concepts/wellness-optimization",

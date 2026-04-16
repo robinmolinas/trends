@@ -622,12 +622,46 @@ button, input, textarea {
 
 .query-form {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
-  align-items: flex-end;
+}
+
+.query-mode-toggle {
+  display: inline-flex;
+  align-self: flex-start;
+  gap: 0.25rem;
+  padding: 0.2rem;
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--bg-soft) 70%, transparent);
+}
+
+.query-mode-btn {
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 0.74rem;
+  font-weight: 600;
+  padding: 0.25rem 0.55rem;
+  cursor: pointer;
+}
+
+.query-mode-btn.active {
+  background: var(--accent-soft);
+  color: var(--ink);
+}
+
+.query-mode-btn:hover {
+  color: var(--ink);
+}
+
+.query-form textarea,
+.query-submit {
+  width: 100%;
 }
 
 .query-form textarea {
-  flex: 1;
   resize: none;
   border: 1px solid var(--line);
   background: color-mix(in oklab, var(--bg-soft) 80%, transparent);
@@ -719,6 +753,29 @@ button, input, textarea {
   margin: 0;
   font-size: 0.88rem;
   line-height: 1.55;
+}
+
+.query-mode-note {
+  margin-top: 0.45rem !important;
+  font-size: 0.76rem !important;
+  color: var(--ink-faint);
+}
+
+.query-citation {
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.84em;
+  line-height: inherit;
+  padding: 0 0.06rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.query-citation:hover {
+  color: var(--accent-hover);
 }
 
 .query-error {
@@ -888,10 +945,6 @@ button, input, textarea {
   .query-dock.expanded {
     width: calc(100vw - 1rem);
     bottom: 0.5rem;
-  }
-
-  .query-form {
-    flex-direction: column;
   }
 
   .query-submit {

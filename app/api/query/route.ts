@@ -1,9 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { loadGraphPayload } from "@/lib/graph-loader";
 import { answerQuery } from "@/lib/query-engine";
-import type { NodeType, QueryRequest } from "@/lib/types";
+import { createOpenRouterGroundedAnswerer } from "@/lib/llm-query";
+import type { NodeType, QueryMode, QueryRequest } from "@/lib/types";
 
 const VALID_TYPES: NodeType[] = ["source", "concept", "entity", "analysis", "overview", "index"];
+const VALID_MODES: QueryMode[] = ["deterministic", "llm"];
 
 function normalizeFilters(filters: unknown): NodeType[] {
   if (!Array.isArray(filters)) return [];
@@ -11,6 +13,13 @@ function normalizeFilters(filters: unknown): NodeType[] {
   return filters.filter((value): value is NodeType =>
     typeof value === "string" && VALID_TYPES.includes(value as NodeType)
   );
+}
+
+function normalizeMode(mode: unknown): QueryMode {
+  if (typeof mode === "string" && VALID_MODES.includes(mode as QueryMode)) {
+    return mode as QueryMode;
+  }
+  return "deterministic";
 }
 
 export async function POST(request: NextRequest) {
@@ -23,7 +32,16 @@ export async function POST(request: NextRequest) {
     }
 
     const payload = await loadGraphPayload();
-    const response = answerQuery(payload, query, body.selectedNodeId, normalizeFilters(body.filters));
+    const mode = normalizeMode(body.mode);
+    const llmAnswerer = mode === "llm" ? createOpenRouterGroundedAnswerer() : undefined;
+    const response = await answerQuery(
+      payload,
+      query,
+      body.selectedNodeId,
+      normalizeFilters(body.filters),
+      mode,
+      llmAnswerer
+    );
 
     return NextResponse.json(response);
   } catch (error) {

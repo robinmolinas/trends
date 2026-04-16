@@ -45,7 +45,14 @@ This file powers both:
 4. Build command: `npm run build`
 5. Output directory: leave default
 
-No extra environment variables are required for the current retrieval engine.
+No environment variables are required for deterministic mode.
+Optional for LLM grounded answers via OpenRouter:
+- `OPENROUTER_API_KEY` — enables `"llm"` query mode in `/api/query`
+- `KNOWLEDGE_GRAPH_LLM_MODEL` — optional override, but only these free models are accepted:
+  - `google/gemma-4-31b-it:free` (default)
+  - `openai/gpt-oss-120b:free`
+
+If `KNOWLEDGE_GRAPH_LLM_MODEL` is set to anything else, the API automatically falls back to deterministic mode.
 
 ## Notes
 
