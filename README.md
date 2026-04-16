@@ -51,8 +51,11 @@ Optional for LLM grounded answers via OpenRouter:
 - `KNOWLEDGE_GRAPH_LLM_MODEL` — optional override, but only these free models are accepted:
   - `google/gemma-4-31b-it:free` (default)
   - `openai/gpt-oss-120b:free`
+- `OPENROUTER_SITE_URL` — optional explicit site URL for OpenRouter headers (recommended on Vercel)
+- `OPENROUTER_APP_NAME` — optional app name for OpenRouter headers
 
 If `KNOWLEDGE_GRAPH_LLM_MODEL` is set to anything else, the API automatically falls back to deterministic mode.
+Free models can be temporarily rate-limited; when that happens the API also falls back to deterministic mode.
 
 ## Notes
 

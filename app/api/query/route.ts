@@ -33,7 +33,12 @@ export async function POST(request: NextRequest) {
 
     const payload = await loadGraphPayload();
     const mode = normalizeMode(body.mode);
-    const llmAnswerer = mode === "llm" ? createOpenRouterGroundedAnswerer() : undefined;
+    const llmAnswerer = mode === "llm"
+      ? createOpenRouterGroundedAnswerer({
+          referer: request.nextUrl.origin,
+          appName: "2026 Trends Atlas"
+        })
+      : undefined;
     const response = await answerQuery(
       payload,
       query,

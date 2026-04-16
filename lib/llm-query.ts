@@ -80,6 +80,8 @@ function readDotEnvLocalValue(key: string): string | undefined {
 export function createOpenRouterGroundedAnswerer(options?: {
   apiKey?: string;
   model?: string;
+  referer?: string;
+  appName?: string;
 }): GenerateGroundedAnswer | undefined {
   const apiKey = options?.apiKey ?? readDotEnvLocalValue("OPENROUTER_API_KEY") ?? process.env.OPENROUTER_API_KEY;
   const model =
@@ -87,9 +89,25 @@ export function createOpenRouterGroundedAnswerer(options?: {
     readDotEnvLocalValue("KNOWLEDGE_GRAPH_LLM_MODEL") ??
     process.env.KNOWLEDGE_GRAPH_LLM_MODEL ??
     "google/gemma-4-31b-it:free";
+  const referer =
+    options?.referer ??
+    process.env.OPENROUTER_SITE_URL ??
+    (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined) ??
+    "http://localhost:3000";
+  const appName = options?.appName ?? process.env.OPENROUTER_APP_NAME ?? "2026 Trends Atlas";
 
-  if (!apiKey) return undefined;
-  if (!ALLOWED_FREE_MODELS.has(model)) return undefined;
+  if (!apiKey) {
+    console.warn("OpenRouter LLM disabled: OPENROUTER_API_KEY is missing.");
+    return undefined;
+  }
+  if (!ALLOWED_FREE_MODELS.has(model)) {
+    console.warn(
+      `OpenRouter LLM disabled: model "${model}" is not in the free-model allowlist (${[
+        ...ALLOWED_FREE_MODELS
+      ].join(", ")}).`
+    );
+    return undefined;
+  }
 
   return async ({ query, snippets }) => {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
@@ -97,8 +115,8 @@ export function createOpenRouterGroundedAnswerer(options?: {
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${apiKey}`,
-        "HTTP-Referer": "http://localhost:3000",
-        "X-Title": "2026 Trends Atlas"
+        "HTTP-Referer": referer,
+        "X-Title": appName
       },
       body: JSON.stringify({
         model,
@@ -117,7 +135,8 @@ export function createOpenRouterGroundedAnswerer(options?: {
     });
 
     if (!response.ok) {
-      throw new Error(`OpenRouter synthesis failed (${response.status})`);
+      const text = await response.text();
+      throw new Error(`OpenRouter synthesis failed (${response.status}): ${text.slice(0, 400)}`);
     }
 
     const payload = await response.json();
