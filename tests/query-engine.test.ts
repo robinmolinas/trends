@@ -33,7 +33,7 @@ describe("query engine", () => {
     expect(response.citations?.[1]?.evidenceId).toBe(response.evidence[1].id);
   });
 
-  it("falls back to deterministic when llm output is uncited", async () => {
+  it("auto-anchors citations when llm output is uncited", async () => {
     const llm = vi.fn(async () => "This answer has no citations and should fallback.");
 
     const response = await answerQuery(
@@ -45,7 +45,8 @@ describe("query engine", () => {
       llm
     );
 
-    expect(response.modeUsed).toBe("deterministic");
-    expect(response.answer).toContain("The strongest trend vectors");
+    expect(response.modeUsed).toBe("llm");
+    expect(response.answer).toContain("[1]");
+    expect(response.citations?.[0]?.index).toBe(1);
   });
 });

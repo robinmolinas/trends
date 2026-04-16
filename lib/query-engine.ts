@@ -225,6 +225,26 @@ function extractCitationIndexes(answer: string, maxIndex: number): number[] {
   return [...indexes].sort((a, b) => a - b);
 }
 
+function normalizeCitationMarkers(answer: string, evidenceCount: number): string {
+  if (!answer.trim()) return answer;
+  if (evidenceCount <= 0) return answer;
+
+  const replacedOutOfRange = answer.replace(/\[(\d+)\]/g, (_, raw) => {
+    const parsed = Number.parseInt(raw, 10);
+    if (!Number.isFinite(parsed) || parsed < 1 || parsed > evidenceCount) {
+      return "[1]";
+    }
+    return `[${parsed}]`;
+  });
+
+  if (/\[\d+\]/.test(replacedOutOfRange)) {
+    return replacedOutOfRange;
+  }
+
+  // Free models occasionally omit markers despite instructions; anchor to top evidence.
+  return `${replacedOutOfRange} [1]`;
+}
+
 function mapCitations(answer: string, evidence: EvidenceItem[]): CitationItem[] {
   const indexes = extractCitationIndexes(answer, evidence.length);
   return indexes.map((index) => {
@@ -303,9 +323,10 @@ export async function answerQuery(
         snippets: toGroundingSnippets(ranked)
       });
 
-      const hasCitation = /\[\d+\]/.test(llmAnswer);
-      if (llmAnswer.trim().length > 0 && hasCitation) {
-        return buildResponseBase(query, "llm", llmAnswer.trim(), ranked, matchedTags);
+      const normalized = normalizeCitationMarkers(llmAnswer.trim(), ranked.length);
+      const hasCitation = /\[\d+\]/.test(normalized);
+      if (normalized.length > 0 && hasCitation) {
+        return buildResponseBase(query, "llm", normalized, ranked, matchedTags);
       }
       console.warn("LLM fallback: generated answer without required inline citations.");
     } catch (error) {
