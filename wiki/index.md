@@ -12,7 +12,8 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ## Sources
 
-### Technology / AI (7 sources)
+### Technology / AI (8 sources)
+- [[wiki/sources/2026-04-25-max-tegmark-life-30]] — Max Tegmark Life 3.0; AGI alignment, Life 3.0 stages, substrate independence
 - [[wiki/sources/2026-04-14-accenture-life-trends-2026]] — Accenture Life Trends 2026: 5 macro trends; 25,284-person survey across 23 countries
 - [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner Top 10 Strategic Technology Trends 2026; agentic AI, physical AI, governance
 - [[wiki/sources/2026-04-14-deloitte-tech-trends-2026]] — Deloitte Tech Trends 2026; only 11% of AI in production; digital decoupling
@@ -144,4 +145,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-04-15 | Sources: 63 | Concepts: 17 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-04-25 | Sources: 64 | Concepts: 17 | Entities: 3 | Analyses: 0*

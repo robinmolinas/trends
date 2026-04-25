@@ -6,6 +6,11 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-04-25] ingest | Max Tegmark Life 3.0
+
+- Summary page: wiki/sources/2026-04-25-max-tegmark-life-30
+- Pages touched: [wiki/sources/2026-04-25-max-tegmark-life-30.md, wiki/index.md, wiki/log.md]
+
 ## [2026-04-15] quality-audit | Structural improvement pass — tier tags, expanded concepts, new concept, cross-references
 
 - **Audit scope**: All 16 concept pages reviewed against LLM Wiki quality standards; 9 improvement actions executed
