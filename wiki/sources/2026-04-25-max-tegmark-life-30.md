@@ -17,7 +17,7 @@ In "Life 3.0", Max Tegmark explores the future of artificial intelligence and it
 - **Goal Alignment is an Unsolved Technical Problem:** We must solve three distinct challenges before AGI is achieved: making AI *learn* our goals, *adopt* our goals, and *retain* our goals as it becomes superintelligent.
 - **Near-term vs. Long-term:** While near-term AI challenges focus on employment (the Luddite fallacy may break down as AI replaces cognitive labor), AI weapons, and bugs, the long-term challenge is the fate of human existence and the potential for a "cosmic endowment" (spreading life throughout the universe).
 
-## Data Points & Frameworks
+## Data Points
 - **The 3 Stages of Life:**
   - **Life 1.0 (Biological):** Hardware and software evolved (e.g., bacteria cannot learn new software during their lifetime).
   - **Life 2.0 (Cultural):** Hardware evolved, software designed (e.g., humans can learn languages, skills, and create culture).
