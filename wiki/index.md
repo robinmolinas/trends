@@ -6,7 +6,7 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ## Overview
 
-- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (63 sources, 17 concepts, 3 entities)
+- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (65 sources, 17 concepts, 3 entities)
 
 ---
 
@@ -69,7 +69,8 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 ### Small Business (1 source)
 - [[wiki/sources/2026-04-14-lovable-small-business-trends-2026]] — Lovable.dev Small Business Trends 2026; 58% SMBs using gen AI; TikTok Shop +120% YoY; 81% SMBs suffered breach in past year
 
-### Technology / AI Foresight (7 new sources — Apr 15)
+### Technology / AI Foresight (8 sources)
+- [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Strategic Foresight Guild 2026 Trends Report; 20 key trends in deep tech convergence; quantum advantage 2026, Neuralink/BCI translation, data center grids
 - [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — FTSG Convergence Outlook 2026; 10 convergences; Compute Shock, Agentic Economies, Emotional Outsourcing; creative destruction framework
 - [[wiki/sources/2026-04-15-accenture-me-my-brand-ai]] — Accenture Consumer Pulse 2025 (18K consumers, 14 countries); gen AI as #2 purchase rec source; 75% open to agentic shopper; 54% see uncertainty as new normal
 - [[wiki/sources/2026-04-15-ibm-ibv-5-trends-2026]] — IBM IBV 5 Trends for 2026; appetite for ambiguity; employees 2× embrace vs. resist AI; quantum advantage through coalitions
@@ -145,4 +146,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-04-25 | Sources: 64 | Concepts: 17 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-06-16 | Sources: 65 | Concepts: 17 | Entities: 3 | Analyses: 0*

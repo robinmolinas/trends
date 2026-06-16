@@ -3,8 +3,8 @@ type: concept
 title: "Agentic AI Enterprise"
 aliases: [agentic AI, AI agents, multi-agent systems, autonomous AI, digital delegation]
 tags: [#technology, #ai, #economics, #established]
-source_count: 19
-last_updated: 2026-04-15
+source_count: 20
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -38,11 +38,12 @@ The gap between aspiration and reality is still large: Deloitte reports only 11%
 - [Scenario] [[wiki/sources/2026-04-15-capgemini-frog-futurescape-2025]] — Effortless is the New Normal: agent-led conversational commerce; Zero UI (ambient AI disappearing into infrastructure)
 - [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B agents by 2035; agentic internet replacing mobile internet; agents as decision-making partners
 - [Forecast] [[wiki/sources/2026-04-15-itonics-corporate-innovation-2026]] — 20–40 AI experiments per large org with no combined strategic impact; AI coordination as strategic asset; fewer than 30% translate to revenue
+- [Scenario] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Stark deployment reality: only 11% of tech leaders have deployed AI agents in production (Deloitte); Gartner predicts 40% of agentic AI projects fail by 2027 due to automating broken processes; Anthropic documents first large-scale autonomous AI-orchestrated cyber espionage campaign (Claude Code manipulation targeting 30 organizations)
 
 ## Tensions & Counterarguments
 
-- **Adoption vs. maturity**: Most organizations are running AI experiments (ITONICS: 20–40 per large org) but <30% translate to revenue. The investment is real; the value capture is not yet.
-- **Governance gap**: As AI takes autonomous action, accountability frameworks haven't caught up. IBM flags AI sovereignty as a C-suite concern; Salesforce frames regulation as an enabler — but the regulatory environment is still forming.
+- **Adoption vs. maturity**: Most organizations are running AI experiments (ITONICS: 20–40 per large org) but <30% translate to revenue. The deployment reality is stark: only 11% of US tech leaders have AI agents in production (Deloitte), and 40% of agentic projects are forecasted to fail because organizations automate broken processes instead of re-engineering workflows (Gartner).
+- **Governance and Security gap**: As AI takes autonomous action, accountability frameworks haven't caught up. The transition to autonomous agentic systems introduces severe security risks: threat actors can manipulate agents to run autonomous, machine-speed campaigns (e.g., Chinese state-sponsored Claude Code manipulation targeting 30 organizations), bypassing human checks and operating faster than defenders can react. IBM flags AI sovereignty as a C-suite concern; Salesforce frames regulation as an enabler — but the regulatory environment is still forming.
 - **AI insight quality**: GWI, Dentsu, and DEPT all flag that AI-generated insights draw on biased, old, unsegmented public data — producing generic outputs. Agentic AI trained on poor data produces poor autonomous decisions at scale.
 - **Job displacement**: M.Cast frames the "human differentiator" as the post-AI survival strategy. Entry-level roles (Lippincott data) are already being displaced. The net employment effect is contested.
 

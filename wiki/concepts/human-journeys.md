@@ -3,8 +3,8 @@ type: concept
 title: "Human Journeys"
 aliases: [AI in everyday life, bottom-up AI adoption, personal AI use, AI-mediated discovery, AI health consumers]
 tags: [#ai, #technology, #culture, #established]
-source_count: 8
-last_updated: 2026-04-14
+source_count: 9
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -27,6 +27,7 @@ The conventional narrative frames AI adoption as an enterprise-led transformatio
 - [Survey] [[wiki/sources/2026-04-14-dentsu-media-trends-2026]] — "Digital delegation": consumers handing decision-making to AI agents; the friction paradox — removing friction from discovery removes serendipity and exploration
 - [Forecast] [[wiki/sources/2026-04-14-dept-trends-2026]] — Brands must now optimize for two audiences simultaneously: humans and AI bots; proprietary first-party data as the primary moat against AI commodity discovery
 - [Survey] [[wiki/sources/2026-04-14-euromonitor-consumer-trends-2026]] — 3 in 4 consumers track health with a device or app; "Rewired Wellness" consumer segment defined by tech-mediated health optimization
+- [Forecast] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Extended Reality (XR) / Spatial Computing bottom-up adoption: AR/VR headset shipments +50% YoY; Android XR OS launch platform watershed; smart glasses miniaturization (Meta Orion, XREAL, RayNeo); immersive training modules (PwC 75% retention; Ivey VR simulations; Mayo Clinic pre-surgery anxiety reduction by 2.0–2.9 points)
 
 ## Tensions & Counterarguments
 

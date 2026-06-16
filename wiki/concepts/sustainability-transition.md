@@ -3,8 +3,8 @@ type: concept
 title: "Sustainability Transition"
 aliases: [ESG, climate adaptation, CBAM, circularity, clean energy, sustainability-as-strategy, net zero, energy transition]
 tags: [#climate, #economics, #geopolitics, #energy, #established]
-source_count: 6
-last_updated: 2026-04-14
+source_count: 7
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -29,6 +29,7 @@ The defining tension: sustainability is advancing rapidly as policy and as comme
 - [Forecast] [[wiki/sources/2026-04-14-msci-sustainability-climate-2026]] — Institutional investors demanding comparable climate data; private assets exposed to catastrophic hazards; central bank climate oversight diverging between US and rest of world; state ownership rising as sustainability risk factor
 - [Forecast] [[wiki/sources/2026-04-14-goldman-sachs-investment-outlook-2026]] — ESG as contested political terrain in US; European sustainable investing continuing to advance; green premium converging with conventional returns
 - [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — Critical minerals as one of six arenas of geopolitical competition; China's clean energy exports accelerating decarbonization globally while creating strategic dependencies
+- [Forecast] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — AI power demands placing unprecedented pressure on energy infrastructure (+22% US consumption in 2025), accelerating alternative energy contracts (Google nuclear Duane Arnold reopening, Meta 150MW geothermal); grid-scale battery storage reaching 40GW (prices -45%), and EV battery cost record lows
 
 ## Tensions & Counterarguments
 

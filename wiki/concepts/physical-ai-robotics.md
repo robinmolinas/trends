@@ -3,8 +3,8 @@ type: concept
 title: "Physical AI and Robotics"
 aliases: [physical AI, humanoid robots, embodied AI, autonomous vehicles, robotics, AgeTech]
 tags: [#technology, #ai, #economics, #speculative]
-source_count: 8
-last_updated: 2026-04-15
+source_count: 9
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -29,6 +29,7 @@ The geopolitical dimension is significant: humanoid robotics and autonomous vehi
 - [Scenario] [[wiki/sources/2026-04-15-huawei-intelligent-world-2035]] — 9B humans connected to 900B intelligent agents by 2035; physical-digital AI convergence; robotic integration into manufacturing and eldercare as part of the intelligent world infrastructure
 - [Scenario] [[wiki/sources/2026-04-15-ftsg-convergence-outlook-2026]] — physical AI as the embodied layer of Agentic Economies; robotics as cost-efficient labor replacement in manufacturing and logistics; Compute Shock creates energy/infrastructure constraints for physical AI deployment at scale
 - [Forecast] [[wiki/sources/2026-04-14-bcg-geopolitical-forces-2026]] — physical AI hardware supply chains (semiconductors, sensors, robotics components) as a defined US-China geopolitical competition arena; industrial policy up 6x since 2021 covers hardware supply chains
+- [Forecast] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Robotics market expansion: $50B in 2025 to $111B by 2030 (14% CAGR); China dominance (42% industrial robot revenue, 54% global installations, World Humanoid Robot Games in Beijing); humanoid market growth ($70M in 2025 to $6.5B by 2030 at 137.7% CAGR, Tesla Optimus, 1x Neo home robot pre-orders); closed-loop simulation training (NVIDIA Omniverse); 54% of engineers expect high autonomy in 5 years
 
 ## Tensions & Counterarguments
 
@@ -45,4 +46,4 @@ The geopolitical dimension is significant: humanoid robotics and autonomous vehi
 
 ## Key Players
 
-- (Waymo, Tesla, Einride, emerging humanoid robotics startups — no wiki entity pages yet)
+- (Waymo, Tesla, 1x, Einride, emerging humanoid robotics startups — no wiki entity pages yet)

@@ -3,8 +3,8 @@ type: concept
 title: "Finding Neo"
 aliases: [human-centered AI, enterprise AI gap, AI workplace anxiety, workslop, AI trust gap, enterprise AI maturity]
 tags: [#ai, #labor, #technology, #established]
-source_count: 8
-last_updated: 2026-04-15
+source_count: 9
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -29,6 +29,7 @@ Enterprise AI adoption is hitting a wall of human resistance that quantitative R
 - [Survey] [[wiki/sources/2026-04-14-gwi-connecting-dots-2026]] — AI tools are now the #3 input for business decisions; but AI-generated insights are generic due to biased, outdated underlying data — the quality problem is systemic, not just at the user level
 - [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — Gartner's hype cycle data: post-peak disillusionment is visible in enterprise AI; human-AI collaboration models (not replacement) identified as the path to productive plateau
 - [Survey] [[wiki/sources/2026-04-14-hbr-gartner-work-trends-2026]] — Most granular data set on the enterprise AI trust gap: only 1 in 50 AI investments delivers transformational value; only 1 in 5 delivers any measurable ROI; <1% of H1 2025 layoffs actually attributable to AI (most are anticipatory); employees spend ~2 hours dealing with each workslop incident; 91% of CIOs/IT leaders dedicate no time scanning for behavioral AI byproducts (cognitive atrophy risk); business units that redesign work processes with AI are 2x more likely to exceed revenue goals
+- [Survey] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Workforce AI adoption gap: only 14% daily generative AI usage at work despite 54% annual usage, driven by job security concerns (51%) and burnout (82%); "vibe coding" (using Claude Code, Copilot, Cursor) democratizes development for PMs/designers, shifting team structures; "Shadow AI" vs security protocols gap (66% expect AI impact vs 37% with pre-deployment security protocols)
 
 ## Tensions & Counterarguments
 
@@ -44,6 +45,8 @@ Enterprise AI adoption is hitting a wall of human resistance that quantitative R
 **The new speed/quality/cost equation**: AI breaks the old "pick two" trade-off. Speed becomes standard. The new question: "How do we use speed to buy back quality?" Automation should create space for deeper thinking, not replace it.
 
 **Agency AI sandboxes**: Companies creating protected spaces for employees to experiment with AI tools freely — "carrot not stick" — to build culture and find emergent innovation.
+
+**Shadow AI and the Governance Deficit**: Employees increasingly utilize unsanctioned, un-governed AI tools to bypass corporate friction. This creates a severe security-adoption gap: while 66% of organizations expect major AI impacts, only 37% have established security assessment protocols before deployment.
 
 **Human-First Positioning Framework**: Accenture's prescription — organizations should articulate a clear, credible stance on AI's role that centers on employee dignity, flourishing, and psychological safety.
 

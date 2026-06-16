@@ -99,6 +99,8 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 - Sustainability as financial reality (ERM, IMD, MSCI, Ecomondo) — CBAM live, $1.4T physical climate costs, adaptation economy $1.2T
 - Enterprise AI ROI crisis (HBR/Gartner) — 1-in-50 transformational value rate, anticipatory layoffs, 2hr/incident workslop cost, cognitive atrophy risk
 - AGI trajectory scenario (AI 2027) — the most concrete near-term forecast from practitioners with lab experience; US-China AI arms race dynamics
+- Deep tech and infrastructure convergence (IBM Strategic Foresight Guild) — parallel maturation across AI agents, humanoid robotics (Tesla Optimus, 1x Neo pre-orders), BCI neurotech translation (Neuralink, NeuroXess), and commercial quantum advantage (Google Willow chip error correction; IonQ/Ansys simulations; Q-Day encryption threats)
+- Compute-induced energy grid and battery dynamics (IBM Strategic Foresight Guild) — US data center consumption +22% driving Google nuclear/Meta geothermal contracts, alongside EV battery cost and grid storage price (-45%) declines
 
 **Open questions now partially answered:**
 - *Who validates the Accenture trends?* → Euromonitor, WGSN, Dentsu, Capgemini, H&B all confirm the stability/community/physical culture thesis independently
@@ -112,7 +114,7 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 
 | Domain | Sources |
 |--------|---------|
-| Technology / AI | 13 |
+| Technology / AI | 15 |
 | Consumer / Commerce / Travel | 11 |
 | Finance / Investment | 6 |
 | Health / Wellness | 6 |
@@ -121,7 +123,7 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 | Sustainability / Climate / Policy | 6 |
 | Retail / Business | 2 |
 | Small Business | 1 |
-| **Total** | **63** |
+| **Total** | **65** |
 
 ---
 
@@ -168,4 +170,4 @@ When a single concept has evidence converging across all three tiers — survey 
 
 ---
 
-*Last updated: 2026-04-15 | Total sources: 63 | Concepts: 17 | Entities: 3*
+*Last updated: 2026-06-16 | Total sources: 65 | Concepts: 17 | Entities: 3*

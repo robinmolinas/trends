@@ -3,8 +3,8 @@ type: concept
 title: "Sovereign AI & Compute Shock"
 aliases: [compute sovereignty, sovereign compute, physical AI infrastructure]
 tags: [#technology, #geopolitics, #energy, #ai, #established]
-source_count: 9
-last_updated: 2026-04-15
+source_count: 10
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -25,6 +25,7 @@ Two consequences compound: (1) global tech markets fracture into semiautonomous 
 - [Forecast] [[wiki/sources/2026-04-14-jpmorgan-investment-outlook-2026]] — AI capex at 1.2–1.3% of US GDP in 2026; structural investment shift toward compute infrastructure; hyperscaler CapEx projected at $1T globally
 - [Forecast] [[wiki/sources/2026-04-14-erm-annual-trends-2026]] — $3.3T global energy investment in 2025, significantly driven by data center demand; China controls 60–90% of critical mineral supply chains including materials essential for compute hardware
 - [Forecast] [[wiki/sources/2026-04-14-imd-sustainability-trends-2026]] — Data center water crisis: large centers consume 2M liters/day; AI framed as grid nervous system; 24/7 carbon-free electricity (24/7 CFE) emerging as standard for hyperscale compute; energy as the binding physical constraint on AI expansion
+- [Forecast] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Quantum advantage inflection: advantage projected by late 2026; major error correction breakthroughs (Google Willow chip 105 qubits, IBM fault-tolerant Quantum Starling 200 logical qubits by 2029); record low error rate (0.000015%); first documented practical advantage (IonQ/Ansys outperforming classical HPC by 12%); Q-Day encryption threats and post-quantum cryptography transition urgency
 
 ## Tensions & Counterarguments
 - Compute Shock logic benefits large incumbents and nation-states over agile newcomers — this concentrates power rather than distributing it
@@ -37,4 +38,4 @@ Two consequences compound: (1) global tech markets fracture into semiautonomous 
 - [[wiki/concepts/sustainability-transition]] — Energy demand from AI data centers creates direct climate/grid pressure
 
 ## Key Players
-- Relevant actors: hyperscalers (AWS, Azure, Google), nation-state cloud projects (EU Gaia-X, China's state compute), G42 (UAE sovereign AI), Huawei (Chinese infrastructure), TSMC/Samsung/Intel (semiconductor supply chain)
+- Relevant actors: hyperscalers (AWS, Azure, Google), nation-state cloud projects (EU Gaia-X, China's state compute), G42 (UAE sovereign AI), Huawei (Chinese infrastructure), TSMC/Samsung/Intel (semiconductor supply chain), IonQ, Ansys

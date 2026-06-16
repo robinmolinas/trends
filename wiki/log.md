@@ -6,6 +6,11 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-06-16] ingest | IBM Strategic Foresight Guild 2026 Trends Report
+
+- Summary page: wiki/sources/2026-06-16-strategic-foresight-guild
+- Pages touched: [wiki/sources/2026-06-16-strategic-foresight-guild.md, wiki/index.md, wiki/log.md, wiki/overview.md, wiki/concepts/agentic-ai-enterprise.md, wiki/concepts/finding-neo.md, wiki/concepts/physical-ai-robotics.md, wiki/concepts/sovereign-ai-compute.md, wiki/concepts/sustainability-transition.md, wiki/concepts/economic-bifurcation.md, wiki/concepts/human-journeys.md]
+
 ## [2026-04-25] ingest | Max Tegmark Life 3.0
 
 - Summary page: wiki/sources/2026-04-25-max-tegmark-life-30
