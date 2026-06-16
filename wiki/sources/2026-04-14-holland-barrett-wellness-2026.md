@@ -2,7 +2,7 @@
 type: source
 title: "Wellness Trends Report 2026"
 date_ingested: 2026-04-14
-raw_file: "raw/NHN_EW_Wellness_BuyersGuide_1225_3753150.pdf"
+raw_file: "raw/trend-report-26.pdf"
 publisher: Holland & Barrett
 tags: [#health, #culture, #economics, #established]
 ---

@@ -6,7 +6,7 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ## Overview
 
-- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (65 sources, 17 concepts, 3 entities)
+- [[wiki/overview]] — Living synthesis: the current state of 2026 trends (66 sources, 17 concepts, 3 entities)
 
 ---
 
@@ -85,7 +85,8 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 - [[wiki/sources/2026-04-15-omio-2035-future-journeys]] — TFL/Omio 2035; 5 future journey types; Intuitive Agents, Travel-tainment, Identity Itineraries
 - [[wiki/sources/2026-04-15-intrepid-sustainable-travel]] — TFL/Intrepid Sustainable Travel; carbon passports; Chasing the Shade; People-positive Travel 2040
 
-### Policy / Institution (2 new sources — Apr 15)
+### Policy / Institution (3 sources)
+- [[wiki/sources/2026-06-16-oecd-strategic-foresight-toolkit]] — Strategic Foresight Toolkit for Resilient Public Policy; 25 disruptions stress-tested; Global Green Divide, multilateral breakdown risk
 - [[wiki/sources/2026-04-15-eu-foresight-resilience-2.0]] — EU Foresight Report 2025; Resilience 2.0; proactive vs. reactive governance; EU 450M people, 15% global goods trade
 - [[wiki/sources/2026-04-15-oecd-sti-outlook-2025]] — OECD STI Outlook 2025 (251pp); AI in science; science decoupling; green transition as largest public STI investment
 
@@ -146,4 +147,4 @@ Master catalog of all pages. Updated on every ingest, query (if filed), and lint
 
 ---
 
-*Last updated: 2026-06-16 | Sources: 65 | Concepts: 17 | Entities: 3 | Analyses: 0*
+*Last updated: 2026-06-16 | Sources: 66 | Concepts: 17 | Entities: 3 | Analyses: 0*

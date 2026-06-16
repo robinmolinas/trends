@@ -6,6 +6,11 @@ Format: `## [YYYY-MM-DD] operation | description`
 
 ---
 
+## [2026-06-16] ingest | OECD Strategic Foresight Toolkit for Resilient Public Policy
+
+- Summary page: wiki/sources/2026-06-16-oecd-strategic-foresight-toolkit
+- Pages touched: [wiki/sources/2026-06-16-oecd-strategic-foresight-toolkit.md, wiki/index.md, wiki/log.md, wiki/overview.md, wiki/concepts/sustainability-transition.md, wiki/concepts/geopolitical-multipolarity.md, wiki/concepts/economic-bifurcation.md]
+
 ## [2026-06-16] ingest | IBM Strategic Foresight Guild 2026 Trends Report
 
 - Summary page: wiki/sources/2026-06-16-strategic-foresight-guild

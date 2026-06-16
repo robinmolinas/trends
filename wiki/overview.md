@@ -120,10 +120,10 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 | Health / Wellness | 6 |
 | Beauty / Luxury | 8 |
 | Culture / Brand / Sport | 10 |
-| Sustainability / Climate / Policy | 6 |
+| Sustainability / Climate / Policy | 7 |
 | Retail / Business | 2 |
 | Small Business | 1 |
-| **Total** | **65** |
+| **Total** | **66** |
 
 ---
 
@@ -134,7 +134,7 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 **Demand-side (consumer/human experience):**
 - [[wiki/concepts/stability-premium]] — trust, certainty, proof-over-promise; 8 sources
 - [[wiki/concepts/proof-over-promise]] — evidentiary legitimacy over aspirational claims; the demand for demonstrable evidence; 8 sources
-- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 8 sources
+- [[wiki/concepts/human-journeys]] — bottom-up personal AI adoption; AI-as-daily-infrastructure; 9 sources
 - [[wiki/concepts/good-vibrations]] — physical culture, play, third spaces, Joy of Wellness; 13 sources
 - [[wiki/concepts/loneliness-epidemic]] — connection deficit; community as wellness and business strategy; 8 sources
 - [[wiki/concepts/wellness-optimization]] — proactive health, GLP-1, biohacking mainstreaming; 10 sources
@@ -142,17 +142,17 @@ The first session was based on Accenture Life Trends alone. The expanded corpus 
 - [[wiki/concepts/beauty-reinvention]] — beauty-wellness convergence; science-led brands; $0.83T in H&W by 2030; 9 sources
 
 **Supply-side (technology/commercial infrastructure):**
-- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 19 sources
-- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 8 sources
+- [[wiki/concepts/agentic-ai-enterprise]] — enterprise AI deployment; agentic economies; only 11% in production; 20 sources
+- [[wiki/concepts/finding-neo]] — human-centered AI; enterprise trust gap; 1-in-50 transformational ROI; 9 sources
 - [[wiki/concepts/searchless-discovery]] — GEO replacing SEO; AI-mediated commerce; gen AI as #2 purchase rec; 14 sources
 - [[wiki/concepts/creator-economy-commerce]] — creator as primary distribution channel; TikTok Shop; 9 sources
-- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 8 sources
+- [[wiki/concepts/physical-ai-robotics]] — embodied AI; humanoid robots; AgeTech; 9 sources
 
 **Macro context:**
-- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 10 sources
-- [[wiki/concepts/geopolitical-multipolarity]] — tariffs at 1934 levels, industrial policy 6x, US/China AI race; 8 sources
-- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty; energy-tethered data centers; hyperscaler fragmentation; 9 sources
-- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs $1.4T; sustainability-as-operating-system; 6 sources
+- [[wiki/concepts/economic-bifurcation]] — K-shaped economy; premium vs. value divergence; 15 sources
+- [[wiki/concepts/geopolitical-multipolarity]] — tariffs at 1934 levels, industrial policy 6x, US/China AI race; 9 sources
+- [[wiki/concepts/sovereign-ai-compute]] — compute sovereignty; energy-tethered data centers; hyperscaler fragmentation; 10 sources
+- [[wiki/concepts/sustainability-transition]] — CBAM live; physical climate costs $1.4T; sustainability-as-operating-system; 8 sources
 
 ---
 
@@ -170,4 +170,4 @@ When a single concept has evidence converging across all three tiers — survey 
 
 ---
 
-*Last updated: 2026-06-16 | Total sources: 65 | Concepts: 17 | Entities: 3*
+*Last updated: 2026-06-16 | Total sources: 66 | Concepts: 17 | Entities: 3*

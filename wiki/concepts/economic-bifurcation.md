@@ -3,7 +3,7 @@ type: concept
 title: "Economic Bifurcation"
 aliases: [K-shaped economy, two Americas, wealth polarization, income inequality, dual economy, premium vs. budget]
 tags: [#economics, #culture, #established]
-source_count: 14
+source_count: 15
 last_updated: 2026-06-16
 ---
 
@@ -32,6 +32,7 @@ The political dimension is significant: 42% of US consumers cite rising prices a
 - [Survey] [[wiki/sources/2026-04-14-wtw-global-medical-trends-2026]] — global medical cost inflation 10.3%; public health system decline driving costs to private plans
 - [Forecast] [[wiki/sources/2026-04-15-mckinsey-beauty-boom-2024]] — Beauty price tier divergence: luxury 9% CAGR vs. mass 5%; 13% luxury growth vs. 10% mass in 2023; up to 20% of US/European consumers traded down to cheaper brands
 - [Forecast] [[wiki/sources/2026-06-16-strategic-foresight-guild]] — Workforce and labor K-shape: job disruption affecting 22% of jobs by 2030 (170M new roles, 92M displaced) with 63% of employers citing skills gaps (WEF Future of Jobs 2025); employee economic struggle at 55% eroding trust and adaptation capacity
+- [Scenario] [[wiki/sources/2026-06-16-oecd-strategic-foresight-toolkit]] — Global Green Divide K-shape: advanced green economies achieving net zero domestically via circularity vs. resource-strained developing nations locked out of markets by compliance standards and suffering climate catastrophes
 
 ## Tensions & Counterarguments
 

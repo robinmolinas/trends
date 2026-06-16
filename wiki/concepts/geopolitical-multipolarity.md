@@ -3,8 +3,8 @@ type: concept
 title: "Geopolitical Multipolarity"
 aliases: [multipolarity, deglobalization, trade fragmentation, geopolitics, friend-shoring, geopatriation]
 tags: [#geopolitics, #economics, #technology, #established]
-source_count: 8
-last_updated: 2026-04-14
+source_count: 9
+last_updated: 2026-06-16
 ---
 
 ## Definition
@@ -29,6 +29,7 @@ For investors, this creates divergence: European defense spending is an investab
 - [Forecast] [[wiki/sources/2026-04-14-bnp-paribas-axa-investment-outlook-2026]] — European strategic autonomy as investment theme; geopolitics as decade-shaping force
 - [Forecast] [[wiki/sources/2026-04-14-gartner-tech-trends-2026]] — geopatriation (data and AI sovereignty driving infrastructure localization)
 - [Forecast] [[wiki/sources/2026-04-14-linkedin-10-predictions-2026]] — resilient globalization (David Solomon, Goldman Sachs CEO) as contrarian view; stablecoins as currency competition
+- [Scenario] [[wiki/sources/2026-06-16-oecd-strategic-foresight-toolkit]] — Multilateral breakdown risk: divided/multitrack world blocking climate cooperation and green tech transfer, requiring national safety-net stockpiles and redundant capabilities
 
 ## Tensions & Counterarguments
 
