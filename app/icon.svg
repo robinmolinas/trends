@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <style>
+    .accent-dashed { stroke: #A24322; fill: none; opacity: 0.5; }
+    .accent-solid { stroke: #A24322; fill: none; }
+    .node-concept { fill: #BA863C; }
+    .node-source { fill: #5A80AC; }
+    .node-entity { fill: #5C9473; }
+    .node-line { stroke: #A24322; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) {
+      .accent-dashed { stroke: #E2724C; }
+      .accent-solid { stroke: #E2724C; }
+      .node-line { stroke: #E2724C; }
+    }
+  </style>
+  <!-- Outer coordinate rings -->
+  <circle cx="16" cy="16" r="14" class="accent-dashed" stroke-width="1" stroke-dasharray="2 2" />
+  <circle cx="16" cy="16" r="11.5" class="accent-solid" stroke-width="0.75" />
+  
+  <!-- Network structure / Atlas 'A' -->
+  <line x1="16" y1="8.5" x2="10.5" y2="21" class="node-line" />
+  <line x1="16" y1="8.5" x2="21.5" y2="21" class="node-line" />
+  <line x1="12.5" y1="16.5" x2="19.5" y2="16.5" class="node-line" />
+  
+  <!-- Connected nodes -->
+  <!-- Top Node: Concept (Gold) -->
+  <circle cx="16" cy="8.5" r="2.25" class="node-concept" />
+  <!-- Left Node: Source (Blue) -->
+  <circle cx="10.5" cy="21" r="2.25" class="node-source" />
+  <!-- Right Node: Entity (Green) -->
+  <circle cx="21.5" cy="21" r="2.25" class="node-entity" />
+</svg>
